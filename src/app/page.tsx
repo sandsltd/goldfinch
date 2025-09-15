@@ -27,13 +27,18 @@ export default function Home() {
         {/* Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight text-white">
-              Premium Electronic Components
-              <span style={{color: '#E0C31B'}}> Distribution</span>
-            </h1>
-            <p className="text-xl mb-8 leading-relaxed text-gray-200">
-              Connecting American innovation with European markets. We specialise in sourcing and distributing high-quality electronic components from leading USA manufacturers to the UK and Europe.
-            </p>
+                <div className="mb-4">
+                  <p className="text-lg font-medium tracking-wide" style={{color: '#E0C31B'}}>
+                    Global Creativity. Local Prosperity.
+                  </p>
+                </div>
+                <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight text-white">
+                  Premium Electronic Components
+                  <span style={{color: '#E0C31B'}}> Distribution</span>
+                </h1>
+                <p className="text-xl mb-8 leading-relaxed text-gray-200">
+                  Connecting American innovation with European markets. We specialise in sourcing and distributing high-quality electronic components from leading USA manufacturers to the UK and Europe.
+                </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
                 className="px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 hover:opacity-90"
