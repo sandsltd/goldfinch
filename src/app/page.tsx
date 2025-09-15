@@ -36,30 +36,20 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
-                className="px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200"
+                className="px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 hover:opacity-90"
                 style={{
                   backgroundColor: '#E0C31B',
                   color: '#84674B'
                 }}
-                onMouseEnter={(e) => e.target.style.backgroundColor = '#c5a916'}
-                onMouseLeave={(e) => e.target.style.backgroundColor = '#E0C31B'}
               >
                 Request Quote
               </button>
               <button 
-                className="px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 border-2"
+                className="px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 border-2 hover:opacity-90"
                 style={{
                   borderColor: '#E0C31B',
                   color: '#E0C31B',
                   backgroundColor: 'transparent'
-                }}
-                onMouseEnter={(e) => {
-                  e.target.style.backgroundColor = '#E0C31B';
-                  e.target.style.color = '#84674B';
-                }}
-                onMouseLeave={(e) => {
-                  e.target.style.backgroundColor = 'transparent';
-                  e.target.style.color = '#E0C31B';
                 }}
               >
                 Learn More
@@ -144,30 +134,20 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button 
-              className="px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200"
+              className="px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 hover:opacity-90"
               style={{
                 backgroundColor: '#E0C31B',
                 color: '#84674B'
               }}
-              onMouseEnter={(e) => e.target.style.backgroundColor = '#c5a916'}
-              onMouseLeave={(e) => e.target.style.backgroundColor = '#E0C31B'}
             >
               Request Quote
             </button>
             <button 
-              className="px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 border-2"
+              className="px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 border-2 hover:opacity-90"
               style={{
                 borderColor: '#E0C31B',
                 color: '#E0C31B',
                 backgroundColor: 'transparent'
-              }}
-              onMouseEnter={(e) => {
-                e.target.style.backgroundColor = '#E0C31B';
-                e.target.style.color = '#84674B';
-              }}
-              onMouseLeave={(e) => {
-                e.target.style.backgroundColor = 'transparent';
-                e.target.style.color = '#E0C31B';
               }}
             >
               View Catalogue
