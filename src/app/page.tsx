@@ -1,103 +1,180 @@
-import Image from "next/image";
+'use client';
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div className="bg-white">
+      {/* Hero Section with Video Background */}
+      <section className="relative h-96 lg:h-[500px] flex items-center justify-center overflow-hidden">
+        {/* Video Background */}
+        <video 
+          autoPlay 
+          loop 
+          muted 
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+          poster="/goldfinch/European Goldfinch.png"
+          style={{
+            filter: 'brightness(0.7) contrast(1.1)',
+            transform: 'scale(1.05)'
+          }}
+        >
+          <source src="/videos/Board.mp4" type="video/mp4" />
+        </video>
+        
+        {/* Overlay using your dark color */}
+        <div className="absolute inset-0" style={{backgroundColor: 'rgba(132, 103, 75, 0.5)'}}></div>
+        
+        {/* Content */}
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="max-w-4xl mx-auto">
+            <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight text-white">
+              Premium Electronic Components
+              <span style={{color: '#E0C31B'}}> Distribution</span>
+            </h1>
+            <p className="text-xl mb-8 leading-relaxed text-gray-200">
+              Connecting American innovation with European markets. We specialise in sourcing and distributing high-quality electronic components from leading USA manufacturers to the UK and Europe.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <button 
+                className="px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200"
+                style={{
+                  backgroundColor: '#E0C31B',
+                  color: '#84674B'
+                }}
+                onMouseEnter={(e) => e.target.style.backgroundColor = '#c5a916'}
+                onMouseLeave={(e) => e.target.style.backgroundColor = '#E0C31B'}
+              >
+                Request Quote
+              </button>
+              <button 
+                className="px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 border-2"
+                style={{
+                  borderColor: '#E0C31B',
+                  color: '#E0C31B',
+                  backgroundColor: 'transparent'
+                }}
+                onMouseEnter={(e) => {
+                  e.target.style.backgroundColor = '#E0C31B';
+                  e.target.style.color = '#84674B';
+                }}
+                onMouseLeave={(e) => {
+                  e.target.style.backgroundColor = 'transparent';
+                  e.target.style.color = '#E0C31B';
+                }}
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </section>
+
+      {/* Services Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#84674B'}}>
+              Why Choose Goldfinch Representation
+            </h2>
+            <p className="text-xl max-w-3xl mx-auto text-gray-600">
+              Professional distribution services connecting American innovation with European markets
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Service 1 */}
+            <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition-shadow duration-300">
+              <div 
+                className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
+                style={{backgroundColor: '#E0C31B'}}
+              >
+                <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold mb-4 text-center" style={{color: '#84674B'}}>Quality Components</h3>
+              <p className="text-center leading-relaxed text-gray-600">
+                Premium electronic components sourced directly from leading USA manufacturers with rigorous quality control and certification.
+              </p>
+            </div>
+
+            {/* Service 2 */}
+            <div className="rounded-lg shadow-md p-8 hover:shadow-lg transition-shadow duration-300" style={{backgroundColor: '#D5CCC0'}}>
+              <div 
+                className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
+                style={{backgroundColor: '#E0C31B'}}
+              >
+                <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold mb-4 text-center" style={{color: '#84674B'}}>Reliable Delivery</h3>
+              <p className="text-center leading-relaxed text-gray-600">
+                Efficient logistics and established supply chains ensure reliable delivery across UK and European markets with full tracking.
+              </p>
+            </div>
+
+            {/* Service 3 */}
+            <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition-shadow duration-300">
+              <div 
+                className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
+                style={{backgroundColor: '#E0C31B'}}
+              >
+                <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C20.832 18.477 19.246 18 17.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold mb-4 text-center" style={{color: '#84674B'}}>Market Expertise</h3>
+              <p className="text-center leading-relaxed text-gray-600">
+                Deep understanding of European regulations, customs procedures, and market requirements for electronic components.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Call to Action */}
+      <section className="py-20" style={{backgroundColor: '#84674B'}}>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{color: '#D5CCC0'}}>
+            Ready to Source Premium Components?
+          </h2>
+          <p className="text-xl mb-8" style={{color: '#D5CCC0'}}>
+            Contact us today to discuss your electronic component requirements
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <button 
+              className="px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200"
+              style={{
+                backgroundColor: '#E0C31B',
+                color: '#84674B'
+              }}
+              onMouseEnter={(e) => e.target.style.backgroundColor = '#c5a916'}
+              onMouseLeave={(e) => e.target.style.backgroundColor = '#E0C31B'}
+            >
+              Request Quote
+            </button>
+            <button 
+              className="px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 border-2"
+              style={{
+                borderColor: '#E0C31B',
+                color: '#E0C31B',
+                backgroundColor: 'transparent'
+              }}
+              onMouseEnter={(e) => {
+                e.target.style.backgroundColor = '#E0C31B';
+                e.target.style.color = '#84674B';
+              }}
+              onMouseLeave={(e) => {
+                e.target.style.backgroundColor = 'transparent';
+                e.target.style.color = '#E0C31B';
+              }}
+            >
+              View Catalogue
+            </button>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
