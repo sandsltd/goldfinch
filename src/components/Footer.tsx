@@ -85,7 +85,7 @@ export default function Footer() {
                 </svg>
                 <span>
                   123 Finch Lane<br />
-                  London, EC1A 1BB<br />
+                  Chard, TA13 5FH<br />
                   United Kingdom
                 </span>
               </li>
