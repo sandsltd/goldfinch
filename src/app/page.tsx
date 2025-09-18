@@ -1068,10 +1068,10 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="flex justify-center items-center space-x-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {/* ERA Logo */}
             <div className="flex items-center space-x-4 p-6 bg-white rounded-lg shadow-sm border border-gray-200">
-              <div className="relative w-16 h-12">
+              <div className="relative w-16 h-12 flex-shrink-0">
                 <Image
                   src="/logos/era_logo_chrome_135.png"
                   alt="ERA - Electronic Representatives Association"
@@ -1092,7 +1092,7 @@ export default function Home() {
             {/* Future credentials placeholder */}
             <div className="flex items-center space-x-4 p-6 bg-white rounded-lg shadow-sm border-2 border-dashed border-gray-300">
               <div 
-                className="w-16 h-12 rounded flex items-center justify-center"
+                className="w-16 h-12 rounded flex items-center justify-center flex-shrink-0"
                 style={{backgroundColor: '#E0C31B', opacity: 0.3}}
               >
                 <svg className="w-6 h-6" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
