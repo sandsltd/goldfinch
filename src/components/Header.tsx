@@ -51,7 +51,7 @@ export default function Header() {
         <div className="flex justify-between items-center py-4">
           {/* Logo and Company Name */}
           <div className="flex items-center space-x-4">
-            <div className="relative w-16 h-16 rounded-full overflow-hidden border-4" style={{borderColor: '#ef4444'}}>
+            <div className="relative w-20 h-20 rounded-full overflow-hidden border-4" style={{borderColor: '#ef4444'}}>
               <Image
                 src="/goldfinch/European Goldfinch.png"
                 alt="European Goldfinch"
