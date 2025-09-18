@@ -122,12 +122,12 @@ export default function Header() {
                 </div>
               )}
             </div>
-            <Link 
-              href="/news" 
-              className="text-gray-700 hover:text-goldfinch-gold font-medium transition-colors duration-200 py-2 px-3 hover:bg-gray-50 rounded-md"
-            >
-              News
-            </Link>
+                <Link 
+                  href="/news" 
+                  className="text-gray-700 hover:text-goldfinch-gold font-medium transition-colors duration-200 py-2 px-3 hover:bg-gray-50 rounded-md"
+                >
+                  News/Insights
+                </Link>
           </nav>
 
           {/* Mobile menu button */}
@@ -195,13 +195,13 @@ export default function Header() {
             >
               Product Representation
             </Link>
-            <Link 
-              href="/news" 
-              onClick={() => setIsMobileMenuOpen(false)}
-              className="text-goldfinch-dark hover:text-goldfinch-gold font-medium py-2 transition-colors duration-200"
-            >
-              News
-            </Link>
+                <Link 
+                  href="/news" 
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="text-goldfinch-dark hover:text-goldfinch-gold font-medium py-2 transition-colors duration-200"
+                >
+                  News/Insights
+                </Link>
           </div>
           </div>
         )}
