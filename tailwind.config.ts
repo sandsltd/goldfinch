@@ -11,10 +11,10 @@ const config: Config = {
       colors: {
         // European Goldfinch inspired color palette with customer colors
         goldfinch: {
-          // CTA Gold color from goldfinch
-          gold: '#E0C31B',
-          // Main dark color
-          dark: '#84674B',
+          // CTA Gold color from goldfinch - brighter yellow
+          gold: '#FFD700',
+          // Main dark color - changed to black
+          dark: '#1a1a1a',
           // Main light color  
           light: '#D5CCC0',
           
@@ -38,7 +38,7 @@ const config: Config = {
             200: '#fef7c6',
             300: '#fef099',
             400: '#fde85c',
-            500: '#E0C31B', // Customer CTA gold
+            500: '#FFD700', // Customer CTA gold - brighter
             600: '#c5a916',
             700: '#a18913',
             800: '#846c15',

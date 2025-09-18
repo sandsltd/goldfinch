@@ -144,13 +144,13 @@ export default function Home() {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-8 md:py-12">
           <div className="max-w-4xl mx-auto">
                 <div className="mb-4">
-                  <p className="text-lg font-medium tracking-wide" style={{color: '#E0C31B'}}>
+                  <p className="text-lg font-medium tracking-wide" style={{color: '#FFD700'}}>
                     Independent Representation, Built on Freedom, Honesty and Creativity.
                   </p>
                 </div>
                 <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight text-white">
                   Connecting US Component Manufacturers
-                  <span style={{color: '#E0C31B'}}> with UK & European Electronics Companies</span>
+                  <span style={{color: '#FFD700'}}> with UK & European Electronics Companies</span>
                 </h1>
                 <p className="text-xl mb-8 leading-relaxed text-gray-200">
                   Goldfinch Representation Ltd provides trusted sales representation for leading American manufacturers of PCB-level components, helping UK and European customers access world-class electronic parts.
@@ -160,8 +160,8 @@ export default function Home() {
                 onClick={openContactModal}
                 className="px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 hover:opacity-90"
                 style={{
-                  backgroundColor: '#E0C31B',
-                  color: '#84674B'
+                  backgroundColor: '#FFD700',
+                  color: '#1a1a1a'
                 }}
               >
                 Find Out More
@@ -176,7 +176,7 @@ export default function Home() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div className="order-2 lg:order-1">
-                  <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{color: '#84674B'}}>
+                  <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{color: '#1a1a1a'}}>
                     About Goldfinch
                   </h2>
                   <p className="text-xl leading-relaxed text-gray-600 mb-8">
@@ -194,7 +194,7 @@ export default function Home() {
                       />
                     </div>
                     <div>
-                      <p className="text-sm font-semibold" style={{color: '#84674B'}}>
+                      <p className="text-sm font-semibold" style={{color: '#1a1a1a'}}>
                         ERA Registered Member
                       </p>
                       <p className="text-xs text-gray-600">
@@ -204,7 +204,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="order-1 lg:order-2 flex justify-center">
-                  <div className="relative w-64 h-64 rounded-full overflow-hidden border-4" style={{borderColor: '#E0C31B'}}>
+                  <div className="relative w-64 h-64 rounded-full overflow-hidden border-4" style={{borderColor: '#ef4444'}}>
                     <Image
                       src="/goldfinch/European Goldfinch.png"
                       alt="European Goldfinch"
@@ -221,7 +221,7 @@ export default function Home() {
           <section className="py-20 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-16">
-                <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#84674B'}}>
+                <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#1a1a1a'}}>
                   Our Core Services
                 </h2>
                 <p className="text-xl max-w-3xl mx-auto text-gray-600">
@@ -234,14 +234,14 @@ export default function Home() {
                 <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
                   <div 
                     className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-6 h-6" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-6 h-6" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                       <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold mb-3 text-center" style={{color: '#84674B'}}>Local Trusted Partner</h3>
+                  <h3 className="text-lg font-bold mb-3 text-center" style={{color: '#1a1a1a'}}>Local Trusted Partner</h3>
                   <p className="text-sm leading-relaxed text-gray-600 text-center">
                     Your local face for US manufacturers, bridging time zones, regulations, and customer expectations across UK & Europe.
                   </p>
@@ -251,13 +251,13 @@ export default function Home() {
                 <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
                   <div 
                     className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-6 h-6" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-6 h-6" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold mb-3 text-center" style={{color: '#84674B'}}>Market Intelligence</h3>
+                  <h3 className="text-lg font-bold mb-3 text-center" style={{color: '#1a1a1a'}}>Market Intelligence</h3>
                   <p className="text-sm leading-relaxed text-gray-600 text-center">
                     Providing sales & marketing feedback, spotting trends, helping adapt products and messaging for UK/EU markets.
                   </p>
@@ -267,13 +267,13 @@ export default function Home() {
                 <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
                   <div 
                     className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-6 h-6" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-6 h-6" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 9a2 2 0 00-2 2v2m0 0V9a2 2 0 012-2h14a2 2 0 012 2v2M7 7V3a2 2 0 012-2h6a2 2 0 012 2v4M7 7H3a2 2 0 00-2 2v2M7 7h10" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold mb-3 text-center" style={{color: '#84674B'}}>Multi-Line Portfolio</h3>
+                  <h3 className="text-lg font-bold mb-3 text-center" style={{color: '#1a1a1a'}}>Multi-Line Portfolio</h3>
                   <p className="text-sm leading-relaxed text-gray-600 text-center">
                     Complementary, non-competing component ranges allowing customers to source more from one trusted place.
                   </p>
@@ -283,14 +283,14 @@ export default function Home() {
                 <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
                   <div 
                     className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-6 h-6" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-6 h-6" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
                       <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold mb-3 text-center" style={{color: '#84674B'}}>Technical Expertise</h3>
+                  <h3 className="text-lg font-bold mb-3 text-center" style={{color: '#1a1a1a'}}>Technical Expertise</h3>
                   <p className="text-sm leading-relaxed text-gray-600 text-center">
                     Product specification support, helping engineers select components, balancing spec, cost, availability and performance.
                   </p>
@@ -302,13 +302,13 @@ export default function Home() {
                 <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
                   <div 
                     className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-6 h-6" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-6 h-6" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold mb-3 text-center" style={{color: '#84674B'}}>Training & Education</h3>
+                  <h3 className="text-lg font-bold mb-3 text-center" style={{color: '#1a1a1a'}}>Training & Education</h3>
                   <p className="text-sm leading-relaxed text-gray-600 text-center">
                     Customer training and demonstrations ensuring proper component usage and understanding of performance factors.
                   </p>
@@ -318,13 +318,13 @@ export default function Home() {
                 <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
                   <div 
                     className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-6 h-6" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-6 h-6" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold mb-3 text-center" style={{color: '#84674B'}}>After-Sales Support</h3>
+                  <h3 className="text-lg font-bold mb-3 text-center" style={{color: '#1a1a1a'}}>After-Sales Support</h3>
                   <p className="text-sm leading-relaxed text-gray-600 text-center">
                     Comprehensive support with troubleshooting, supply continuity, returns and quality issue resolution.
                   </p>
@@ -334,13 +334,13 @@ export default function Home() {
                 <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
                   <div 
                     className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-6 h-6" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-6 h-6" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold mb-3 text-center" style={{color: '#84674B'}}>Faster Market Entry</h3>
+                  <h3 className="text-lg font-bold mb-3 text-center" style={{color: '#1a1a1a'}}>Faster Market Entry</h3>
                   <p className="text-sm leading-relaxed text-gray-600 text-center">
                     Leveraging existing relationships and local market knowledge for rapid scaling without building in-house teams.
                   </p>
@@ -350,13 +350,13 @@ export default function Home() {
                 <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
                   <div 
                     className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-6 h-6" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-6 h-6" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold mb-3 text-center" style={{color: '#84674B'}}>Cost-Effective Solution</h3>
+                  <h3 className="text-lg font-bold mb-3 text-center" style={{color: '#1a1a1a'}}>Cost-Effective Solution</h3>
                   <p className="text-sm leading-relaxed text-gray-600 text-center">
                     Commission-based model with existing infrastructure, more cost-effective than direct office setup.
                   </p>
@@ -369,7 +369,7 @@ export default function Home() {
           <section className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-16">
-                <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#84674B'}}>
+                <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#1a1a1a'}}>
                   Our Role: What We Do
                 </h2>
                 <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -382,14 +382,14 @@ export default function Home() {
                 <div className="bg-gray-50 rounded-lg p-8 hover:shadow-lg transition-shadow duration-300 text-center">
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-8 h-8" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                       <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold mb-4" style={{color: '#84674B'}}>Local Presence</h3>
+                  <h3 className="text-xl font-bold mb-4" style={{color: '#1a1a1a'}}>Local Presence</h3>
                   <p className="text-gray-600 leading-relaxed">
                     Acting as your trusted local face for US manufacturers, bridging time zones, understanding regulations, and managing customer expectations across UK & Europe.
                   </p>
@@ -399,13 +399,13 @@ export default function Home() {
                 <div className="bg-gray-50 rounded-lg p-8 hover:shadow-lg transition-shadow duration-300 text-center">
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-8 h-8" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold mb-4" style={{color: '#84674B'}}>Market Entry</h3>
+                  <h3 className="text-xl font-bold mb-4" style={{color: '#1a1a1a'}}>Market Entry</h3>
                   <p className="text-gray-600 leading-relaxed">
                     Leveraging existing relationships and local market knowledge to enable faster market penetration without the need for direct office setup.
                   </p>
@@ -415,14 +415,14 @@ export default function Home() {
                 <div className="bg-gray-50 rounded-lg p-8 hover:shadow-lg transition-shadow duration-300 text-center">
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-8 h-8" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
                       <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold mb-4" style={{color: '#84674B'}}>Technical Assistance</h3>
+                  <h3 className="text-xl font-bold mb-4" style={{color: '#1a1a1a'}}>Technical Assistance</h3>
                   <p className="text-gray-600 leading-relaxed">
                     Providing product specification support, helping engineers select components, and matching specifications with cost, availability, and performance.
                   </p>
@@ -432,13 +432,13 @@ export default function Home() {
                 <div className="bg-gray-50 rounded-lg p-8 hover:shadow-lg transition-shadow duration-300 text-center">
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-8 h-8" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold mb-4" style={{color: '#84674B'}}>Customer Liaison</h3>
+                  <h3 className="text-xl font-bold mb-4" style={{color: '#1a1a1a'}}>Customer Liaison</h3>
                   <p className="text-gray-600 leading-relaxed">
                     Building strong relationships with customers, providing training and demonstrations, and ensuring ongoing support throughout the product lifecycle.
                   </p>
@@ -448,13 +448,13 @@ export default function Home() {
                 <div className="bg-gray-50 rounded-lg p-8 hover:shadow-lg transition-shadow duration-300 text-center">
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-8 h-8" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold mb-4" style={{color: '#84674B'}}>Market Intelligence</h3>
+                  <h3 className="text-xl font-bold mb-4" style={{color: '#1a1a1a'}}>Market Intelligence</h3>
                   <p className="text-gray-600 leading-relaxed">
                     Providing valuable sales and marketing feedback, spotting trends, and helping manufacturers adapt their offerings for UK and European markets.
                   </p>
@@ -464,13 +464,13 @@ export default function Home() {
                 <div className="bg-gray-50 rounded-lg p-8 hover:shadow-lg transition-shadow duration-300 text-center">
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-8 h-8" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold mb-4" style={{color: '#84674B'}}>Supply Chain Support</h3>
+                  <h3 className="text-xl font-bold mb-4" style={{color: '#1a1a1a'}}>Supply Chain Support</h3>
                   <p className="text-gray-600 leading-relaxed">
                     Ensuring supply continuity, handling after-sales support, troubleshooting issues, and managing returns for complete customer satisfaction.
                   </p>
@@ -483,7 +483,7 @@ export default function Home() {
           <section className="py-20 bg-gray-50">
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-16">
-                <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{color: '#84674B'}}>
+                <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{color: '#1a1a1a'}}>
                   Component Categories We Represent
                 </h2>
                 <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -496,18 +496,18 @@ export default function Home() {
                 {/* Left Column */}
                 <div className="space-y-6">
                   {/* Semiconductors */}
-                  <div className="bg-white rounded-lg p-8 border-l-4" style={{borderColor: '#E0C31B'}}>
+                  <div className="bg-white rounded-lg p-8 border-l-4" style={{borderColor: '#FFD700'}}>
                     <div className="flex items-start space-x-4">
                       <div 
                         className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0"
-                        style={{backgroundColor: '#E0C31B'}}
+                        style={{backgroundColor: '#ef4444'}}
                       >
-                        <svg className="w-6 h-6" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <svg className="w-6 h-6" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                           <path strokeLinecap="round" strokeLinejoin="round" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
                         </svg>
                       </div>
                       <div>
-                        <h3 className="text-xl font-bold mb-2" style={{color: '#84674B'}}>Semiconductors</h3>
+                        <h3 className="text-xl font-bold mb-2" style={{color: '#1a1a1a'}}>Semiconductors</h3>
                         <p className="text-gray-600 leading-relaxed">
                           Integrated circuits, microcontrollers, and advanced chips for modern electronic applications across automotive, industrial, and consumer markets.
                         </p>
@@ -516,18 +516,18 @@ export default function Home() {
                   </div>
 
                   {/* Electromagnetic Components */}
-                  <div className="bg-white rounded-lg p-8 border-l-4" style={{borderColor: '#E0C31B'}}>
+                  <div className="bg-white rounded-lg p-8 border-l-4" style={{borderColor: '#FFD700'}}>
                     <div className="flex items-start space-x-4">
                       <div 
                         className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0"
-                        style={{backgroundColor: '#E0C31B'}}
+                        style={{backgroundColor: '#ef4444'}}
                       >
-                        <svg className="w-6 h-6" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <svg className="w-6 h-6" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                           <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
                         </svg>
                       </div>
                       <div>
-                        <h3 className="text-xl font-bold mb-2" style={{color: '#84674B'}}>Electromagnetic Components</h3>
+                        <h3 className="text-xl font-bold mb-2" style={{color: '#1a1a1a'}}>Electromagnetic Components</h3>
                         <p className="text-gray-600 leading-relaxed">
                           Inductors, transformers, and ferrite cores designed for power management, signal processing, and EMI suppression applications.
                         </p>
@@ -539,18 +539,18 @@ export default function Home() {
                 {/* Right Column */}
                 <div className="space-y-6">
                   {/* Passives */}
-                  <div className="bg-white rounded-lg p-8 border-l-4" style={{borderColor: '#E0C31B'}}>
+                  <div className="bg-white rounded-lg p-8 border-l-4" style={{borderColor: '#FFD700'}}>
                     <div className="flex items-start space-x-4">
                       <div 
                         className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0"
-                        style={{backgroundColor: '#E0C31B'}}
+                        style={{backgroundColor: '#ef4444'}}
                       >
-                        <svg className="w-6 h-6" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <svg className="w-6 h-6" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                           <path strokeLinecap="round" strokeLinejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                         </svg>
                       </div>
                       <div>
-                        <h3 className="text-xl font-bold mb-2" style={{color: '#84674B'}}>Passive Components</h3>
+                        <h3 className="text-xl font-bold mb-2" style={{color: '#1a1a1a'}}>Passive Components</h3>
                         <p className="text-gray-600 leading-relaxed">
                           High-quality resistors, capacitors, and connectors that form the foundation of reliable electronic circuits and systems.
                         </p>
@@ -559,19 +559,19 @@ export default function Home() {
                   </div>
 
                   {/* Electromechanical Parts */}
-                  <div className="bg-white rounded-lg p-8 border-l-4" style={{borderColor: '#E0C31B'}}>
+                  <div className="bg-white rounded-lg p-8 border-l-4" style={{borderColor: '#FFD700'}}>
                     <div className="flex items-start space-x-4">
                       <div 
                         className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0"
-                        style={{backgroundColor: '#E0C31B'}}
+                        style={{backgroundColor: '#ef4444'}}
                       >
-                        <svg className="w-6 h-6" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <svg className="w-6 h-6" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                           <path strokeLinecap="round" strokeLinejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
                           <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
                       </div>
                       <div>
-                        <h3 className="text-xl font-bold mb-2" style={{color: '#84674B'}}>Electromechanical Parts</h3>
+                        <h3 className="text-xl font-bold mb-2" style={{color: '#1a1a1a'}}>Electromechanical Parts</h3>
                         <p className="text-gray-600 leading-relaxed">
                           Precision switches, relays, and mechanical components for control systems, user interfaces, and automation applications.
                         </p>
@@ -584,7 +584,7 @@ export default function Home() {
           </section>
 
           {/* Our Values Section */}
-          <section className="py-20" style={{backgroundColor: '#84674B'}}>
+          <section className="py-20" style={{backgroundColor: '#1a1a1a'}}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-16">
                 <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#D5CCC0'}}>
@@ -598,20 +598,20 @@ export default function Home() {
               {/* Values as horizontal flowing design */}
               <div className="relative">
                 {/* Connection line */}
-                <div className="hidden lg:block absolute top-12 left-0 right-0 h-0.5" style={{backgroundColor: '#E0C31B'}}></div>
+                <div className="hidden lg:block absolute top-12 left-0 right-0 h-0.5" style={{backgroundColor: '#ef4444'}}></div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-4">
                   {/* Freedom */}
                   <div className="text-center relative">
                     <div 
                       className="w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 border-4 relative z-10"
-                      style={{backgroundColor: '#E0C31B', borderColor: '#D5CCC0'}}
+                      style={{backgroundColor: '#FFD700', borderColor: '#D5CCC0'}}
                     >
-                      <svg className="w-10 h-10" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <svg className="w-10 h-10" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
                     </div>
-                    <h3 className="text-xl font-bold mb-3" style={{color: '#E0C31B'}}>Freedom</h3>
+                    <h3 className="text-xl font-bold mb-3" style={{color: '#FFD700'}}>Freedom</h3>
                     <p className="leading-relaxed" style={{color: '#D5CCC0'}}>
                       Independent thinking and global reach.
                     </p>
@@ -621,13 +621,13 @@ export default function Home() {
                   <div className="text-center relative">
                     <div 
                       className="w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 border-4 relative z-10"
-                      style={{backgroundColor: '#E0C31B', borderColor: '#D5CCC0'}}
+                      style={{backgroundColor: '#FFD700', borderColor: '#D5CCC0'}}
                     >
-                      <svg className="w-10 h-10" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <svg className="w-10 h-10" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                       </svg>
                     </div>
-                    <h3 className="text-xl font-bold mb-3" style={{color: '#E0C31B'}}>Honesty</h3>
+                    <h3 className="text-xl font-bold mb-3" style={{color: '#FFD700'}}>Honesty</h3>
                     <p className="leading-relaxed" style={{color: '#D5CCC0'}}>
                       Transparent, trusted communication.
                     </p>
@@ -637,13 +637,13 @@ export default function Home() {
                   <div className="text-center relative">
                     <div 
                       className="w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 border-4 relative z-10"
-                      style={{backgroundColor: '#E0C31B', borderColor: '#D5CCC0'}}
+                      style={{backgroundColor: '#FFD700', borderColor: '#D5CCC0'}}
                     >
-                      <svg className="w-10 h-10" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <svg className="w-10 h-10" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                       </svg>
                     </div>
-                    <h3 className="text-xl font-bold mb-3" style={{color: '#E0C31B'}}>Creativity</h3>
+                    <h3 className="text-xl font-bold mb-3" style={{color: '#FFD700'}}>Creativity</h3>
                     <p className="leading-relaxed" style={{color: '#D5CCC0'}}>
                       Fresh approaches to building customer relationships.
                     </p>
@@ -653,13 +653,13 @@ export default function Home() {
                   <div className="text-center relative">
                     <div 
                       className="w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 border-4 relative z-10"
-                      style={{backgroundColor: '#E0C31B', borderColor: '#D5CCC0'}}
+                      style={{backgroundColor: '#FFD700', borderColor: '#D5CCC0'}}
                     >
-                      <svg className="w-10 h-10" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <svg className="w-10 h-10" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
                     </div>
-                    <h3 className="text-xl font-bold mb-3" style={{color: '#E0C31B'}}>Positivity</h3>
+                    <h3 className="text-xl font-bold mb-3" style={{color: '#FFD700'}}>Positivity</h3>
                     <p className="leading-relaxed" style={{color: '#D5CCC0'}}>
                       Turning opportunities into success stories.
                     </p>
@@ -669,13 +669,13 @@ export default function Home() {
                   <div className="text-center relative">
                     <div 
                       className="w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 border-4 relative z-10"
-                      style={{backgroundColor: '#E0C31B', borderColor: '#D5CCC0'}}
+                      style={{backgroundColor: '#FFD700', borderColor: '#D5CCC0'}}
                     >
-                      <svg className="w-10 h-10" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <svg className="w-10 h-10" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                       </svg>
                     </div>
-                    <h3 className="text-xl font-bold mb-3" style={{color: '#E0C31B'}}>Virtue</h3>
+                    <h3 className="text-xl font-bold mb-3" style={{color: '#FFD700'}}>Virtue</h3>
                     <p className="leading-relaxed" style={{color: '#D5CCC0'}}>
                       Acting with integrity in every partnership.
                     </p>
@@ -689,7 +689,7 @@ export default function Home() {
           <section className="py-20 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-16">
-                <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#84674B'}}>
+                <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#1a1a1a'}}>
                   Industries We Serve
                 </h2>
                 <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -702,13 +702,13 @@ export default function Home() {
                 <div className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 text-center">
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-8 h-8" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold mb-2" style={{color: '#84674B'}}>Aerospace & Defence</h3>
+                  <h3 className="text-lg font-bold mb-2" style={{color: '#1a1a1a'}}>Aerospace & Defence</h3>
                   <p className="text-gray-600 text-sm">
                     High-reliability components for mission-critical applications and defense systems
                   </p>
@@ -718,13 +718,13 @@ export default function Home() {
                 <div className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 text-center">
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-8 h-8" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold mb-2" style={{color: '#84674B'}}>Automotive & EV</h3>
+                  <h3 className="text-lg font-bold mb-2" style={{color: '#1a1a1a'}}>Automotive & EV</h3>
                   <p className="text-gray-600 text-sm">
                     Power management and control systems for next-generation vehicles and charging infrastructure
                   </p>
@@ -734,13 +734,13 @@ export default function Home() {
                 <div className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 text-center">
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-8 h-8" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold mb-2" style={{color: '#84674B'}}>Consumer Electronics</h3>
+                  <h3 className="text-lg font-bold mb-2" style={{color: '#1a1a1a'}}>Consumer Electronics</h3>
                   <p className="text-gray-600 text-sm">
                     Miniaturized components for smartphones, wearables, and smart home devices
                   </p>
@@ -750,13 +750,13 @@ export default function Home() {
                 <div className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 text-center">
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-8 h-8" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold mb-2" style={{color: '#84674B'}}>Industrial & IoT</h3>
+                  <h3 className="text-lg font-bold mb-2" style={{color: '#1a1a1a'}}>Industrial & IoT</h3>
                   <p className="text-gray-600 text-sm">
                     Ruggedized sensors and connectivity solutions for Industry 4.0 applications
                   </p>
@@ -766,13 +766,13 @@ export default function Home() {
                 <div className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 text-center md:col-span-2 lg:col-span-1 lg:col-start-2">
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-8 h-8" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold mb-2" style={{color: '#84674B'}}>Medical Devices</h3>
+                  <h3 className="text-lg font-bold mb-2" style={{color: '#1a1a1a'}}>Medical Devices</h3>
                   <p className="text-gray-600 text-sm">
                     Biocompatible and precision components for diagnostic and therapeutic equipment
                   </p>
@@ -785,7 +785,7 @@ export default function Home() {
           <section className="py-20 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-16">
-                <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#84674B'}}>
+                <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#1a1a1a'}}>
                   Why Work With Goldfinch
                 </h2>
               </div>
@@ -795,13 +795,13 @@ export default function Home() {
                 <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition-shadow duration-300 text-center">
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-8 h-8" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold mb-4" style={{color: '#84674B'}}>ERA Registered</h3>
+                  <h3 className="text-lg font-bold mb-4" style={{color: '#1a1a1a'}}>ERA Registered</h3>
                   <p className="leading-relaxed text-gray-600">
                     For credibility and trust
                   </p>
@@ -811,13 +811,13 @@ export default function Home() {
                 <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition-shadow duration-300 text-center">
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-8 h-8" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold mb-4" style={{color: '#84674B'}}>Strong Ties</h3>
+                  <h3 className="text-lg font-bold mb-4" style={{color: '#1a1a1a'}}>Strong Ties</h3>
                   <p className="leading-relaxed text-gray-600">
                     To established US manufacturers
                   </p>
@@ -827,14 +827,14 @@ export default function Home() {
                 <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition-shadow duration-300 text-center">
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-8 h-8" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                       <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold mb-4" style={{color: '#84674B'}}>Local Support</h3>
+                  <h3 className="text-lg font-bold mb-4" style={{color: '#1a1a1a'}}>Local Support</h3>
                   <p className="leading-relaxed text-gray-600">
                     In the UK and Europe
                   </p>
@@ -844,13 +844,13 @@ export default function Home() {
                 <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition-shadow duration-300 text-center">
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-8 h-8" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold mb-4" style={{color: '#84674B'}}>Streamline Supply Chain</h3>
+                  <h3 className="text-lg font-bold mb-4" style={{color: '#1a1a1a'}}>Streamline Supply Chain</h3>
                   <p className="leading-relaxed text-gray-600">
                     Helping customers optimise procurement
                   </p>
@@ -863,7 +863,7 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#84674B'}}>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#1a1a1a'}}>
               Frequently Asked Questions
             </h2>
             <p className="text-xl text-gray-600">
@@ -878,12 +878,12 @@ export default function Home() {
                 onClick={() => toggleFaq(0)}
                 className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors duration-200"
               >
-                <h3 className="text-lg font-bold" style={{color: '#84674B'}}>
+                <h3 className="text-lg font-bold" style={{color: '#1a1a1a'}}>
                   Why choose representation over direct sales?
                 </h3>
                 <svg 
                   className={`w-5 h-5 transition-transform duration-200 ${openFaq === 0 ? 'rotate-180' : ''}`}
-                  style={{color: '#84674B'}}
+                  style={{color: '#1a1a1a'}}
                   fill="none" 
                   viewBox="0 0 24 24" 
                   stroke="currentColor"
@@ -906,12 +906,12 @@ export default function Home() {
                 onClick={() => toggleFaq(1)}
                 className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors duration-200"
               >
-                <h3 className="text-lg font-bold" style={{color: '#84674B'}}>
+                <h3 className="text-lg font-bold" style={{color: '#1a1a1a'}}>
                   What makes Goldfinch different from other representatives?
                 </h3>
                 <svg 
                   className={`w-5 h-5 transition-transform duration-200 ${openFaq === 1 ? 'rotate-180' : ''}`}
-                  style={{color: '#84674B'}}
+                  style={{color: '#1a1a1a'}}
                   fill="none" 
                   viewBox="0 0 24 24" 
                   stroke="currentColor"
@@ -934,12 +934,12 @@ export default function Home() {
                 onClick={() => toggleFaq(2)}
                 className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors duration-200"
               >
-                <h3 className="text-lg font-bold" style={{color: '#84674B'}}>
+                <h3 className="text-lg font-bold" style={{color: '#1a1a1a'}}>
                   How do you help US manufacturers adapt to European markets?
                 </h3>
                 <svg 
                   className={`w-5 h-5 transition-transform duration-200 ${openFaq === 2 ? 'rotate-180' : ''}`}
-                  style={{color: '#84674B'}}
+                  style={{color: '#1a1a1a'}}
                   fill="none" 
                   viewBox="0 0 24 24" 
                   stroke="currentColor"
@@ -962,12 +962,12 @@ export default function Home() {
                 onClick={() => toggleFaq(3)}
                 className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors duration-200"
               >
-                <h3 className="text-lg font-bold" style={{color: '#84674B'}}>
+                <h3 className="text-lg font-bold" style={{color: '#1a1a1a'}}>
                   What level of technical support do you provide?
                 </h3>
                 <svg 
                   className={`w-5 h-5 transition-transform duration-200 ${openFaq === 3 ? 'rotate-180' : ''}`}
-                  style={{color: '#84674B'}}
+                  style={{color: '#1a1a1a'}}
                   fill="none" 
                   viewBox="0 0 24 24" 
                   stroke="currentColor"
@@ -990,12 +990,12 @@ export default function Home() {
                 onClick={() => toggleFaq(4)}
                 className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors duration-200"
               >
-                <h3 className="text-lg font-bold" style={{color: '#84674B'}}>
+                <h3 className="text-lg font-bold" style={{color: '#1a1a1a'}}>
                   What happens after the sale?
                 </h3>
                 <svg 
                   className={`w-5 h-5 transition-transform duration-200 ${openFaq === 4 ? 'rotate-180' : ''}`}
-                  style={{color: '#84674B'}}
+                  style={{color: '#1a1a1a'}}
                   fill="none" 
                   viewBox="0 0 24 24" 
                   stroke="currentColor"
@@ -1019,7 +1019,7 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#84674B'}}>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#1a1a1a'}}>
               Our Partners
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
@@ -1034,9 +1034,9 @@ export default function Home() {
                 <div className="text-center">
                   <div 
                     className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-2"
-                    style={{backgroundColor: '#E0C31B', opacity: 0.7}}
+                    style={{backgroundColor: '#FFD700', opacity: 0.7}}
                   >
-                    <svg className="w-6 h-6" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-6 h-6" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                     </svg>
                   </div>
@@ -1048,7 +1048,7 @@ export default function Home() {
           
           <div className="text-center mt-12">
             <p className="text-gray-600">
-              <span className="font-medium" style={{color: '#84674B'}}>Interested in partnership?</span> 
+              <span className="font-medium" style={{color: '#1a1a1a'}}>Interested in partnership?</span> 
               <span className="ml-2">We&apos;re always looking to work with innovative component manufacturers.</span>
             </p>
           </div>
@@ -1059,7 +1059,7 @@ export default function Home() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-2xl lg:text-3xl font-bold mb-4" style={{color: '#84674B'}}>
+            <h2 className="text-2xl lg:text-3xl font-bold mb-4" style={{color: '#1a1a1a'}}>
               Memberships & Credentials
             </h2>
             <p className="text-lg text-gray-600">
@@ -1079,7 +1079,7 @@ export default function Home() {
                 />
               </div>
               <div>
-                <p className="text-sm font-semibold" style={{color: '#84674B'}}>
+                <p className="text-sm font-semibold" style={{color: '#1a1a1a'}}>
                   ERA Registered Member
                 </p>
                 <p className="text-xs text-gray-600">
@@ -1092,9 +1092,9 @@ export default function Home() {
             <div className="flex items-center space-x-4 p-6 bg-white rounded-lg shadow-sm border-2 border-dashed border-gray-300">
               <div 
                 className="w-16 h-12 rounded flex items-center justify-center flex-shrink-0"
-                style={{backgroundColor: '#E0C31B', opacity: 0.3}}
+                style={{backgroundColor: '#FFD700', opacity: 0.3}}
               >
-                <svg className="w-6 h-6" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <svg className="w-6 h-6" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
@@ -1115,7 +1115,7 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#84674B'}}>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#1a1a1a'}}>
               Insights from the Industry
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -1130,9 +1130,9 @@ export default function Home() {
                 <div className="text-center">
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-8 h-8" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                     </svg>
                   </div>
@@ -1140,7 +1140,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-lg font-bold mb-2" style={{color: '#84674B'}}>Market Trends in Component Manufacturing</h3>
+                <h3 className="text-lg font-bold mb-2" style={{color: '#1a1a1a'}}>Market Trends in Component Manufacturing</h3>
                 <p className="text-gray-600 text-sm mb-4">
                   Exploring the latest developments in US component manufacturing and their impact on European markets...
                 </p>
@@ -1158,9 +1158,9 @@ export default function Home() {
                 <div className="text-center">
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-8 h-8" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
                   </div>
@@ -1168,7 +1168,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-lg font-bold mb-2" style={{color: '#84674B'}}>The Future of EV Component Supply</h3>
+                <h3 className="text-lg font-bold mb-2" style={{color: '#1a1a1a'}}>The Future of EV Component Supply</h3>
                 <p className="text-gray-600 text-sm mb-4">
                   How electric vehicle growth is reshaping component demand and supply chain strategies across the Atlantic...
                 </p>
@@ -1186,9 +1186,9 @@ export default function Home() {
                 <div className="text-center">
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4"
-                    style={{backgroundColor: '#E0C31B'}}
+                    style={{backgroundColor: '#ef4444'}}
                   >
-                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-8 h-8" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                     </svg>
                   </div>
@@ -1196,7 +1196,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-lg font-bold mb-2" style={{color: '#84674B'}}>Navigating Component Compliance</h3>
+                <h3 className="text-lg font-bold mb-2" style={{color: '#1a1a1a'}}>Navigating Component Compliance</h3>
                 <p className="text-gray-600 text-sm mb-4">
                   Understanding regulatory requirements when bringing US components to European markets...
                 </p>
@@ -1217,8 +1217,8 @@ export default function Home() {
               href="/news"
               className="inline-block px-6 py-3 rounded-lg font-semibold transition-colors duration-200 hover:opacity-90"
               style={{
-                backgroundColor: '#E0C31B',
-                color: '#84674B'
+                backgroundColor: '#FFD700',
+                color: '#1a1a1a'
               }}
             >
               View All Articles
@@ -1228,7 +1228,7 @@ export default function Home() {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20" style={{backgroundColor: '#84674B'}}>
+      <section className="py-20" style={{backgroundColor: '#1a1a1a'}}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{color: '#D5CCC0'}}>
             Ready to Connect with US Component Manufacturers?
@@ -1241,8 +1241,8 @@ export default function Home() {
               onClick={openContactModal}
               className="px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 hover:opacity-90"
               style={{
-                backgroundColor: '#E0C31B',
-                color: '#84674B'
+                backgroundColor: '#FFD700',
+                color: '#1a1a1a'
               }}
             >
               Find Out More
@@ -1251,8 +1251,8 @@ export default function Home() {
               onClick={openContactModal}
               className="px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 border-2 hover:opacity-90"
               style={{
-                borderColor: '#E0C31B',
-                color: '#E0C31B',
+                borderColor: '#FFD700',
+                color: '#FFD700',
                 backgroundColor: 'transparent'
               }}
             >
@@ -1268,7 +1268,7 @@ export default function Home() {
           <div className="bg-white rounded-lg shadow-xl max-w-md w-full max-h-[90vh] overflow-y-auto">
             {/* Modal Header */}
             <div className="flex justify-between items-center p-6 border-b border-gray-200">
-              <h2 className="text-xl font-bold" style={{color: '#84674B'}}>
+              <h2 className="text-xl font-bold" style={{color: '#1a1a1a'}}>
                 {modalStep === 1 && 'Contact Information'}
                 {modalStep === 2 && 'Tell Us More'}
                 {modalStep === 3 && 'Thank You!'}
@@ -1287,11 +1287,11 @@ export default function Home() {
             {modalStep !== 3 && (
               <div className="px-6 pt-4">
                 <div className="flex items-center">
-                  <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium ${modalStep >= 1 ? 'text-white' : 'text-gray-400'}`} style={{backgroundColor: modalStep >= 1 ? '#84674B' : '#e5e7eb'}}>
+                  <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium ${modalStep >= 1 ? 'text-white' : 'text-gray-400'}`} style={{backgroundColor: modalStep >= 1 ? '#1a1a1a' : '#e5e7eb'}}>
                     1
                   </div>
-                  <div className={`flex-1 h-1 mx-2 ${modalStep >= 2 ? 'bg-goldfinch-dark' : 'bg-gray-200'}`} style={{backgroundColor: modalStep >= 2 ? '#84674B' : '#e5e7eb'}}></div>
-                  <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium ${modalStep >= 2 ? 'text-white' : 'text-gray-400'}`} style={{backgroundColor: modalStep >= 2 ? '#84674B' : '#e5e7eb'}}>
+                  <div className={`flex-1 h-1 mx-2 ${modalStep >= 2 ? 'bg-goldfinch-dark' : 'bg-gray-200'}`} style={{backgroundColor: modalStep >= 2 ? '#1a1a1a' : '#e5e7eb'}}></div>
+                  <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium ${modalStep >= 2 ? 'text-white' : 'text-gray-400'}`} style={{backgroundColor: modalStep >= 2 ? '#1a1a1a' : '#e5e7eb'}}>
                     2
                   </div>
                 </div>
@@ -1316,7 +1316,7 @@ export default function Home() {
                       value={formData.name}
                       onChange={handleInputChange}
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-goldfinch-dark focus:border-transparent"
-                      style={{"--tw-ring-color": "#84674B"} as React.CSSProperties}
+                      style={{"--tw-ring-color": "#1a1a1a"} as React.CSSProperties}
                       placeholder="Enter your full name"
                       required
                     />
@@ -1331,7 +1331,7 @@ export default function Home() {
                       value={formData.email}
                       onChange={handleInputChange}
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-goldfinch-dark focus:border-transparent"
-                      style={{"--tw-ring-color": "#84674B"} as React.CSSProperties}
+                      style={{"--tw-ring-color": "#1a1a1a"} as React.CSSProperties}
                       placeholder="Enter your email address"
                       required
                     />
@@ -1346,7 +1346,7 @@ export default function Home() {
                         value={formData.countryCode}
                         onChange={handleInputChange}
                         className="w-20 px-2 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-goldfinch-dark focus:border-transparent text-sm"
-                        style={{"--tw-ring-color": "#84674B"} as React.CSSProperties}
+                        style={{"--tw-ring-color": "#1a1a1a"} as React.CSSProperties}
                       >
                         <option value="">-</option>
                         {countries.map((country) => (
@@ -1361,7 +1361,7 @@ export default function Home() {
                         value={formData.phone}
                         onChange={handleInputChange}
                         className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-goldfinch-dark focus:border-transparent"
-                        style={{"--tw-ring-color": "#84674B"} as React.CSSProperties}
+                        style={{"--tw-ring-color": "#1a1a1a"} as React.CSSProperties}
                         placeholder="Phone number"
                       />
                     </div>
@@ -1377,7 +1377,7 @@ export default function Home() {
                       value={formData.jobTitle}
                       onChange={handleInputChange}
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-goldfinch-dark focus:border-transparent"
-                      style={{"--tw-ring-color": "#84674B"} as React.CSSProperties}
+                      style={{"--tw-ring-color": "#1a1a1a"} as React.CSSProperties}
                       placeholder="e.g. Design Engineer, Procurement Manager, CTO"
                     />
                   </div>
@@ -1390,7 +1390,7 @@ export default function Home() {
                       value={formData.country}
                       onChange={handleCountryChange}
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-goldfinch-dark focus:border-transparent"
-                      style={{"--tw-ring-color": "#84674B"} as React.CSSProperties}
+                      style={{"--tw-ring-color": "#1a1a1a"} as React.CSSProperties}
                       required
                     >
                       <option value="">Please select your country</option>
@@ -1424,7 +1424,7 @@ export default function Home() {
                       value={formData.businessName}
                       onChange={handleInputChange}
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-goldfinch-dark focus:border-transparent"
-                      style={{"--tw-ring-color": "#84674B"} as React.CSSProperties}
+                      style={{"--tw-ring-color": "#1a1a1a"} as React.CSSProperties}
                       placeholder="Enter your company or business name"
                     />
                   </div>
@@ -1443,7 +1443,7 @@ export default function Home() {
                       onChange={handleInputChange}
                       rows={6}
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-goldfinch-dark focus:border-transparent resize-none"
-                      style={{"--tw-ring-color": "#84674B"} as React.CSSProperties}
+                      style={{"--tw-ring-color": "#1a1a1a"} as React.CSSProperties}
                       placeholder="Please tell us about your inquiry, the components you're interested in, or how we can help you..."
                       required
                     />
@@ -1456,12 +1456,12 @@ export default function Home() {
 
               {modalStep === 3 && (
                 <div className="text-center py-8">
-                  <div className="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center" style={{backgroundColor: '#E0C31B'}}>
-                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <div className="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center" style={{backgroundColor: '#ef4444'}}>
+                    <svg className="w-8 h-8" style={{color: '#1a1a1a'}} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold mb-2" style={{color: '#84674B'}}>
+                  <h3 className="text-xl font-bold mb-2" style={{color: '#1a1a1a'}}>
                     Message Submitted Successfully!
                   </h3>
                   <p className="text-gray-600 mb-4">
@@ -1471,8 +1471,8 @@ export default function Home() {
                     onClick={closeModal}
                     className="px-6 py-2 rounded-lg font-semibold transition-colors duration-200 hover:opacity-90"
                     style={{
-                      backgroundColor: '#E0C31B',
-                      color: '#84674B'
+                      backgroundColor: '#FFD700',
+                      color: '#1a1a1a'
                     }}
                   >
                     Close
@@ -1495,8 +1495,8 @@ export default function Home() {
                   disabled={modalStep === 1 ? !formData.name || !formData.email || !formData.country : !formData.message}
                   className="px-6 py-2 rounded-lg font-semibold transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
                   style={{
-                    backgroundColor: '#E0C31B',
-                    color: '#84674B'
+                    backgroundColor: '#FFD700',
+                    color: '#1a1a1a'
                   }}
                 >
                   {modalStep === 1 ? 'Next' : 'Submit'}
