@@ -121,7 +121,7 @@ export default function Home() {
   return (
     <div className="bg-white">
       {/* Hero Section with Video Background */}
-      <section className="relative h-[70vh] lg:h-[80vh] flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-[500px] md:min-h-[600px] lg:min-h-[700px] flex items-center justify-center overflow-hidden">
         {/* Video Background */}
         <video 
           autoPlay 
@@ -132,7 +132,7 @@ export default function Home() {
           poster="/goldfinch/European Goldfinch.png"
           style={{
             filter: 'brightness(0.7) contrast(1.1)',
-            transform: 'scale(1.02)'
+            transform: 'scale(1.0)'
           }}
         >
           <source src="/videos/Board.mp4" type="video/mp4" />
@@ -142,7 +142,7 @@ export default function Home() {
         <div className="absolute inset-0" style={{backgroundColor: 'rgba(132, 103, 75, 0.5)'}}></div>
         
         {/* Content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-12 lg:py-16">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-8 md:py-12">
           <div className="max-w-4xl mx-auto">
                 <div className="mb-4">
                   <p className="text-lg font-medium tracking-wide" style={{color: '#E0C31B'}}>
@@ -173,7 +173,7 @@ export default function Home() {
       </section>
 
           {/* About Goldfinch Section */}
-          <section className="py-16 md:py-20 bg-white">
+          <section className="py-12 md:py-16 lg:py-20 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div className="order-2 lg:order-1">
