@@ -6,7 +6,6 @@ import { useState } from 'react';
 
 export default function Header() {
   const [isServicesOpen, setIsServicesOpen] = useState(false);
-  const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   return (
     <header className="bg-white shadow-sm" style={{borderBottom: '2px solid #E0C31B'}}>
@@ -128,43 +127,20 @@ export default function Header() {
             >
               About
             </Link>
-            
-            {/* Mobile Services Dropdown */}
-            <div>
-              <button 
-                onClick={() => setIsMobileServicesOpen(!isMobileServicesOpen)}
-                className="text-goldfinch-dark hover:text-goldfinch-gold font-medium py-2 transition-colors duration-200 flex items-center justify-between w-full"
-              >
-                <span>Services</span>
-                <svg 
-                  className={`w-4 h-4 transition-transform duration-200 ${isMobileServicesOpen ? 'rotate-180' : ''}`} 
-                  fill="none" 
-                  viewBox="0 0 24 24" 
-                  stroke="currentColor"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-              
-              {isMobileServicesOpen && (
-                <div className="ml-4 mt-2 space-y-2">
-                  <Link 
-                    href="/manufacture-representation"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                    className="block text-goldfinch-brown-600 hover:text-goldfinch-gold py-2 transition-colors duration-200"
-                  >
-                    Manufacture Representation
-                  </Link>
-                  <Link 
-                    href="/product-representation"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                    className="block text-goldfinch-brown-600 hover:text-goldfinch-gold py-2 transition-colors duration-200"
-                  >
-                    Product Representation
-                  </Link>
-                </div>
-              )}
-            </div>
+            <Link 
+              href="/manufacture-representation"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="text-goldfinch-dark hover:text-goldfinch-gold font-medium py-2 transition-colors duration-200"
+            >
+              Manufacture Representation
+            </Link>
+            <Link 
+              href="/product-representation"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="text-goldfinch-dark hover:text-goldfinch-gold font-medium py-2 transition-colors duration-200"
+            >
+              Product Representation
+            </Link>
             <Link 
               href="/news" 
               onClick={() => setIsMobileMenuOpen(false)}
