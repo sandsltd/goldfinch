@@ -129,7 +129,6 @@ export default function Home() {
           muted 
           playsInline
           className="absolute inset-0 w-full h-full object-cover"
-          poster="/goldfinch/European Goldfinch.png"
           style={{
             filter: 'brightness(0.7) contrast(1.1)',
             transform: 'scale(1.0)'
