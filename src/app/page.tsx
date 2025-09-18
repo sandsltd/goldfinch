@@ -366,6 +366,120 @@ export default function Home() {
             </div>
           </section>
 
+          {/* Our Role Section */}
+          <section className="py-20 bg-white">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div className="text-center mb-16">
+                <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#84674B'}}>
+                  Our Role: What We Do
+                </h2>
+                <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                  As manufacturers' representatives, we provide comprehensive sales support, market entry assistance, and customer liaison services
+                </p>
+              </div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {/* Sales Support */}
+                <div className="bg-gray-50 rounded-lg p-8 hover:shadow-lg transition-shadow duration-300 text-center">
+                  <div 
+                    className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
+                    style={{backgroundColor: '#E0C31B'}}
+                  >
+                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-xl font-bold mb-4" style={{color: '#84674B'}}>Local Presence</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Acting as your trusted local face for US manufacturers, bridging time zones, understanding regulations, and managing customer expectations across UK & Europe.
+                  </p>
+                </div>
+
+                {/* Market Entry */}
+                <div className="bg-gray-50 rounded-lg p-8 hover:shadow-lg transition-shadow duration-300 text-center">
+                  <div 
+                    className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
+                    style={{backgroundColor: '#E0C31B'}}
+                  >
+                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-xl font-bold mb-4" style={{color: '#84674B'}}>Market Entry</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Leveraging existing relationships and local market knowledge to enable faster market penetration without the need for direct office setup.
+                  </p>
+                </div>
+
+                {/* Technical Assistance */}
+                <div className="bg-gray-50 rounded-lg p-8 hover:shadow-lg transition-shadow duration-300 text-center">
+                  <div 
+                    className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
+                    style={{backgroundColor: '#E0C31B'}}
+                  >
+                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-xl font-bold mb-4" style={{color: '#84674B'}}>Technical Assistance</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Providing product specification support, helping engineers select components, and matching specifications with cost, availability, and performance.
+                  </p>
+                </div>
+
+                {/* Customer Liaison */}
+                <div className="bg-gray-50 rounded-lg p-8 hover:shadow-lg transition-shadow duration-300 text-center">
+                  <div 
+                    className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
+                    style={{backgroundColor: '#E0C31B'}}
+                  >
+                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-xl font-bold mb-4" style={{color: '#84674B'}}>Customer Liaison</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Building strong relationships with customers, providing training and demonstrations, and ensuring ongoing support throughout the product lifecycle.
+                  </p>
+                </div>
+
+                {/* Market Intelligence */}
+                <div className="bg-gray-50 rounded-lg p-8 hover:shadow-lg transition-shadow duration-300 text-center">
+                  <div 
+                    className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
+                    style={{backgroundColor: '#E0C31B'}}
+                  >
+                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-xl font-bold mb-4" style={{color: '#84674B'}}>Market Intelligence</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Providing valuable sales and marketing feedback, spotting trends, and helping manufacturers adapt their offerings for UK and European markets.
+                  </p>
+                </div>
+
+                {/* Supply Chain Support */}
+                <div className="bg-gray-50 rounded-lg p-8 hover:shadow-lg transition-shadow duration-300 text-center">
+                  <div 
+                    className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
+                    style={{backgroundColor: '#E0C31B'}}
+                  >
+                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-xl font-bold mb-4" style={{color: '#84674B'}}>Supply Chain Support</h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    Ensuring supply continuity, handling after-sales support, troubleshooting issues, and managing returns for complete customer satisfaction.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
           {/* What We Represent Section */}
           <section className="py-20 bg-gray-50">
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -567,6 +681,102 @@ export default function Home() {
                       Acting with integrity in every partnership.
                     </p>
                   </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Industries We Serve Section */}
+          <section className="py-20 bg-white">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div className="text-center mb-16">
+                <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#84674B'}}>
+                  Industries We Serve
+                </h2>
+                <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                  From aerospace to medical devices, we provide specialized component representation across diverse technology sectors
+                </p>
+              </div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {/* Aerospace & Defence */}
+                <div className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 text-center">
+                  <div 
+                    className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4"
+                    style={{backgroundColor: '#E0C31B'}}
+                  >
+                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-bold mb-2" style={{color: '#84674B'}}>Aerospace & Defence</h3>
+                  <p className="text-gray-600 text-sm">
+                    High-reliability components for mission-critical applications and defense systems
+                  </p>
+                </div>
+
+                {/* Automotive & EV */}
+                <div className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 text-center">
+                  <div 
+                    className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4"
+                    style={{backgroundColor: '#E0C31B'}}
+                  >
+                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-bold mb-2" style={{color: '#84674B'}}>Automotive & EV</h3>
+                  <p className="text-gray-600 text-sm">
+                    Power management and control systems for next-generation vehicles and charging infrastructure
+                  </p>
+                </div>
+
+                {/* Consumer Electronics */}
+                <div className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 text-center">
+                  <div 
+                    className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4"
+                    style={{backgroundColor: '#E0C31B'}}
+                  >
+                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-bold mb-2" style={{color: '#84674B'}}>Consumer Electronics</h3>
+                  <p className="text-gray-600 text-sm">
+                    Miniaturized components for smartphones, wearables, and smart home devices
+                  </p>
+                </div>
+
+                {/* Industrial & IoT */}
+                <div className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 text-center">
+                  <div 
+                    className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4"
+                    style={{backgroundColor: '#E0C31B'}}
+                  >
+                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-bold mb-2" style={{color: '#84674B'}}>Industrial & IoT</h3>
+                  <p className="text-gray-600 text-sm">
+                    Ruggedized sensors and connectivity solutions for Industry 4.0 applications
+                  </p>
+                </div>
+
+                {/* Medical Devices */}
+                <div className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 text-center md:col-span-2 lg:col-span-1 lg:col-start-2">
+                  <div 
+                    className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4"
+                    style={{backgroundColor: '#E0C31B'}}
+                  >
+                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-bold mb-2" style={{color: '#84674B'}}>Medical Devices</h3>
+                  <p className="text-gray-600 text-sm">
+                    Biocompatible and precision components for diagnostic and therapeutic equipment
+                  </p>
                 </div>
               </div>
             </div>
@@ -802,6 +1012,218 @@ export default function Home() {
                 </div>
               )}
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Partners Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#84674B'}}>
+              Our Partners
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+              Proudly representing innovative US manufacturers across the electronics industry
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center">
+            {/* Partner Logo Placeholders */}
+            {[1, 2, 3, 4, 5, 6].map((item) => (
+              <div key={item} className="flex items-center justify-center p-6 bg-gray-50 rounded-lg border-2 border-dashed border-gray-300 hover:border-gray-400 transition-colors duration-200">
+                <div className="text-center">
+                  <div 
+                    className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-2"
+                    style={{backgroundColor: '#E0C31B', opacity: 0.7}}
+                  >
+                    <svg className="w-6 h-6" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                    </svg>
+                  </div>
+                  <p className="text-xs text-gray-500 font-medium">Partner Logo</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          
+          <div className="text-center mt-12">
+            <p className="text-gray-600">
+              <span className="font-medium" style={{color: '#84674B'}}>Interested in partnership?</span> 
+              <span className="ml-2">We're always looking to work with innovative component manufacturers.</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Memberships & Credentials Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl lg:text-3xl font-bold mb-4" style={{color: '#84674B'}}>
+              Memberships & Credentials
+            </h2>
+            <p className="text-lg text-gray-600">
+              Professional affiliations that demonstrate our commitment to industry standards
+            </p>
+          </div>
+          
+          <div className="flex justify-center items-center space-x-12">
+            {/* ERA Logo */}
+            <div className="flex items-center space-x-4 p-6 bg-white rounded-lg shadow-sm border border-gray-200">
+              <div className="relative w-16 h-12">
+                <Image
+                  src="/logos/era_logo_chrome_135.png"
+                  alt="ERA - Electronic Representatives Association"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <div>
+                <p className="text-sm font-semibold" style={{color: '#84674B'}}>
+                  ERA Registered Member
+                </p>
+                <p className="text-xs text-gray-600">
+                  Electronic Representatives Association
+                </p>
+              </div>
+            </div>
+            
+            {/* Future credentials placeholder */}
+            <div className="flex items-center space-x-4 p-6 bg-white rounded-lg shadow-sm border-2 border-dashed border-gray-300">
+              <div 
+                className="w-16 h-12 rounded flex items-center justify-center"
+                style={{backgroundColor: '#E0C31B', opacity: 0.3}}
+              >
+                <svg className="w-6 h-6" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <div>
+                <p className="text-sm font-medium text-gray-500">
+                  Additional Credentials
+                </p>
+                <p className="text-xs text-gray-400">
+                  Future certifications
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Insights from the Industry Teaser */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#84674B'}}>
+              Insights from the Industry
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Stay informed with the latest trends, technologies, and market insights from the electronics components industry
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Article Placeholder 1 */}
+            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+              <div className="h-48 bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
+                <div className="text-center">
+                  <div 
+                    className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4"
+                    style={{backgroundColor: '#E0C31B'}}
+                  >
+                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                    </svg>
+                  </div>
+                  <p className="text-sm text-gray-500">Featured Article</p>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-lg font-bold mb-2" style={{color: '#84674B'}}>Market Trends in Component Manufacturing</h3>
+                <p className="text-gray-600 text-sm mb-4">
+                  Exploring the latest developments in US component manufacturing and their impact on European markets...
+                </p>
+                <div className="flex items-center text-xs text-gray-500">
+                  <span>Coming Soon</span>
+                  <span className="mx-2">•</span>
+                  <span>5 min read</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Article Placeholder 2 */}
+            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+              <div className="h-48 bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
+                <div className="text-center">
+                  <div 
+                    className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4"
+                    style={{backgroundColor: '#E0C31B'}}
+                  >
+                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                  </div>
+                  <p className="text-sm text-gray-500">Industry Insight</p>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-lg font-bold mb-2" style={{color: '#84674B'}}>The Future of EV Component Supply</h3>
+                <p className="text-gray-600 text-sm mb-4">
+                  How electric vehicle growth is reshaping component demand and supply chain strategies across the Atlantic...
+                </p>
+                <div className="flex items-center text-xs text-gray-500">
+                  <span>Coming Soon</span>
+                  <span className="mx-2">•</span>
+                  <span>7 min read</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Article Placeholder 3 */}
+            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+              <div className="h-48 bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
+                <div className="text-center">
+                  <div 
+                    className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4"
+                    style={{backgroundColor: '#E0C31B'}}
+                  >
+                    <svg className="w-8 h-8" style={{color: '#84674B'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                    </svg>
+                  </div>
+                  <p className="text-sm text-gray-500">Technical Guide</p>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-lg font-bold mb-2" style={{color: '#84674B'}}>Navigating Component Compliance</h3>
+                <p className="text-gray-600 text-sm mb-4">
+                  Understanding regulatory requirements when bringing US components to European markets...
+                </p>
+                <div className="flex items-center text-xs text-gray-500">
+                  <span>Coming Soon</span>
+                  <span className="mx-2">•</span>
+                  <span>6 min read</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="text-center mt-12">
+            <p className="text-gray-600 mb-4">
+              Stay updated with industry insights and expert analysis from our news and insights team
+            </p>
+            <a 
+              href="/news"
+              className="inline-block px-6 py-3 rounded-lg font-semibold transition-colors duration-200 hover:opacity-90"
+              style={{
+                backgroundColor: '#E0C31B',
+                color: '#84674B'
+              }}
+            >
+              View All Articles
+            </a>
           </div>
         </div>
       </section>
