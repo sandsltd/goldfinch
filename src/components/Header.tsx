@@ -7,6 +7,7 @@ import { useState } from 'react';
 export default function Header() {
   const [isServicesOpen, setIsServicesOpen] = useState(false);
   const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   return (
     <header className="bg-white shadow-sm" style={{borderBottom: '2px solid #E0C31B'}}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -94,25 +95,35 @@ export default function Header() {
 
           {/* Mobile menu button */}
           <div className="md:hidden">
-            <button className="text-goldfinch-dark hover:text-goldfinch-gold focus:outline-none focus:text-goldfinch-gold">
+            <button 
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="text-goldfinch-dark hover:text-goldfinch-gold focus:outline-none focus:text-goldfinch-gold"
+            >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                {isMobileMenuOpen ? (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                ) : (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                )}
               </svg>
             </button>
           </div>
         </div>
 
         {/* Mobile Navigation */}
-        <div className="md:hidden pb-4 border-t-2 border-goldfinch-gold pt-4 mt-4">
+        {isMobileMenuOpen && (
+          <div className="md:hidden pb-4 border-t-2 border-goldfinch-gold pt-4 mt-4">
           <div className="flex flex-col space-y-3">
             <Link 
               href="/" 
+              onClick={() => setIsMobileMenuOpen(false)}
               className="text-goldfinch-dark hover:text-goldfinch-gold font-medium py-2 transition-colors duration-200"
             >
               Home
             </Link>
             <Link 
               href="/about" 
+              onClick={() => setIsMobileMenuOpen(false)}
               className="text-goldfinch-dark hover:text-goldfinch-gold font-medium py-2 transition-colors duration-200"
             >
               About
@@ -139,12 +150,14 @@ export default function Header() {
                 <div className="ml-4 mt-2 space-y-2">
                   <Link 
                     href="/manufacture-representation"
+                    onClick={() => setIsMobileMenuOpen(false)}
                     className="block text-goldfinch-brown-600 hover:text-goldfinch-gold py-2 transition-colors duration-200"
                   >
                     Manufacture Representation
                   </Link>
                   <Link 
                     href="/product-representation"
+                    onClick={() => setIsMobileMenuOpen(false)}
                     className="block text-goldfinch-brown-600 hover:text-goldfinch-gold py-2 transition-colors duration-200"
                   >
                     Product Representation
@@ -154,12 +167,14 @@ export default function Header() {
             </div>
             <Link 
               href="/news" 
+              onClick={() => setIsMobileMenuOpen(false)}
               className="text-goldfinch-dark hover:text-goldfinch-gold font-medium py-2 transition-colors duration-200"
             >
               News
             </Link>
           </div>
-        </div>
+          </div>
+        )}
       </div>
     </header>
   );
