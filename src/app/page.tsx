@@ -374,7 +374,7 @@ export default function Home() {
                   Our Role: What We Do
                 </h2>
                 <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                  As manufacturers' representatives, we provide comprehensive sales support, market entry assistance, and customer liaison services
+                  As manufacturers&apos; representatives, we provide comprehensive sales support, market entry assistance, and customer liaison services
                 </p>
               </div>
               
@@ -1050,7 +1050,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <p className="text-gray-600">
               <span className="font-medium" style={{color: '#84674B'}}>Interested in partnership?</span> 
-              <span className="ml-2">We're always looking to work with innovative component manufacturers.</span>
+              <span className="ml-2">We&apos;re always looking to work with innovative component manufacturers.</span>
             </p>
           </div>
         </div>
