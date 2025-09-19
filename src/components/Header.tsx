@@ -9,11 +9,48 @@ export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   return (
     <header className="bg-white shadow-sm relative" style={{borderBottom: '2px solid #FFD700'}}>
-      {/* Combined Header Layout */}
+      {/* Top Contact Bar - Full Width on All Devices */}
+      <div className="bg-white border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-end items-center py-2">
+            <div className="flex items-center space-x-6 text-sm">
+              {/* Phone - always visible */}
+              <div className="flex items-center space-x-2">
+                <svg className="w-4 h-4" style={{color: '#ef4444'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+                <a 
+                  href="tel:+441234567890" 
+                  className="font-medium hover:opacity-80 transition-opacity duration-200"
+                  style={{color: '#1a1a1a'}}
+                >
+                  +44 1234 567890
+                </a>
+              </div>
+              
+              {/* Email - desktop only */}
+              <div className="hidden md:flex items-center space-x-2">
+                <svg className="w-4 h-4" style={{color: '#ef4444'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <a 
+                  href="mailto:info@goldfinchrepresentation.com" 
+                  className="font-medium hover:opacity-80 transition-opacity duration-200"
+                  style={{color: '#1a1a1a'}}
+                >
+                  info@goldfinchrepresentation.com
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Main Header Layout */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-stretch">
-          {/* Logo - spans full height */}
-          <div className="flex items-center py-2">
+        <div className="flex items-center justify-between py-2">
+          {/* Logo */}
+          <div className="flex items-center">
             <div className="relative w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 mr-4">
               <Image
                 src="/goldfinch/European Goldfinch.png"
@@ -34,50 +71,10 @@ export default function Header() {
             </div>
           </div>
           
-          {/* Right side content */}
-          <div className="flex-1 flex flex-col justify-between">
-            {/* Top Contact Bar - now white */}
-            <div className="bg-white">
-              <div className="flex justify-end items-center py-2">
-                <div className="flex items-center space-x-6 text-sm">
-                  {/* Phone - always visible */}
-                  <div className="flex items-center space-x-2">
-                    <svg className="w-4 h-4" style={{color: '#ef4444'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                    </svg>
-                    <a 
-                      href="tel:+441234567890" 
-                      className="font-medium hover:opacity-80 transition-opacity duration-200"
-                      style={{color: '#1a1a1a'}}
-                    >
-                      +44 1234 567890
-                    </a>
-                  </div>
-                  
-                  {/* Email - desktop only */}
-                  <div className="hidden md:flex items-center space-x-2">
-                    <svg className="w-4 h-4" style={{color: '#ef4444'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                    </svg>
-                    <a 
-                      href="mailto:info@goldfinchrepresentation.com" 
-                      className="font-medium hover:opacity-80 transition-opacity duration-200"
-                      style={{color: '#1a1a1a'}}
-                    >
-                      info@goldfinchrepresentation.com
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Navigation Row */}
-            <div className="flex justify-end items-end py-2">
-              {/* Spacer to push navigation away from logo */}
-              <div className="flex-1"></div>
-              
-              {/* Navigation */}
-              <nav className="hidden md:flex items-center space-x-8">
+          {/* Navigation and Mobile Menu */}
+          <div className="flex items-center">
+            {/* Navigation */}
+            <nav className="hidden md:flex items-center space-x-8">
             <Link 
               href="/" 
               className="text-gray-700 hover:text-goldfinch-gold font-medium transition-colors duration-200 py-2 px-3 hover:bg-gray-50 rounded-md"
@@ -137,10 +134,10 @@ export default function Header() {
                 >
                   News/Insights
                 </Link>
-              </nav>
+            </nav>
 
-              {/* Mobile menu button */}
-              <div className="md:hidden">
+            {/* Mobile menu button */}
+            <div className="md:hidden">
                 <button 
                   onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                   className="text-goldfinch-dark hover:text-goldfinch-gold focus:outline-none focus:text-goldfinch-gold"
@@ -153,7 +150,6 @@ export default function Header() {
                     )}
                   </svg>
                 </button>
-              </div>
             </div>
           </div>
         </div>
