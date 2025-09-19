@@ -177,14 +177,14 @@ export default function Home() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div className="order-2 lg:order-1">
                   <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{color: '#1a1a1a'}}>
-                    About Goldfinch
+                    About <span style={{color: '#ef4444'}}>Goldfinch</span> Representation Ltd
                   </h2>
-                  <p className="text-xl leading-relaxed text-gray-600 mb-8">
+                  <p className="text-xl leading-relaxed text-gray-700 mb-8">
                     Based in the UK and ERA registered, Goldfinch Representation Ltd acts as a bridge between innovative US component suppliers and electronics manufacturers across the UK and Europe. With strong industry expertise and a growing partner network, Goldfinch ensures customers get reliable access to high-quality parts, technical knowledge, and responsive support.
                   </p>
                   
                   {/* ERA Registration Badge */}
-                  <div className="flex items-center space-x-4 p-4 bg-gray-50 rounded-lg border border-gray-200">
+                  <div className="flex items-center space-x-4 p-5 bg-white rounded-xl border border-gray-200 border-l-4 shadow-sm mb-8" style={{borderLeftColor: '#FFD700'}}>
                     <div className="relative w-16 h-12">
                       <Image
                         src="/logos/era_logo_chrome_135.png"
@@ -202,20 +202,127 @@ export default function Home() {
                       </p>
                     </div>
                   </div>
+
+                  {/* Our Values - Cards */}
+                  <div>
+                    <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+                      {/* Values Title Card */}
+                      <div className="rounded-lg p-4 shadow-sm hover:shadow-md transition-all duration-200" style={{backgroundColor: '#ef4444'}}>
+                        <h3 className="text-lg font-bold mb-2 text-white">
+                          Our Values
+                        </h3>
+                        <p className="text-xs text-white italic opacity-90">
+                          Business built on more than supply chains
+                        </p>
+                      </div>
+
+                      {/* Freedom */}
+                      <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200 border-l-4 hover:shadow-md transition-all duration-200" style={{borderLeftColor: '#FFD700'}}>
+                        <div className="flex items-center space-x-3 mb-2">
+                          <div 
+                            className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0"
+                            style={{backgroundColor: '#ef4444'}}
+                          >
+                            <svg className="w-4 h-4" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                          </div>
+                          <div className="font-semibold text-sm" style={{color: '#1a1a1a'}}>Freedom</div>
+                        </div>
+                        <p className="text-xs text-gray-600">Independent thinking and global reach</p>
+                      </div>
+
+                      {/* Honesty */}
+                      <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200 border-l-4 hover:shadow-md transition-all duration-200" style={{borderLeftColor: '#FFD700'}}>
+                        <div className="flex items-center space-x-3 mb-2">
+                          <div 
+                            className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0"
+                            style={{backgroundColor: '#ef4444'}}
+                          >
+                            <svg className="w-4 h-4" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                            </svg>
+                          </div>
+                          <div className="font-semibold text-sm" style={{color: '#1a1a1a'}}>Honesty</div>
+                        </div>
+                        <p className="text-xs text-gray-600">Transparent, trusted communication</p>
+                      </div>
+
+                      {/* Creativity */}
+                      <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200 border-l-4 hover:shadow-md transition-all duration-200" style={{borderLeftColor: '#FFD700'}}>
+                        <div className="flex items-center space-x-3 mb-2">
+                          <div 
+                            className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0"
+                            style={{backgroundColor: '#ef4444'}}
+                          >
+                            <svg className="w-4 h-4" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                            </svg>
+                          </div>
+                          <div className="font-semibold text-sm" style={{color: '#1a1a1a'}}>Creativity</div>
+                        </div>
+                        <p className="text-xs text-gray-600">Fresh approaches to building relationships</p>
+                      </div>
+
+                      {/* Positivity */}
+                      <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200 border-l-4 hover:shadow-md transition-all duration-200" style={{borderLeftColor: '#FFD700'}}>
+                        <div className="flex items-center space-x-3 mb-2">
+                          <div 
+                            className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0"
+                            style={{backgroundColor: '#ef4444'}}
+                          >
+                            <svg className="w-4 h-4" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                          </div>
+                          <div className="font-semibold text-sm" style={{color: '#1a1a1a'}}>Positivity</div>
+                        </div>
+                        <p className="text-xs text-gray-600">Turning opportunities into success stories</p>
+                      </div>
+
+                      {/* Virtue */}
+                      <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200 border-l-4 hover:shadow-md transition-all duration-200" style={{borderLeftColor: '#FFD700'}}>
+                        <div className="flex items-center space-x-3 mb-2">
+                          <div 
+                            className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0"
+                            style={{backgroundColor: '#ef4444'}}
+                          >
+                            <svg className="w-4 h-4" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                            </svg>
+                          </div>
+                          <div className="font-semibold text-sm" style={{color: '#1a1a1a'}}>Virtue</div>
+                        </div>
+                        <p className="text-xs text-gray-600">Acting with integrity in every partnership</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div className="order-1 lg:order-2 flex justify-center">
-                  <div className="relative w-64 h-64 rounded-full overflow-hidden border-4" style={{borderColor: '#ef4444'}}>
+                <div className="order-1 lg:order-2 flex flex-col items-center">
+                  <div className="relative mb-6" style={{width: '400px', height: '400px'}}>
                     <Image
                       src="/goldfinch/European Goldfinch.png"
                       alt="European Goldfinch"
                       fill
                       className="object-cover"
+                      style={{
+                        transform: 'scale(1.2)',
+                        objectPosition: 'center center'
+                      }}
                     />
+                  </div>
+                  
+                  {/* Quote */}
+                  <div className="max-w-md text-center">
+                    <blockquote className="text-lg italic text-gray-700 leading-relaxed">
+                      &ldquo;The goldfinch is known as a symbol of connection and community – a bright, social bird that brings energy wherever it goes. It reflects my own personality in sales: connecting people, creating relationships, and sparking opportunities.&rdquo;
+                    </blockquote>
                   </div>
                 </div>
               </div>
             </div>
           </section>
+
 
           {/* Our Services Section */}
           <section className="py-20 bg-gray-50">
@@ -231,7 +338,7 @@ export default function Home() {
               
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
                 {/* Local Trusted Face */}
-                <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
+                <div className="bg-white rounded-lg shadow-md p-6 border-l-4 hover:shadow-lg transition-shadow duration-300" style={{borderLeftColor: '#FFD700'}}>
                   <div 
                     className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4"
                     style={{backgroundColor: '#ef4444'}}
@@ -248,7 +355,7 @@ export default function Home() {
                 </div>
 
                 {/* Sales & Marketing Intelligence */}
-                <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
+                <div className="bg-white rounded-lg shadow-md p-6 border-l-4 hover:shadow-lg transition-shadow duration-300" style={{borderLeftColor: '#FFD700'}}>
                   <div 
                     className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4"
                     style={{backgroundColor: '#ef4444'}}
@@ -264,7 +371,7 @@ export default function Home() {
                 </div>
 
                 {/* Multi-line Selling */}
-                <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
+                <div className="bg-white rounded-lg shadow-md p-6 border-l-4 hover:shadow-lg transition-shadow duration-300" style={{borderLeftColor: '#FFD700'}}>
                   <div 
                     className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4"
                     style={{backgroundColor: '#ef4444'}}
@@ -280,7 +387,7 @@ export default function Home() {
                 </div>
 
                 {/* Technical Support */}
-                <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
+                <div className="bg-white rounded-lg shadow-md p-6 border-l-4 hover:shadow-lg transition-shadow duration-300" style={{borderLeftColor: '#FFD700'}}>
                   <div 
                     className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4"
                     style={{backgroundColor: '#ef4444'}}
@@ -299,7 +406,7 @@ export default function Home() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 {/* Training & Demonstrations */}
-                <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
+                <div className="bg-white rounded-lg shadow-md p-6 border-l-4 hover:shadow-lg transition-shadow duration-300" style={{borderLeftColor: '#FFD700'}}>
                   <div 
                     className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4"
                     style={{backgroundColor: '#ef4444'}}
@@ -315,7 +422,7 @@ export default function Home() {
                 </div>
 
                 {/* After-sales Support */}
-                <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
+                <div className="bg-white rounded-lg shadow-md p-6 border-l-4 hover:shadow-lg transition-shadow duration-300" style={{borderLeftColor: '#FFD700'}}>
                   <div 
                     className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4"
                     style={{backgroundColor: '#ef4444'}}
@@ -331,7 +438,7 @@ export default function Home() {
                 </div>
 
                 {/* Market Entry */}
-                <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
+                <div className="bg-white rounded-lg shadow-md p-6 border-l-4 hover:shadow-lg transition-shadow duration-300" style={{borderLeftColor: '#FFD700'}}>
                   <div 
                     className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4"
                     style={{backgroundColor: '#ef4444'}}
@@ -347,7 +454,7 @@ export default function Home() {
                 </div>
 
                 {/* Cost Saving */}
-                <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
+                <div className="bg-white rounded-lg shadow-md p-6 border-l-4 hover:shadow-lg transition-shadow duration-300" style={{borderLeftColor: '#FFD700'}}>
                   <div 
                     className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4"
                     style={{backgroundColor: '#ef4444'}}
@@ -583,107 +690,6 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Our Values Section */}
-          <section className="py-20" style={{backgroundColor: '#1a1a1a'}}>
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <div className="text-center mb-16">
-                <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#D5CCC0'}}>
-                  Our Values
-                </h2>
-                <p className="text-xl max-w-3xl mx-auto" style={{color: '#D5CCC0'}}>
-                  At Goldfinch Representation Ltd, business is built on more than supply chains. We represent our partners with:
-                </p>
-              </div>
-              
-              {/* Values as horizontal flowing design */}
-              <div className="relative">
-                {/* Connection line */}
-                <div className="hidden lg:block absolute top-12 left-0 right-0 h-0.5" style={{backgroundColor: '#ef4444'}}></div>
-                
-                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-4">
-                  {/* Freedom */}
-                  <div className="text-center relative">
-                    <div 
-                      className="w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 border-4 relative z-10"
-                      style={{backgroundColor: '#FFD700', borderColor: '#D5CCC0'}}
-                    >
-                      <svg className="w-10 h-10" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                    </div>
-                    <h3 className="text-xl font-bold mb-3" style={{color: '#FFD700'}}>Freedom</h3>
-                    <p className="leading-relaxed" style={{color: '#D5CCC0'}}>
-                      Independent thinking and global reach.
-                    </p>
-                  </div>
-
-                  {/* Honesty */}
-                  <div className="text-center relative">
-                    <div 
-                      className="w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 border-4 relative z-10"
-                      style={{backgroundColor: '#FFD700', borderColor: '#D5CCC0'}}
-                    >
-                      <svg className="w-10 h-10" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                      </svg>
-                    </div>
-                    <h3 className="text-xl font-bold mb-3" style={{color: '#FFD700'}}>Honesty</h3>
-                    <p className="leading-relaxed" style={{color: '#D5CCC0'}}>
-                      Transparent, trusted communication.
-                    </p>
-                  </div>
-
-                  {/* Creativity */}
-                  <div className="text-center relative">
-                    <div 
-                      className="w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 border-4 relative z-10"
-                      style={{backgroundColor: '#FFD700', borderColor: '#D5CCC0'}}
-                    >
-                      <svg className="w-10 h-10" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                      </svg>
-                    </div>
-                    <h3 className="text-xl font-bold mb-3" style={{color: '#FFD700'}}>Creativity</h3>
-                    <p className="leading-relaxed" style={{color: '#D5CCC0'}}>
-                      Fresh approaches to building customer relationships.
-                    </p>
-                  </div>
-
-                  {/* Positivity */}
-                  <div className="text-center relative">
-                    <div 
-                      className="w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 border-4 relative z-10"
-                      style={{backgroundColor: '#FFD700', borderColor: '#D5CCC0'}}
-                    >
-                      <svg className="w-10 h-10" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                    </div>
-                    <h3 className="text-xl font-bold mb-3" style={{color: '#FFD700'}}>Positivity</h3>
-                    <p className="leading-relaxed" style={{color: '#D5CCC0'}}>
-                      Turning opportunities into success stories.
-                    </p>
-                  </div>
-
-                  {/* Virtue */}
-                  <div className="text-center relative">
-                    <div 
-                      className="w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 border-4 relative z-10"
-                      style={{backgroundColor: '#FFD700', borderColor: '#D5CCC0'}}
-                    >
-                      <svg className="w-10 h-10" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                      </svg>
-                    </div>
-                    <h3 className="text-xl font-bold mb-3" style={{color: '#FFD700'}}>Virtue</h3>
-                    <p className="leading-relaxed" style={{color: '#D5CCC0'}}>
-                      Acting with integrity in every partnership.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
 
           {/* Industries We Serve Section */}
           <section className="py-20 bg-white">
@@ -792,7 +798,7 @@ export default function Home() {
               
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 {/* ERA Registered */}
-                <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition-shadow duration-300 text-center">
+                <div className="bg-white rounded-lg shadow-md p-8 border-l-4 hover:shadow-lg transition-shadow duration-300 text-center" style={{borderLeftColor: '#FFD700'}}>
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
                     style={{backgroundColor: '#ef4444'}}
@@ -808,7 +814,7 @@ export default function Home() {
                 </div>
 
                 {/* Strong Ties */}
-                <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition-shadow duration-300 text-center">
+                <div className="bg-white rounded-lg shadow-md p-8 border-l-4 hover:shadow-lg transition-shadow duration-300 text-center" style={{borderLeftColor: '#FFD700'}}>
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
                     style={{backgroundColor: '#ef4444'}}
@@ -824,7 +830,7 @@ export default function Home() {
                 </div>
 
                 {/* Local Support */}
-                <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition-shadow duration-300 text-center">
+                <div className="bg-white rounded-lg shadow-md p-8 border-l-4 hover:shadow-lg transition-shadow duration-300 text-center" style={{borderLeftColor: '#FFD700'}}>
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
                     style={{backgroundColor: '#ef4444'}}
@@ -841,7 +847,7 @@ export default function Home() {
                 </div>
 
                 {/* Streamline Supply Chain */}
-                <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition-shadow duration-300 text-center">
+                <div className="bg-white rounded-lg shadow-md p-8 border-l-4 hover:shadow-lg transition-shadow duration-300 text-center" style={{borderLeftColor: '#FFD700'}}>
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
                     style={{backgroundColor: '#ef4444'}}
@@ -860,7 +866,7 @@ export default function Home() {
           </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20" style={{backgroundColor: '#f8f9fa'}}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#1a1a1a'}}>
@@ -873,17 +879,18 @@ export default function Home() {
           
           <div className="space-y-4">
             {/* FAQ 1 */}
-            <div className="border border-gray-200 rounded-lg">
+            <div className="border border-gray-200 rounded-lg bg-white shadow-sm border-l-4" style={{borderLeftColor: '#FFD700'}}>
               <button
                 onClick={() => toggleFaq(0)}
-                className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors duration-200"
+                className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-yellow-50 transition-colors duration-200"
+                style={{backgroundColor: openFaq === 0 ? '#fffbeb' : 'white'}}
               >
                 <h3 className="text-lg font-bold" style={{color: '#1a1a1a'}}>
                   Why choose representation over direct sales?
                 </h3>
                 <svg 
                   className={`w-5 h-5 transition-transform duration-200 ${openFaq === 0 ? 'rotate-180' : ''}`}
-                  style={{color: '#1a1a1a'}}
+                  style={{color: '#ef4444'}}
                   fill="none" 
                   viewBox="0 0 24 24" 
                   stroke="currentColor"
@@ -901,17 +908,18 @@ export default function Home() {
             </div>
 
             {/* FAQ 2 */}
-            <div className="border border-gray-200 rounded-lg">
+            <div className="border border-gray-200 rounded-lg bg-white shadow-sm border-l-4" style={{borderLeftColor: '#FFD700'}}>
               <button
                 onClick={() => toggleFaq(1)}
-                className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors duration-200"
+                className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-yellow-50 transition-colors duration-200"
+                style={{backgroundColor: openFaq === 1 ? '#fffbeb' : 'white'}}
               >
                 <h3 className="text-lg font-bold" style={{color: '#1a1a1a'}}>
                   What makes Goldfinch different from other representatives?
                 </h3>
                 <svg 
                   className={`w-5 h-5 transition-transform duration-200 ${openFaq === 1 ? 'rotate-180' : ''}`}
-                  style={{color: '#1a1a1a'}}
+                  style={{color: '#ef4444'}}
                   fill="none" 
                   viewBox="0 0 24 24" 
                   stroke="currentColor"
@@ -929,17 +937,18 @@ export default function Home() {
             </div>
 
             {/* FAQ 3 */}
-            <div className="border border-gray-200 rounded-lg">
+            <div className="border border-gray-200 rounded-lg bg-white shadow-sm border-l-4" style={{borderLeftColor: '#FFD700'}}>
               <button
                 onClick={() => toggleFaq(2)}
-                className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors duration-200"
+                className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-yellow-50 transition-colors duration-200"
+                style={{backgroundColor: openFaq === 2 ? '#fffbeb' : 'white'}}
               >
                 <h3 className="text-lg font-bold" style={{color: '#1a1a1a'}}>
                   How do you help US manufacturers adapt to European markets?
                 </h3>
                 <svg 
                   className={`w-5 h-5 transition-transform duration-200 ${openFaq === 2 ? 'rotate-180' : ''}`}
-                  style={{color: '#1a1a1a'}}
+                  style={{color: '#ef4444'}}
                   fill="none" 
                   viewBox="0 0 24 24" 
                   stroke="currentColor"
@@ -957,17 +966,18 @@ export default function Home() {
             </div>
 
             {/* FAQ 4 */}
-            <div className="border border-gray-200 rounded-lg">
+            <div className="border border-gray-200 rounded-lg bg-white shadow-sm border-l-4" style={{borderLeftColor: '#FFD700'}}>
               <button
                 onClick={() => toggleFaq(3)}
-                className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors duration-200"
+                className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-yellow-50 transition-colors duration-200"
+                style={{backgroundColor: openFaq === 3 ? '#fffbeb' : 'white'}}
               >
                 <h3 className="text-lg font-bold" style={{color: '#1a1a1a'}}>
                   What level of technical support do you provide?
                 </h3>
                 <svg 
                   className={`w-5 h-5 transition-transform duration-200 ${openFaq === 3 ? 'rotate-180' : ''}`}
-                  style={{color: '#1a1a1a'}}
+                  style={{color: '#ef4444'}}
                   fill="none" 
                   viewBox="0 0 24 24" 
                   stroke="currentColor"
@@ -985,17 +995,18 @@ export default function Home() {
             </div>
 
             {/* FAQ 5 */}
-            <div className="border border-gray-200 rounded-lg">
+            <div className="border border-gray-200 rounded-lg bg-white shadow-sm border-l-4" style={{borderLeftColor: '#FFD700'}}>
               <button
                 onClick={() => toggleFaq(4)}
-                className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors duration-200"
+                className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-yellow-50 transition-colors duration-200"
+                style={{backgroundColor: openFaq === 4 ? '#fffbeb' : 'white'}}
               >
                 <h3 className="text-lg font-bold" style={{color: '#1a1a1a'}}>
                   What happens after the sale?
                 </h3>
                 <svg 
                   className={`w-5 h-5 transition-transform duration-200 ${openFaq === 4 ? 'rotate-180' : ''}`}
-                  style={{color: '#1a1a1a'}}
+                  style={{color: '#ef4444'}}
                   fill="none" 
                   viewBox="0 0 24 24" 
                   stroke="currentColor"
@@ -1069,7 +1080,7 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {/* ERA Logo */}
-            <div className="flex items-center space-x-4 p-6 bg-white rounded-lg shadow-sm border border-gray-200">
+            <div className="flex items-center space-x-4 p-6 bg-white rounded-lg shadow-sm border border-gray-200 border-l-4" style={{borderLeftColor: '#FFD700'}}>
               <div className="relative w-16 h-12 flex-shrink-0">
                 <Image
                   src="/logos/era_logo_chrome_135.png"
@@ -1089,7 +1100,7 @@ export default function Home() {
             </div>
             
             {/* Future credentials placeholder */}
-            <div className="flex items-center space-x-4 p-6 bg-white rounded-lg shadow-sm border-2 border-dashed border-gray-300">
+            <div className="flex items-center space-x-4 p-6 bg-white rounded-lg shadow-sm border-2 border-dashed border-gray-300 border-l-4" style={{borderLeftColor: '#FFD700'}}>
               <div 
                 className="w-16 h-12 rounded flex items-center justify-center flex-shrink-0"
                 style={{backgroundColor: '#FFD700', opacity: 0.3}}
@@ -1125,7 +1136,7 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Article Placeholder 1 */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden border-l-4 hover:shadow-lg transition-shadow duration-300" style={{borderLeftColor: '#FFD700'}}>
               <div className="h-48 bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
                 <div className="text-center">
                   <div 
@@ -1153,7 +1164,7 @@ export default function Home() {
             </div>
 
             {/* Article Placeholder 2 */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden border-l-4 hover:shadow-lg transition-shadow duration-300" style={{borderLeftColor: '#FFD700'}}>
               <div className="h-48 bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
                 <div className="text-center">
                   <div 
@@ -1181,7 +1192,7 @@ export default function Home() {
             </div>
 
             {/* Article Placeholder 3 */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden border-l-4 hover:shadow-lg transition-shadow duration-300" style={{borderLeftColor: '#FFD700'}}>
               <div className="h-48 bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
                 <div className="text-center">
                   <div 
