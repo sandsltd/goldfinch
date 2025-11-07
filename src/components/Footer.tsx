@@ -50,6 +50,11 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                <a href="/bom-optimization" className="text-goldfinch-white-400 hover:text-goldfinch-gold transition-colors duration-200">
+                  BOM Optimization
+                </a>
+              </li>
+              <li>
                 <a href="/about" className="text-goldfinch-white-400 hover:text-goldfinch-gold transition-colors duration-200">
                   About Us
                 </a>
@@ -76,7 +81,7 @@ export default function Footer() {
                 <svg className="h-5 w-5 mr-2 text-goldfinch-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                +44 (0) 20 7123 4567
+                +44 (0)7770 833755
               </li>
               <li className="flex items-start">
                 <svg className="h-5 w-5 mr-2 mt-0.5 text-goldfinch-red-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -84,9 +89,9 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                 <span>
-                  123 Finch Lane<br />
-                  Chard, TA13 5FH<br />
-                  United Kingdom
+                  Maltravers House<br />
+                  Petters Way, Yeovil<br />
+                  United Kingdom, BA20 1SH
                 </span>
               </li>
             </ul>
@@ -98,7 +103,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4">
               <p className="text-goldfinch-white-400 text-sm">
-                © 2024 Goldfinch Representation Ltd. All rights reserved.
+                © {new Date().getFullYear()} Goldfinch Representation Ltd. All rights reserved.
               </p>
               {/* Development Credit */}
               <div className="flex items-center space-x-2 text-xs text-goldfinch-white-400">
@@ -122,14 +127,6 @@ export default function Footer() {
                   </svg>
                 </a>
               </div>
-            </div>
-            <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-goldfinch-white-400 hover:text-goldfinch-gold text-sm transition-colors duration-200">
-                Privacy Policy
-              </a>
-              <a href="#" className="text-goldfinch-white-400 hover:text-goldfinch-gold text-sm transition-colors duration-200">
-                Terms of Service
-              </a>
             </div>
           </div>
         </div>

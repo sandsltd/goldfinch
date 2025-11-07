@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function About() {
   return (
     <div className="min-h-screen">
@@ -11,9 +9,12 @@ export default function About() {
             <br />
             <span className="text-goldfinch-yellow-600">Representation Ltd</span>
           </h1>
-          <p className="text-xl text-goldfinch-brown-700 max-w-3xl mx-auto">
-            Based in the UK and ERA registered, Goldfinch Representation Ltd acts as a bridge between innovative US component suppliers and electronics manufacturers across the UK and Europe.
+          <p className="text-xl text-goldfinch-brown-700 max-w-3xl mx-auto mb-8">
+            Based in the UK and ERA registered, Goldfinch Representation Ltd acts as a bridge between innovative component suppliers and electronics manufacturers across the UK and Europe. With strong industry expertise and a growing partner network, Goldfinch ensures customers get reliable access to high-quality parts, technical knowledge, and responsive support.
           </p>
+          <blockquote className="text-lg italic leading-relaxed text-goldfinch-brown-600 max-w-4xl mx-auto pl-4 border-l-4" style={{borderLeftColor: '#FFD700'}}>
+            &ldquo;A connector is simply someone who is relationship-focused on their approach to life, to people, and to business. They have a certain way of thinking and behaving. They act and get results with ease because they have a level of credibility and trust in and from their network. When they ask for something or make an introduction, it carries weight and people respond.&rdquo;
+          </blockquote>
         </div>
       </section>
 

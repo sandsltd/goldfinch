@@ -20,11 +20,11 @@ export default function Header() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
                 <a 
-                  href="tel:+441234567890" 
+                  href="tel:+447770833755" 
                   className="font-medium hover:opacity-80 transition-opacity duration-200"
                   style={{color: '#1a1a1a'}}
                 >
-                  +44 1234 567890
+                  +44 (0)7770 833755
                 </a>
               </div>
               
@@ -50,7 +50,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between py-2">
           {/* Logo */}
-          <div className="flex items-center">
+          <Link href="/" className="flex items-center hover:opacity-80 transition-opacity duration-200">
             <div className="relative w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 mr-4">
               <Image
                 src="/goldfinch/European Goldfinch.png"
@@ -69,7 +69,7 @@ export default function Header() {
               </h1>
               <p className="text-xs md:text-sm font-medium" style={{color: '#1a1a1a'}}>Ltd</p>
             </div>
-          </div>
+          </Link>
           
           {/* Navigation and Mobile Menu */}
           <div className="flex items-center">
@@ -123,6 +123,13 @@ export default function Header() {
                     >
                       <div className="font-medium">Product Representation</div>
                       <div className="text-sm text-gray-500 mt-1">Component distribution services</div>
+                    </Link>
+                    <Link 
+                      href="/bom-optimization"
+                      className="block px-4 py-3 text-gray-700 hover:text-goldfinch-gold hover:bg-gray-50 transition-colors duration-200"
+                    >
+                      <div className="font-medium">BOM Optimization</div>
+                      <div className="text-sm text-gray-500 mt-1">Bill of Materials analysis & optimization</div>
                     </Link>
                   </div>
                 </div>
@@ -201,6 +208,13 @@ export default function Header() {
               className="text-goldfinch-dark hover:text-goldfinch-gold font-medium py-2 transition-colors duration-200"
             >
               Product Representation
+            </Link>
+            <Link 
+              href="/bom-optimization"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="text-goldfinch-dark hover:text-goldfinch-gold font-medium py-2 transition-colors duration-200"
+            >
+              BOM Optimization
             </Link>
                 <Link 
                   href="/news" 

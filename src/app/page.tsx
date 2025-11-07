@@ -144,24 +144,24 @@ export default function Home() {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-8 md:py-12">
           <div className="max-w-4xl mx-auto">
                 <div className="mb-4">
-                  <p className="text-lg font-medium tracking-wide" style={{color: '#FFD700'}}>
+                  <p className="text-lg font-medium tracking-wide text-white">
                     Independent Representation, Built on Freedom, Honesty and Creativity.
                   </p>
                 </div>
-                <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight text-white">
-                  Connecting US Component Manufacturers
-                  <span style={{color: '#FFD700'}}> with UK & European Electronics Companies</span>
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-white">
+                  Connecting Component Manufacturers
+                  <span className="text-white"> with UK & European Electronics Companies</span>
                 </h1>
-                <p className="text-xl mb-8 leading-relaxed text-gray-200">
-                  Goldfinch Representation Ltd provides trusted sales representation for leading American manufacturers of PCB-level components, helping UK and European customers access world-class electronic parts.
+                <p className="text-xl mb-8 leading-relaxed text-white">
+                  Goldfinch Representation Ltd provides trusted sales representation for worldwide manufacturers of PCB-level components, helping UK and European customers access world-class interconnect, passive and electromechanical solutions.
                 </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
               <button 
                 onClick={openContactModal}
                 className="px-8 py-4 rounded-lg font-semibold text-lg transition-colors duration-200 hover:opacity-90"
                 style={{
-                  backgroundColor: '#FFD700',
-                  color: '#1a1a1a'
+                  backgroundColor: '#1a1a1a',
+                  color: '#FFD700'
                 }}
               >
                 Find Out More
@@ -177,10 +177,10 @@ export default function Home() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div className="order-2 lg:order-1">
                   <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{color: '#1a1a1a'}}>
-                    About <span style={{color: '#ef4444'}}>Goldfinch</span> Representation Ltd
+                    About <span style={{color: '#1a1a1a'}}>Goldfinch</span> Representation Ltd
                   </h2>
-                  <p className="text-xl leading-relaxed text-gray-700 mb-8">
-                    Based in the UK and ERA registered, Goldfinch Representation Ltd acts as a bridge between innovative US component suppliers and electronics manufacturers across the UK and Europe. With strong industry expertise and a growing partner network, Goldfinch ensures customers get reliable access to high-quality parts, technical knowledge, and responsive support.
+                  <p className="text-xl leading-relaxed text-gray-700 mb-6">
+                    Based in the UK and ERA registered, Goldfinch Representation Ltd acts as a bridge between innovative component suppliers and electronics manufacturers across the UK and Europe. With strong industry expertise and a growing partner network, Goldfinch ensures customers get reliable access to high-quality parts, technical knowledge, and responsive support.
                   </p>
                   
                   {/* ERA Registration Badge */}
@@ -207,11 +207,11 @@ export default function Home() {
                   <div>
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                       {/* Values Title Card */}
-                      <div className="rounded-lg p-4 shadow-sm hover:shadow-md transition-all duration-200" style={{backgroundColor: '#ef4444'}}>
-                        <h3 className="text-lg font-bold mb-2 text-white">
+                      <div className="rounded-lg p-4 shadow-sm hover:shadow-md transition-all duration-200" style={{backgroundColor: '#1a1a1a'}}>
+                        <h3 className="text-lg font-bold mb-2" style={{color: '#FFD700'}}>
                           Our Values
                         </h3>
-                        <p className="text-xs text-white italic opacity-90">
+                        <p className="text-xs italic opacity-90" style={{color: '#FFD700'}}>
                           Business built on more than supply chains
                         </p>
                       </div>
@@ -299,7 +299,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="order-1 lg:order-2 flex flex-col items-center">
-                  <div className="relative mb-6" style={{width: '400px', height: '400px'}}>
+                  <div className="relative mb-6 w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96">
                     <Image
                       src="/goldfinch/European Goldfinch.png"
                       alt="European Goldfinch"
@@ -332,7 +332,7 @@ export default function Home() {
                   Our Core Services
                 </h2>
                 <p className="text-xl max-w-3xl mx-auto text-gray-600">
-                  Comprehensive representation services that bridge US manufacturers with UK & European markets
+                  Comprehensive representation services that bridge component manufacturers with UK & European markets
                 </p>
               </div>
               
@@ -350,7 +350,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-lg font-bold mb-3 text-center" style={{color: '#1a1a1a'}}>Local Trusted Partner</h3>
                   <p className="text-sm leading-relaxed text-gray-600 text-center">
-                    Your local face for US manufacturers, bridging time zones, regulations, and customer expectations across UK & Europe.
+                    Your local face for component manufacturers, bridging time zones, regulations, and customer expectations across UK & Europe.
                   </p>
                 </div>
 
@@ -405,19 +405,19 @@ export default function Home() {
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                {/* Training & Demonstrations */}
+                {/* Sales Channel Development */}
                 <div className="bg-white rounded-lg shadow-md p-6 border-l-4 hover:shadow-lg transition-shadow duration-300" style={{borderLeftColor: '#FFD700'}}>
                   <div 
                     className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4"
                     style={{backgroundColor: '#ef4444'}}
                   >
                     <svg className="w-6 h-6" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2zm8 0h-2a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2z" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold mb-3 text-center" style={{color: '#1a1a1a'}}>Training & Education</h3>
+                  <h3 className="text-lg font-bold mb-3 text-center" style={{color: '#1a1a1a'}}>Sales Channel Development</h3>
                   <p className="text-sm leading-relaxed text-gray-600 text-center">
-                    Customer training and demonstrations ensuring proper component usage and understanding of performance factors.
+                    Adopting a research, interview and recommend philosophy to strengthen UK & EU distribution or representation footprints.
                   </p>
                 </div>
 
@@ -465,7 +465,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-lg font-bold mb-3 text-center" style={{color: '#1a1a1a'}}>Cost-Effective Solution</h3>
                   <p className="text-sm leading-relaxed text-gray-600 text-center">
-                    Commission-based model with existing infrastructure, more cost-effective than direct office setup.
+                    Retainer and/or Commission-based model with existing infrastructure, more cost-effective than direct office setup.
                   </p>
                 </div>
               </div>
@@ -498,7 +498,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold mb-4" style={{color: '#1a1a1a'}}>Local Presence</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Acting as your trusted local face for US manufacturers, bridging time zones, understanding regulations, and managing customer expectations across UK & Europe.
+                    Acting as your trusted local face for worldwide component manufacturers, bridging time zones, understanding regulations, and managing customer expectations across UK & Europe.
                   </p>
                 </div>
 
@@ -594,7 +594,7 @@ export default function Home() {
                   Component Categories We Represent
                 </h2>
                 <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                  From semiconductors to electromechanical parts, we provide comprehensive representation across all major PCB-level component categories
+                  From thermal solutions to electromechanical components, we provide comprehensive representation across all major PCB-level component categories
                 </p>
               </div>
               
@@ -602,7 +602,7 @@ export default function Home() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                 {/* Left Column */}
                 <div className="space-y-6">
-                  {/* Semiconductors */}
+                  {/* Thermal */}
                   <div className="bg-white rounded-lg p-8 border-l-4" style={{borderColor: '#FFD700'}}>
                     <div className="flex items-start space-x-4">
                       <div 
@@ -610,19 +610,16 @@ export default function Home() {
                         style={{backgroundColor: '#ef4444'}}
                       >
                         <svg className="w-6 h-6" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                         </svg>
                       </div>
                       <div>
-                        <h3 className="text-xl font-bold mb-2" style={{color: '#1a1a1a'}}>Semiconductors</h3>
-                        <p className="text-gray-600 leading-relaxed">
-                          Integrated circuits, microcontrollers, and advanced chips for modern electronic applications across automotive, industrial, and consumer markets.
-                        </p>
+                        <h3 className="text-xl font-bold mb-2" style={{color: '#1a1a1a'}}>Thermal</h3>
                       </div>
                     </div>
                   </div>
 
-                  {/* Electromagnetic Components */}
+                  {/* Electromagnetic */}
                   <div className="bg-white rounded-lg p-8 border-l-4" style={{borderColor: '#FFD700'}}>
                     <div className="flex items-start space-x-4">
                       <div 
@@ -634,10 +631,7 @@ export default function Home() {
                         </svg>
                       </div>
                       <div>
-                        <h3 className="text-xl font-bold mb-2" style={{color: '#1a1a1a'}}>Electromagnetic Components</h3>
-                        <p className="text-gray-600 leading-relaxed">
-                          Inductors, transformers, and ferrite cores designed for power management, signal processing, and EMI suppression applications.
-                        </p>
+                        <h3 className="text-xl font-bold mb-2" style={{color: '#1a1a1a'}}>Electromagnetic</h3>
                       </div>
                     </div>
                   </div>
@@ -645,7 +639,7 @@ export default function Home() {
 
                 {/* Right Column */}
                 <div className="space-y-6">
-                  {/* Passives */}
+                  {/* Passive */}
                   <div className="bg-white rounded-lg p-8 border-l-4" style={{borderColor: '#FFD700'}}>
                     <div className="flex items-start space-x-4">
                       <div 
@@ -657,15 +651,12 @@ export default function Home() {
                         </svg>
                       </div>
                       <div>
-                        <h3 className="text-xl font-bold mb-2" style={{color: '#1a1a1a'}}>Passive Components</h3>
-                        <p className="text-gray-600 leading-relaxed">
-                          High-quality resistors, capacitors, and connectors that form the foundation of reliable electronic circuits and systems.
-                        </p>
+                        <h3 className="text-xl font-bold mb-2" style={{color: '#1a1a1a'}}>Passive</h3>
                       </div>
                     </div>
                   </div>
 
-                  {/* Electromechanical Parts */}
+                  {/* Electromechanical */}
                   <div className="bg-white rounded-lg p-8 border-l-4" style={{borderColor: '#FFD700'}}>
                     <div className="flex items-start space-x-4">
                       <div 
@@ -678,10 +669,7 @@ export default function Home() {
                         </svg>
                       </div>
                       <div>
-                        <h3 className="text-xl font-bold mb-2" style={{color: '#1a1a1a'}}>Electromechanical Parts</h3>
-                        <p className="text-gray-600 leading-relaxed">
-                          Precision switches, relays, and mechanical components for control systems, user interfaces, and automation applications.
-                        </p>
+                        <h3 className="text-xl font-bold mb-2" style={{color: '#1a1a1a'}}>Electromechanical</h3>
                       </div>
                     </div>
                   </div>
@@ -699,13 +687,13 @@ export default function Home() {
                   Industries We Serve
                 </h2>
                 <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                  From aerospace to medical devices, we provide specialized component representation across diverse technology sectors
+                  From aerospace to building & construction, we provide specialized component representation across diverse technology sectors
                 </p>
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {/* Aerospace & Defence */}
-                <div className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 text-center">
+                <div className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 text-center border-l-4" style={{borderLeftColor: '#FFD700'}}>
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4"
                     style={{backgroundColor: '#ef4444'}}
@@ -721,7 +709,7 @@ export default function Home() {
                 </div>
 
                 {/* Automotive & EV */}
-                <div className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 text-center">
+                <div className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 text-center border-l-4" style={{borderLeftColor: '#FFD700'}}>
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4"
                     style={{backgroundColor: '#ef4444'}}
@@ -732,12 +720,12 @@ export default function Home() {
                   </div>
                   <h3 className="text-lg font-bold mb-2" style={{color: '#1a1a1a'}}>Automotive & EV</h3>
                   <p className="text-gray-600 text-sm">
-                    Power management and control systems for next-generation vehicles and charging infrastructure
+                    Thermal management and control systems for next-generation vehicles and charging infrastructure.
                   </p>
                 </div>
 
                 {/* Consumer Electronics */}
-                <div className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 text-center">
+                <div className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 text-center border-l-4" style={{borderLeftColor: '#FFD700'}}>
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4"
                     style={{backgroundColor: '#ef4444'}}
@@ -753,7 +741,7 @@ export default function Home() {
                 </div>
 
                 {/* Industrial & IoT */}
-                <div className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 text-center">
+                <div className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 text-center border-l-4" style={{borderLeftColor: '#FFD700'}}>
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4"
                     style={{backgroundColor: '#ef4444'}}
@@ -764,12 +752,12 @@ export default function Home() {
                   </div>
                   <h3 className="text-lg font-bold mb-2" style={{color: '#1a1a1a'}}>Industrial & IoT</h3>
                   <p className="text-gray-600 text-sm">
-                    Ruggedized sensors and connectivity solutions for Industry 4.0 applications
+                    Ruggedized sensors and connectivity solutions for Industrial applications.
                   </p>
                 </div>
 
                 {/* Medical Devices */}
-                <div className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 text-center md:col-span-2 lg:col-span-1 lg:col-start-2">
+                <div className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 text-center border-l-4" style={{borderLeftColor: '#FFD700'}}>
                   <div 
                     className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4"
                     style={{backgroundColor: '#ef4444'}}
@@ -781,6 +769,22 @@ export default function Home() {
                   <h3 className="text-lg font-bold mb-2" style={{color: '#1a1a1a'}}>Medical Devices</h3>
                   <p className="text-gray-600 text-sm">
                     Biocompatible and precision components for diagnostic and therapeutic equipment
+                  </p>
+                </div>
+
+                {/* Building & Construction */}
+                <div className="bg-gray-50 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 text-center border-l-4" style={{borderLeftColor: '#FFD700'}}>
+                  <div 
+                    className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-4"
+                    style={{backgroundColor: '#ef4444'}}
+                  >
+                    <svg className="w-8 h-8" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                    </svg>
+                  </div>
+                  <h3 className="text-lg font-bold mb-2" style={{color: '#1a1a1a'}}>Building & Construction</h3>
+                  <p className="text-gray-600 text-sm">
+                    Specialist additives to improve thermal, electrical and fire-retardant properties.
                   </p>
                 </div>
               </div>
@@ -825,7 +829,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-lg font-bold mb-4" style={{color: '#1a1a1a'}}>Strong Ties</h3>
                   <p className="leading-relaxed text-gray-600">
-                    To established US manufacturers
+                    To established component manufacturers.
                   </p>
                 </div>
 
@@ -944,7 +948,7 @@ export default function Home() {
                 style={{backgroundColor: openFaq === 2 ? '#fffbeb' : 'white'}}
               >
                 <h3 className="text-lg font-bold" style={{color: '#1a1a1a'}}>
-                  How do you help US manufacturers adapt to European markets?
+                  How do you help component manufacturers adapt to European markets?
                 </h3>
                 <svg 
                   className={`w-5 h-5 transition-transform duration-200 ${openFaq === 2 ? 'rotate-180' : ''}`}
@@ -988,7 +992,7 @@ export default function Home() {
               {openFaq === 3 && (
                 <div className="px-6 pb-4">
                   <p className="text-gray-600 leading-relaxed">
-                    Our team helps customers and engineers select the right components, providing advice on electromagnetic components, passives, and semiconductors. We match specifications with cost, availability, and performance requirements, plus offer customer training and demonstrations.
+                    We connect our principals&rsquo; technical resources with our customers and technical resources to provide advice and aid selection of the right components.  We match specifications with cost, availability, and performance requirements, then sample the best solution first time.
                   </p>
                 </div>
               )}
@@ -1038,23 +1042,93 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center">
-            {/* Partner Logo Placeholders */}
-            {[1, 2, 3, 4, 5, 6].map((item) => (
-              <div key={item} className="flex items-center justify-center p-6 bg-gray-50 rounded-lg border-2 border-dashed border-gray-300 hover:border-gray-400 transition-colors duration-200">
-                <div className="text-center">
-                  <div 
-                    className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-2"
-                    style={{backgroundColor: '#FFD700', opacity: 0.7}}
-                  >
-                    <svg className="w-6 h-6" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                    </svg>
-                  </div>
-                  <p className="text-xs text-gray-500 font-medium">Partner Logo</p>
-                </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {/* KDK */}
+            <div className="bg-white rounded-lg shadow-sm p-8 text-center flex flex-col h-full">
+              <div className="mb-6 flex items-center justify-center" style={{height: '120px'}}>
+                <a href="http://www.kdk-group.co.jp/en/index.html" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity inline-block">
+                  <Image
+                    src="/images/KDK/Unknown.jpeg"
+                    alt="KDK Logo"
+                    width={180}
+                    height={120}
+                    className="object-contain mx-auto"
+                  />
+                </a>
               </div>
-            ))}
+              <h3 className="text-xl font-bold mb-4 text-gray-800">KDK</h3>
+              <p className="text-sm text-gray-600 leading-relaxed mb-6 flex-grow">
+                KDK is located in Nagasaki, Japan and has more than 40 years&rsquo; experience in the Quartz Industry, providing various types of devices all over the world. All products are originally developed in Japan, with factory operations in China supporting competitive production that satisfies Japanese Quality standards.
+              </p>
+              <a 
+                href="/product-representation#kdk" 
+                className="inline-flex items-center text-white px-4 py-2 rounded-md text-sm font-medium hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 ease-out mt-auto group"
+                style={{backgroundColor: '#dc2626'}}
+              >
+                See Products
+                <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300 ease-out" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
+
+            {/* PranaGraf */}
+            <div className="bg-white rounded-lg shadow-sm p-8 text-center flex flex-col h-full">
+              <div className="mb-6 flex items-center justify-center" style={{height: '120px'}}>
+                <a href="https://www.pranagraf.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity inline-block">
+                  <Image
+                    src="/images/PranaGraf/PranaGraf Logo.png"
+                    alt="PranaGraf Logo"
+                    width={180}
+                    height={120}
+                    className="object-contain mx-auto"
+                  />
+                </a>
+              </div>
+              <h3 className="text-xl font-bold mb-4 text-gray-800">PRANAGRAF</h3>
+              <p className="text-sm text-gray-600 leading-relaxed mb-6 flex-grow">
+                PranaGraf Materials & Technologies is based in India and has multiple technologies for manufacturing specialty downstream natural graphite products like High Purity Graphite, Expandable Graphite, Micronized Graphite, Spherical Graphite, Graphene and Composites. PranaGraf is one of the very few Ex-China producers of these niche products.
+              </p>
+              <a 
+                href="/product-representation#pranagraf" 
+                className="inline-flex items-center text-white px-4 py-2 rounded-md text-sm font-medium hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 ease-out mt-auto group"
+                style={{backgroundColor: '#dc2626'}}
+              >
+                See Products
+                <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300 ease-out" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
+
+            {/* SSO */}
+            <div className="bg-white rounded-lg shadow-sm p-8 text-center flex flex-col h-full">
+              <div className="mb-6 flex items-center justify-center" style={{height: '120px'}}>
+                <a href="https://www.ssousa.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity inline-block">
+                  <Image
+                    src="/images/SSO Content/SSO Logo2.png"
+                    alt="SSO Logo"
+                    width={180}
+                    height={120}
+                    className="object-contain mx-auto"
+                  />
+                </a>
+              </div>
+              <h3 className="text-xl font-bold mb-4 text-gray-800">SOLID STATE OPTRONICS</h3>
+              <p className="text-sm text-gray-600 leading-relaxed mb-6 flex-grow">
+                Solid State Optronics (SSO) was founded in 1982 in San Jose, California. SSO develops proprietary Solid State Relay (SSR) technologies with innovative 5-component architecture for high-performance switching applications across multiple industries.
+              </p>
+              <a 
+                href="/product-representation#sso" 
+                className="inline-flex items-center text-white px-4 py-2 rounded-md text-sm font-medium hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 ease-out mt-auto group"
+                style={{backgroundColor: '#dc2626'}}
+              >
+                See Products
+                <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300 ease-out" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
           </div>
           
           <div className="text-center mt-12">
@@ -1066,61 +1140,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Memberships & Credentials Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-2xl lg:text-3xl font-bold mb-4" style={{color: '#1a1a1a'}}>
-              Memberships & Credentials
-            </h2>
-            <p className="text-lg text-gray-600">
-              Professional affiliations that demonstrate our commitment to industry standards
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            {/* ERA Logo */}
-            <div className="flex items-center space-x-4 p-6 bg-white rounded-lg shadow-sm border border-gray-200 border-l-4" style={{borderLeftColor: '#FFD700'}}>
-              <div className="relative w-16 h-12 flex-shrink-0">
-                <Image
-                  src="/logos/era_logo_chrome_135.png"
-                  alt="ERA - Electronic Representatives Association"
-                  fill
-                  className="object-contain"
-                />
-              </div>
-              <div>
-                <p className="text-sm font-semibold" style={{color: '#1a1a1a'}}>
-                  ERA Registered Member
-                </p>
-                <p className="text-xs text-gray-600">
-                  Electronic Representatives Association
-                </p>
-              </div>
-            </div>
-            
-            {/* Future credentials placeholder */}
-            <div className="flex items-center space-x-4 p-6 bg-white rounded-lg shadow-sm border-2 border-dashed border-gray-300 border-l-4" style={{borderLeftColor: '#FFD700'}}>
-              <div 
-                className="w-16 h-12 rounded flex items-center justify-center flex-shrink-0"
-                style={{backgroundColor: '#FFD700', opacity: 0.3}}
-              >
-                <svg className="w-6 h-6" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <div>
-                <p className="text-sm font-medium text-gray-500">
-                  Additional Credentials
-                </p>
-                <p className="text-xs text-gray-400">
-                  Future certifications
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Insights from the Industry Teaser */}
       <section className="py-20 bg-white">
@@ -1242,7 +1261,7 @@ export default function Home() {
       <section className="py-20" style={{backgroundColor: '#1a1a1a'}}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{color: '#D5CCC0'}}>
-            Ready to Connect with US Component Manufacturers?
+            Ready to connect with Passive, Interconnect and Electromechanical component manufacturers?
           </h2>
           <p className="text-xl mb-8" style={{color: '#D5CCC0'}}>
             Contact Goldfinch Representation Ltd today to discover how we can streamline your supply chain
