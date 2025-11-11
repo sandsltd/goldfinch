@@ -51,7 +51,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="/bom-optimization" className="text-goldfinch-white-400 hover:text-goldfinch-gold transition-colors duration-200">
-                  BOM Optimization
+                  BOM Optimisation
                 </a>
               </li>
               <li>

@@ -39,7 +39,7 @@ export default function ProductRepresentation() {
               Solid State Optronics (SSO)
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-              Leading manufacturer of high-performance solid state relays, optocouplers, and specialized electronic components for demanding applications
+              Leading manufacturer of high-performance solid state relays, optocouplers, and specialised electronic components for demanding applications
             </p>
           </div>
 
@@ -192,7 +192,7 @@ export default function ProductRepresentation() {
                 </svg>
               </div>
               <h3 className="text-lg font-semibold mb-2" style={{color: '#1a1a1a'}}>Specialty Products</h3>
-              <p className="text-gray-600 text-sm mb-4">Custom and specialized solutions for unique application requirements</p>
+              <p className="text-gray-600 text-sm mb-4">Custom and specialised solutions for unique application requirements</p>
               <a 
                 href="https://www.ssousa.com/catalog/specialty_products" 
                 target="_blank" 
@@ -683,7 +683,7 @@ export default function ProductRepresentation() {
               PRANAGRAF
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-              Innovative solutions and cutting-edge technology for specialized applications
+              Innovative solutions and cutting-edge technology for specialised applications
             </p>
           </div>
 
@@ -701,7 +701,7 @@ export default function ProductRepresentation() {
               </h3>
               
               <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                We&rsquo;re excited to share information about PRANAGRAF&rsquo;s innovative product portfolio. Contact us to learn more about their specialized solutions and how they can benefit your applications.
+                We&rsquo;re excited to share information about PRANAGRAF&rsquo;s innovative product portfolio. Contact us to learn more about their specialised solutions and how they can benefit your applications.
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">

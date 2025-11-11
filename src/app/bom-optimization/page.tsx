@@ -19,7 +19,7 @@ export default function BOMOptimization() {
               <div className="flex justify-center">
                 <img 
                   src="/goldfinch/1.png" 
-                  alt="Cost Analysis and BOM Optimization" 
+                  alt="Cost Analysis and BOM Optimisation" 
                   className="rounded-lg shadow-md max-w-full h-auto"
                 />
               </div>

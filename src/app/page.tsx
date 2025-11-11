@@ -687,7 +687,7 @@ export default function Home() {
                   Industries We Serve
                 </h2>
                 <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                  From aerospace to building & construction, we provide specialized component representation across diverse technology sectors
+                  From aerospace to building & construction, we provide specialised component representation across diverse technology sectors
                 </p>
               </div>
               

@@ -12,7 +12,7 @@ export default function ManufactureRepresentation() {
             <span className="text-goldfinch-yellow-600">Representation</span>
           </h1>
           <p className="text-xl text-goldfinch-brown-700 max-w-3xl mx-auto">
-            Connecting innovative global manufacturers with European markets through specialized technical representation.
+            Connecting innovative global manufacturers with European markets through specialised technical representation.
           </p>
         </div>
       </section>

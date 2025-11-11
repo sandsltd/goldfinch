@@ -128,8 +128,8 @@ export default function Header() {
                       href="/bom-optimization"
                       className="block px-4 py-3 text-gray-700 hover:text-goldfinch-gold hover:bg-gray-50 transition-colors duration-200"
                     >
-                      <div className="font-medium">BOM Optimization</div>
-                      <div className="text-sm text-gray-500 mt-1">Bill of Materials analysis & optimization</div>
+                      <div className="font-medium">BOM Optimisation</div>
+                      <div className="text-sm text-gray-500 mt-1">Bill of Materials analysis & optimisation</div>
                     </Link>
                   </div>
                 </div>
@@ -214,7 +214,7 @@ export default function Header() {
               onClick={() => setIsMobileMenuOpen(false)}
               className="text-goldfinch-dark hover:text-goldfinch-gold font-medium py-2 transition-colors duration-200"
             >
-              BOM Optimization
+              BOM Optimisation
             </Link>
                 <Link 
                   href="/news" 
