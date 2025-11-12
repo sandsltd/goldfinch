@@ -34,11 +34,11 @@ export default function Header() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
                 <a 
-                  href="mailto:info@goldfinchrepresentation.com" 
+                  href="mailto:info@goldfinchrep.com" 
                   className="font-medium hover:opacity-80 transition-opacity duration-200"
                   style={{color: '#1a1a1a'}}
                 >
-                  info@goldfinchrepresentation.com
+                  info@goldfinchrep.com
                 </a>
               </div>
             </div>
@@ -172,11 +172,11 @@ export default function Header() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
                 <a 
-                  href="mailto:info@goldfinchrepresentation.com" 
+                  href="mailto:info@goldfinchrep.com" 
                   className="text-sm font-medium hover:opacity-80 transition-opacity duration-200"
                   style={{color: '#1a1a1a'}}
                 >
-                  info@goldfinchrepresentation.com
+                  info@goldfinchrep.com
                 </a>
               </div>
             </div>

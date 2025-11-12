@@ -177,7 +177,7 @@ export default function Home() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div className="order-2 lg:order-1">
                   <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{color: '#1a1a1a'}}>
-                    About <span style={{color: '#1a1a1a'}}>Goldfinch</span> Representation Ltd
+                    About <span style={{color: '#1a1a1a'}}>Goldfinch</span> Representation<span className="whitespace-nowrap"> Ltd</span>
                   </h2>
                   <p className="text-xl leading-relaxed text-gray-700 mb-6">
                     Based in the UK and ERA registered, Goldfinch Representation Ltd acts as a bridge between innovative component suppliers and electronics manufacturers across the UK and Europe. With strong industry expertise and a growing partner network, Goldfinch ensures customers get reliable access to high-quality parts, technical knowledge, and responsive support.
@@ -631,7 +631,7 @@ export default function Home() {
                         </svg>
                       </div>
                       <div>
-                        <h3 className="text-xl font-bold mb-2" style={{color: '#1a1a1a'}}>Electromagnetic</h3>
+                        <h3 className="text-xl font-bold mb-2" style={{color: '#1a1a1a'}}>Interconnect</h3>
                       </div>
                     </div>
                   </div>
@@ -1261,7 +1261,7 @@ export default function Home() {
       <section className="py-20" style={{backgroundColor: '#1a1a1a'}}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{color: '#D5CCC0'}}>
-            Ready to connect with Passive, Interconnect and Electromechanical component manufacturers?
+            Ready to connect with Passive, Interconnect & Electromechanical component manufacturers?
           </h2>
           <p className="text-xl mb-8" style={{color: '#D5CCC0'}}>
             Contact Goldfinch Representation Ltd today to discover how we can streamline your supply chain

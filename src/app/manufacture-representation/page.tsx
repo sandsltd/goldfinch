@@ -43,9 +43,9 @@ export default function ManufactureRepresentation() {
                   <h2 className="text-2xl font-bold text-gray-800">KDK</h2>
                 </div>
                 
-                {/* Description - Fixed Height */}
-                <div className="h-32 mb-4">
-                  <p className="text-gray-600 leading-relaxed text-sm h-full overflow-hidden">
+                {/* Description - Flexible Height */}
+                <div className="mb-4 flex-grow">
+                  <p className="text-gray-600 leading-relaxed text-sm">
                     KDK is located in Nagasaki, Japan and has more than 40 years&rsquo; experience in the Quartz Industry, providing various types of devices all over the world. All products are originally developed in Japan, with factory operations in China supporting competitive production that satisfies Japanese Quality standards.
                   </p>
                 </div>
@@ -97,9 +97,9 @@ export default function ManufactureRepresentation() {
                   <h2 className="text-2xl font-bold text-gray-800">PRANAGRAF</h2>
                 </div>
                 
-                {/* Description - Fixed Height */}
-                <div className="h-32 mb-4">
-                  <p className="text-gray-600 leading-relaxed text-sm h-full overflow-hidden">
+                {/* Description - Flexible Height */}
+                <div className="mb-4 flex-grow">
+                  <p className="text-gray-600 leading-relaxed text-sm">
                     PranaGraf Materials & Technologies is based in India and has multiple technologies for manufacturing specialty downstream natural graphite products like High Purity Graphite, Expandable Graphite, Micronized Graphite, Spherical Graphite, Graphene and Composites.
                   </p>
                 </div>
@@ -143,9 +143,9 @@ export default function ManufactureRepresentation() {
                   <h2 className="text-2xl font-bold text-gray-800">SOLID STATE OPTRONICS</h2>
                 </div>
                 
-                {/* Description - Fixed Height */}
-                <div className="h-32 mb-4">
-                  <p className="text-gray-600 leading-relaxed text-sm h-full overflow-hidden">
+                {/* Description - Flexible Height */}
+                <div className="mb-4 flex-grow">
+                  <p className="text-gray-600 leading-relaxed text-sm">
                     Solid State Optronics (SSO) was founded in 1982 in San Jose, California, the Capital of Silicon Valley. Building on advances in solid state technology and semiconductor fabrication, SSO developed proprietary, patented technologies in Solid State Relay (SSR) designs.
                   </p>
                 </div>

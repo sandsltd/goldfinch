@@ -58,8 +58,8 @@ export default function ProductRepresentation() {
                 href="https://www.ssousa.com/catalog/mosfet_output_ssr" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-sm font-medium text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
-                style={{backgroundColor: '#dc2626'}}
+                className="inline-flex items-center text-sm font-medium px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
+                style={{backgroundColor: '#1a1a1a', color: '#FFD700'}}
               >
                 View Products
                 <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -81,8 +81,8 @@ export default function ProductRepresentation() {
                 href="https://www.ssousa.com/catalog/ac_output_ssr" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-sm font-medium text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
-                style={{backgroundColor: '#dc2626'}}
+                className="inline-flex items-center text-sm font-medium px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
+                style={{backgroundColor: '#1a1a1a', color: '#FFD700'}}
               >
                 View Products
                 <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -104,8 +104,8 @@ export default function ProductRepresentation() {
                 href="https://www.ssousa.com/catalog/mos_drivers" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-sm font-medium text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
-                style={{backgroundColor: '#dc2626'}}
+                className="inline-flex items-center text-sm font-medium px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
+                style={{backgroundColor: '#1a1a1a', color: '#FFD700'}}
               >
                 View Products
                 <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -128,8 +128,8 @@ export default function ProductRepresentation() {
                 href="https://www.ssousa.com/catalog/opto_transistor" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-sm font-medium text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
-                style={{backgroundColor: '#dc2626'}}
+                className="inline-flex items-center text-sm font-medium px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
+                style={{backgroundColor: '#1a1a1a', color: '#FFD700'}}
               >
                 View Products
                 <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -151,8 +151,8 @@ export default function ProductRepresentation() {
                 href="https://www.ssousa.com/catalog/triac_drivers" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-sm font-medium text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
-                style={{backgroundColor: '#dc2626'}}
+                className="inline-flex items-center text-sm font-medium px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
+                style={{backgroundColor: '#1a1a1a', color: '#FFD700'}}
               >
                 View Products
                 <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -174,8 +174,8 @@ export default function ProductRepresentation() {
                 href="https://www.ssousa.com/catalog/igbt_drivers" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-sm font-medium text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
-                style={{backgroundColor: '#dc2626'}}
+                className="inline-flex items-center text-sm font-medium px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
+                style={{backgroundColor: '#1a1a1a', color: '#FFD700'}}
               >
                 View Products
                 <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -197,8 +197,8 @@ export default function ProductRepresentation() {
                 href="https://www.ssousa.com/catalog/specialty_products" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-sm font-medium text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
-                style={{backgroundColor: '#dc2626'}}
+                className="inline-flex items-center text-sm font-medium px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
+                style={{backgroundColor: '#1a1a1a', color: '#FFD700'}}
               >
                 View Products
                 <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -221,8 +221,8 @@ export default function ProductRepresentation() {
                 href="https://www.ssousa.com/catalog/hightemp_hirel" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-sm font-medium text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
-                style={{backgroundColor: '#dc2626'}}
+                className="inline-flex items-center text-sm font-medium px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
+                style={{backgroundColor: '#1a1a1a', color: '#FFD700'}}
               >
                 View Products
                 <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -347,8 +347,8 @@ export default function ProductRepresentation() {
                 href="http://www.kdk-group.co.jp/en/sub/crystal.html" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-sm font-medium text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
-                style={{backgroundColor: '#dc2626'}}
+                className="inline-flex items-center text-sm font-medium px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
+                style={{backgroundColor: '#1a1a1a', color: '#FFD700'}}
               >
                 View Products
                 <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -370,8 +370,8 @@ export default function ProductRepresentation() {
                 href="http://www.kdk-group.co.jp/en/sub/oscillator.html" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-sm font-medium text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
-                style={{backgroundColor: '#dc2626'}}
+                className="inline-flex items-center text-sm font-medium px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
+                style={{backgroundColor: '#1a1a1a', color: '#FFD700'}}
               >
                 View Products
                 <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -393,8 +393,8 @@ export default function ProductRepresentation() {
                 href="http://www.kdk-group.co.jp/en/sub/vcxo.html" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-sm font-medium text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
-                style={{backgroundColor: '#dc2626'}}
+                className="inline-flex items-center text-sm font-medium px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
+                style={{backgroundColor: '#1a1a1a', color: '#FFD700'}}
               >
                 View Products
                 <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -417,8 +417,8 @@ export default function ProductRepresentation() {
                 href="http://www.kdk-group.co.jp/en/sub/tcxo.html" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-sm font-medium text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
-                style={{backgroundColor: '#dc2626'}}
+                className="inline-flex items-center text-sm font-medium px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
+                style={{backgroundColor: '#1a1a1a', color: '#FFD700'}}
               >
                 View Products
                 <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -440,8 +440,8 @@ export default function ProductRepresentation() {
                 href="http://www.kdk-group.co.jp/en/sub/ocxo.html" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-sm font-medium text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
-                style={{backgroundColor: '#dc2626'}}
+                className="inline-flex items-center text-sm font-medium px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
+                style={{backgroundColor: '#1a1a1a', color: '#FFD700'}}
               >
                 View Products
                 <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -463,8 +463,8 @@ export default function ProductRepresentation() {
                 href="http://www.kdk-group.co.jp/en/sub/filter.html" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-sm font-medium text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
-                style={{backgroundColor: '#dc2626'}}
+                className="inline-flex items-center text-sm font-medium px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
+                style={{backgroundColor: '#1a1a1a', color: '#FFD700'}}
               >
                 View Products
                 <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -486,8 +486,8 @@ export default function ProductRepresentation() {
                 href="http://www.kdk-group.co.jp/en/sub/qcm.html" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-sm font-medium text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
-                style={{backgroundColor: '#dc2626'}}
+                className="inline-flex items-center text-sm font-medium px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
+                style={{backgroundColor: '#1a1a1a', color: '#FFD700'}}
               >
                 View Products
                 <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -510,8 +510,8 @@ export default function ProductRepresentation() {
                 href="http://www.kdk-group.co.jp/en/sub/blank.html" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-sm font-medium text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
-                style={{backgroundColor: '#dc2626'}}
+                className="inline-flex items-center text-sm font-medium px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
+                style={{backgroundColor: '#1a1a1a', color: '#FFD700'}}
               >
                 View Products
                 <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -533,8 +533,8 @@ export default function ProductRepresentation() {
                 href="http://www.kdk-group.co.jp/en/sub/rtc.html" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-sm font-medium text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
-                style={{backgroundColor: '#dc2626'}}
+                className="inline-flex items-center text-sm font-medium px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
+                style={{backgroundColor: '#1a1a1a', color: '#FFD700'}}
               >
                 View Products
                 <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -556,8 +556,8 @@ export default function ProductRepresentation() {
                 href="http://www.kdk-group.co.jp/en/sub/auto.html" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-sm font-medium text-white px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
-                style={{backgroundColor: '#dc2626'}}
+                className="inline-flex items-center text-sm font-medium px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
+                style={{backgroundColor: '#1a1a1a', color: '#FFD700'}}
               >
                 View Products
                 <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -738,7 +738,7 @@ export default function ProductRepresentation() {
               
               <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center sm:items-center">
                 <a 
-                  href="mailto:info@goldfinchelectronics.com?subject=PRANAGRAF Product Inquiry" 
+                  href="mailto:info@goldfinchrep.com?subject=PRANAGRAF Product Inquiry" 
                   className="inline-flex items-center text-white px-6 py-3 rounded-md font-medium hover:opacity-90 transition-opacity"
                   style={{backgroundColor: '#dc2626'}}
                 >
