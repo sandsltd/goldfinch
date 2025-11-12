@@ -23,7 +23,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-goldfinch-white-400 mb-4 max-w-md">
-              "The goldfinch is known as a symbol of connection and community – a bright, social bird that brings energy wherever it goes. It reflects my own personality in sales: connecting people, creating relationships, and sparking opportunities."
+              &ldquo;The goldfinch is known as a symbol of connection and community – a bright, social bird that brings energy wherever it goes. It reflects my own personality in sales: connecting people, creating relationships, and sparking opportunities.&rdquo;
             </p>
             <div className="flex space-x-4">
                 <a href="https://www.linkedin.com/in/kevin-white-45a92516/" target="_blank" rel="noopener noreferrer" className="text-goldfinch-white-400 hover:text-goldfinch-gold transition-colors duration-200">

@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function BOMOptimization() {
   return (
     <div className="min-h-screen">
@@ -17,9 +19,11 @@ export default function BOMOptimization() {
                 </p>
               </div>
               <div className="flex justify-center">
-                <img 
+                <Image 
                   src="/goldfinch/1.png" 
                   alt="Cost Analysis and BOM Optimisation" 
+                  width={500}
+                  height={300}
                   className="rounded-lg shadow-md max-w-full h-auto"
                 />
               </div>
@@ -27,9 +31,11 @@ export default function BOMOptimization() {
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-8">
               <div className="order-2 lg:order-1 flex justify-center">
-                <img 
+                <Image 
                   src="/goldfinch/2.png" 
                   alt="Supply Chain Reliability" 
+                  width={500}
+                  height={300}
                   className="rounded-lg shadow-md max-w-full h-auto"
                 />
               </div>
@@ -47,9 +53,11 @@ export default function BOMOptimization() {
                 </p>
               </div>
               <div className="flex justify-center">
-                <img 
+                <Image 
                   src="/goldfinch/3.png" 
                   alt="Market Volatility Protection" 
+                  width={500}
+                  height={300}
                   className="rounded-lg shadow-md max-w-full h-auto"
                 />
               </div>
