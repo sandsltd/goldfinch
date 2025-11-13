@@ -153,7 +153,7 @@ export default function Home() {
                   <span className="text-white"> with UK & European Electronics Companies</span>
                 </h1>
                 <p className="text-xl mb-8 leading-relaxed text-white">
-                  Goldfinch Representation Ltd provides trusted sales representation for worldwide manufacturers of PCB-level components, helping UK and European customers access world-class interconnect, passive and electromechanical solutions.
+                  Goldfinch Representation Ltd provides trusted sales representation for worldwide manufacturers of PCB-level components, helping UK and European customers access world-class passive, interconnect and electromechanical solutions.
                 </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
               <button 
