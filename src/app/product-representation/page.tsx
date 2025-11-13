@@ -232,44 +232,6 @@ export default function ProductRepresentation() {
             </div>
           </div>
 
-          {/* SSO Product Images Gallery */}
-          <div className="mt-16 mb-12">
-            <h3 className="text-2xl font-bold mb-8 text-center" style={{color: '#1a1a1a'}}>
-              SSO Product Images
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-4 hover:shadow-lg transition-shadow duration-300">
-                <Image
-                  src="/images/SSO Content/News Form C SSR.jpg"
-                  alt="SSO Form C SSR Products"
-                  width={300}
-                  height={200}
-                  className="w-full h-48 object-contain rounded-lg bg-gray-50"
-                />
-                <p className="text-sm text-gray-600 text-center mt-2">Form C SSR Products</p>
-              </div>
-              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-4 hover:shadow-lg transition-shadow duration-300">
-                <Image
-                  src="/images/SSO Content/Unknown.jpeg"
-                  alt="SSO Product Components"
-                  width={300}
-                  height={200}
-                  className="w-full h-48 object-contain rounded-lg bg-gray-50"
-                />
-                <p className="text-sm text-gray-600 text-center mt-2">SSO Components</p>
-              </div>
-              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-4 hover:shadow-lg transition-shadow duration-300">
-                <Image
-                  src="/images/SSO Content/Unknown-1.jpeg"
-                  alt="SSO Advanced Products"
-                  width={300}
-                  height={200}
-                  className="w-full h-48 object-contain rounded-lg bg-gray-50"
-                />
-                <p className="text-sm text-gray-600 text-center mt-2">Advanced Driver Solutions</p>
-              </div>
-            </div>
-          </div>
 
           {/* Featured News Section */}
           <div className="bg-gray-50 rounded-xl p-8 border-l-4" style={{borderLeftColor: '#FFD700'}}>
@@ -355,7 +317,7 @@ export default function ProductRepresentation() {
             <div className="flex flex-col items-center mb-8">
               <a href="http://www.kdk-group.co.jp/en/index.html" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
                 <Image
-                  src="/images/KDK/Unknown.jpeg"
+                  src="/images/KDK/KDK Logo-1.jpg"
                   alt="KDK Logo"
                   width={200}
                   height={80}
@@ -606,44 +568,6 @@ export default function ProductRepresentation() {
             </div>
           </div>
 
-          {/* KDK Product Images Gallery */}
-          <div className="mt-16 mb-12">
-            <h3 className="text-2xl font-bold mb-8 text-center" style={{color: '#1a1a1a'}}>
-              KDK Product Images
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-4 hover:shadow-lg transition-shadow duration-300">
-                <Image
-                  src="/images/KDK/Crystal Unit.gif"
-                  alt="KDK Crystal Unit Products"
-                  width={300}
-                  height={200}
-                  className="w-full h-48 object-contain rounded-lg bg-gray-50"
-                />
-                <p className="text-sm text-gray-600 text-center mt-2">Crystal Unit Products</p>
-              </div>
-              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-4 hover:shadow-lg transition-shadow duration-300">
-                <Image
-                  src="/images/KDK/Crystal Filter.jpg"
-                  alt="KDK Crystal Filter Products"
-                  width={300}
-                  height={200}
-                  className="w-full h-48 object-contain rounded-lg bg-gray-50"
-                />
-                <p className="text-sm text-gray-600 text-center mt-2">Crystal Filter Products</p>
-              </div>
-              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-4 hover:shadow-lg transition-shadow duration-300">
-                <Image
-                  src="/images/KDK/Automotive.png"
-                  alt="KDK Automotive Products"
-                  width={300}
-                  height={200}
-                  className="w-full h-48 object-contain rounded-lg bg-gray-50"
-                />
-                <p className="text-sm text-gray-600 text-center mt-2">Automotive Crystal Components</p>
-              </div>
-            </div>
-          </div>
 
           {/* Featured News Section */}
           <div className="bg-white rounded-xl p-8 border-l-4 shadow-sm" style={{borderLeftColor: '#FFD700'}}>

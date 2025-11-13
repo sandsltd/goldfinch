@@ -29,7 +29,7 @@ export default function ManufactureRepresentation() {
                 <div className="h-24 flex items-center justify-center mb-4">
                   <a href="http://www.kdk-group.co.jp/en/index.html" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
                     <Image
-                      src="/images/KDK/Unknown.jpeg"
+                      src="/images/KDK/KDK Logo-1.jpg"
                       alt="KDK Logo"
                       width={160}
                       height={90}

@@ -1048,7 +1048,7 @@ export default function Home() {
               <div className="mb-6 flex items-center justify-center" style={{height: '120px'}}>
                 <a href="http://www.kdk-group.co.jp/en/index.html" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity inline-block">
                   <Image
-                    src="/images/KDK/Unknown.jpeg"
+                    src="/images/KDK/KDK Logo-1.jpg"
                     alt="KDK Logo"
                     width={180}
                     height={120}

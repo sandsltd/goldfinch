@@ -96,7 +96,7 @@ export default function News() {
               <div className="flex items-start space-x-6">
                 <div className="w-24 h-24 rounded-lg flex items-center justify-center flex-shrink-0 bg-white">
                   <Image
-                    src="/images/KDK/Unknown.jpeg"
+                    src="/images/KDK/KDK Logo-1.jpg"
                     alt="KDK Logo"
                     width={80}
                     height={40}
