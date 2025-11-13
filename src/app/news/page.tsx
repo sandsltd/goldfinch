@@ -4,18 +4,16 @@ export default function News() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header Section */}
-      <section className="bg-gray-50 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl lg:text-5xl font-bold mb-6" style={{color: '#1a1a1a'}}>
-              Latest <span style={{color: '#dc2626'}}>News</span> &
-              <br />
-              <span style={{color: '#FFD700'}}>Insights</span>
-            </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Stay updated with the latest developments from our manufacturing partners
-            </p>
-          </div>
+      <section className="bg-goldfinch-white-50 py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-4xl lg:text-5xl font-bold text-goldfinch-black-900 mb-6">
+            Latest <span className="text-goldfinch-red-500">News</span> &
+            <br />
+            <span className="text-goldfinch-yellow-600">Insights</span>
+          </h1>
+          <p className="text-xl text-goldfinch-brown-700 max-w-3xl mx-auto">
+            Stay updated with the latest developments from our manufacturing partners
+          </p>
         </div>
       </section>
 
@@ -27,7 +25,7 @@ export default function News() {
             {/* SSO Featured News */}
             <article className="bg-white rounded-xl p-8 border-l-4 shadow-lg" style={{borderLeftColor: '#FFD700'}}>
               <div className="flex items-start space-x-6">
-                <div className="w-24 h-24 rounded-lg flex items-center justify-center flex-shrink-0" style={{backgroundColor: '#dc2626'}}>
+                <div className="w-24 h-24 rounded-lg flex items-center justify-center flex-shrink-0 bg-white">
                   <Image
                     src="/images/SSO Content/SSO Logo2.png"
                     alt="SSO Logo"
@@ -170,7 +168,7 @@ export default function News() {
             {/* PRANAGRAF Section */}
             <article className="bg-white rounded-xl p-8 border-l-4 shadow-lg" style={{borderLeftColor: '#FFD700'}}>
               <div className="flex items-start space-x-6">
-                <div className="w-24 h-24 rounded-lg flex items-center justify-center flex-shrink-0" style={{backgroundColor: '#dc2626'}}>
+                <div className="w-24 h-24 rounded-lg flex items-center justify-center flex-shrink-0 bg-white">
                   <Image
                     src="/images/PranaGraf/PranaGraf Logo.png"
                     alt="PRANAGRAF Logo"

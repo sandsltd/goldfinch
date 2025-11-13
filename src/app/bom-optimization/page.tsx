@@ -3,9 +3,22 @@ import Image from 'next/image';
 export default function BOMOptimization() {
   return (
     <div className="min-h-screen">
+      {/* Header Section */}
+      <section className="bg-goldfinch-white-50 py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-4xl lg:text-5xl font-bold text-goldfinch-black-900 mb-6">
+            <span className="text-goldfinch-red-500">BOM</span>
+            <br />
+            <span className="text-goldfinch-yellow-600">Optimisation</span>
+          </h1>
+          <p className="text-xl text-goldfinch-brown-700 max-w-3xl mx-auto">
+            Expert Bill of Materials analysis and optimisation services to reduce costs and secure supply chains
+          </p>
+        </div>
+      </section>
 
       {/* Capability Statement Section */}
-      <section className="py-16 bg-white min-h-screen flex items-center">
+      <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="bg-gradient-to-r from-goldfinch-red-50 to-goldfinch-yellow-50 rounded-lg shadow-lg p-8 lg:p-12">
             <h2 className="text-3xl font-bold text-center mb-12" style={{color: '#ef4444'}}>
