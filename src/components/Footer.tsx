@@ -100,11 +100,21 @@ export default function Footer() {
 
         {/* Bottom Section */}
         <div className="mt-8 pt-8 border-t border-goldfinch-gold border-opacity-30">
-          <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4">
               <p className="text-goldfinch-white-400 text-sm">
                 © {new Date().getFullYear()} Goldfinch Representation Ltd. All rights reserved.
               </p>
+            </div>
+            <div className="flex items-center space-x-4">
+              <p className="text-goldfinch-white-400 text-xs">ERA Registered</p>
+              <Image
+                src="/images/SSO Content/ERA-LOGO-TEXT-STACKED-RIGHT-WEB-BLUE-1.png"
+                alt="ERA Registered"
+                width={80}
+                height={40}
+                className="object-contain"
+              />
             </div>
           </div>
         </div>

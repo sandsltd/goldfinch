@@ -65,9 +65,8 @@ export default function Header() {
             </div>
             <div className="flex flex-col justify-center">
               <h1 className="text-lg md:text-xl lg:text-2xl font-bold" style={{color: '#1a1a1a'}}>
-                Goldfinch Representation
+                Goldfinch Representation Ltd
               </h1>
-              <p className="text-xs md:text-sm font-medium" style={{color: '#1a1a1a'}}>Ltd</p>
             </div>
           </Link>
           

@@ -177,7 +177,7 @@ export default function Home() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div className="order-2 lg:order-1">
                   <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{color: '#1a1a1a'}}>
-                    About <span style={{color: '#1a1a1a'}}>Goldfinch</span> Representation<span className="whitespace-nowrap"> Ltd</span>
+                    About <span style={{color: '#1a1a1a'}}>Goldfinch</span> <span className="whitespace-nowrap">Representation Ltd</span>
                   </h2>
                   <p className="text-xl leading-relaxed text-gray-700 mb-6">
                     Based in the UK and ERA registered, Goldfinch Representation Ltd acts as a bridge between innovative component suppliers and electronics manufacturers across the UK and Europe. With strong industry expertise and a growing partner network, Goldfinch ensures customers get reliable access to high-quality parts, technical knowledge, and responsive support.
@@ -187,7 +187,7 @@ export default function Home() {
                   <div className="flex items-center space-x-4 p-5 bg-white rounded-xl border border-gray-200 border-l-4 shadow-sm mb-8" style={{borderLeftColor: '#FFD700'}}>
                     <div className="relative w-16 h-12">
                       <Image
-                        src="/logos/era_logo_chrome_135.png"
+                        src="/images/SSO Content/ERA-LOGO-TEXT-STACKED-RIGHT-WEB-BLUE-1.png"
                         alt="ERA - Electronic Representatives Association"
                         fill
                         className="object-contain"
@@ -803,13 +803,14 @@ export default function Home() {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 {/* ERA Registered */}
                 <div className="bg-white rounded-lg shadow-md p-8 border-l-4 hover:shadow-lg transition-shadow duration-300 text-center" style={{borderLeftColor: '#FFD700'}}>
-                  <div 
-                    className="w-16 h-16 rounded-lg flex items-center justify-center mx-auto mb-6"
-                    style={{backgroundColor: '#ef4444'}}
-                  >
-                    <svg className="w-8 h-8" style={{color: '#ffffff'}} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
+                  <div className="w-20 h-16 mx-auto mb-6 flex items-center justify-center">
+                    <Image
+                      src="/images/SSO Content/ERA-LOGO-TEXT-STACKED-RIGHT-WEB-BLUE-1.png"
+                      alt="ERA Logo"
+                      width={80}
+                      height={64}
+                      className="object-contain"
+                    />
                   </div>
                   <h3 className="text-lg font-bold mb-4" style={{color: '#1a1a1a'}}>ERA Registered</h3>
                   <p className="leading-relaxed text-gray-600">
