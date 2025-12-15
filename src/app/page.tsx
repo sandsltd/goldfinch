@@ -1031,15 +1031,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Our Partners Section */}
+      {/* Our Principals Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#1a1a1a'}}>
-              Our Partners
+              Our Principals
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Proudly representing innovative US manufacturers across the electronics industry
+              Proudly representing innovative manufacturers across the electronics industry
             </p>
           </div>
           
