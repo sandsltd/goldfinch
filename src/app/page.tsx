@@ -1130,11 +1130,69 @@ export default function Home() {
                 </svg>
               </a>
             </div>
+
+            {/* Elite Battery Systems */}
+            <div className="bg-white rounded-lg shadow-sm p-8 text-center flex flex-col h-full">
+              <div className="mb-6 flex items-center justify-center" style={{height: '120px'}}>
+                <a href="https://elitebatterysystems.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity inline-block">
+                  <Image
+                    src="/images/ESB/elite-battery-systems-logo.webp"
+                    alt="Elite Battery Systems Logo"
+                    width={180}
+                    height={120}
+                    className="object-contain mx-auto"
+                  />
+                </a>
+              </div>
+              <h3 className="text-xl font-bold mb-4 text-gray-800">ELITE BATTERY SYSTEMS</h3>
+              <p className="text-sm text-gray-600 leading-relaxed mb-6 flex-grow">
+                Elite Battery Systems delivers high-performance modular battery solutions built for flexibility and reliability in demanding applications. EBS customised battery systems are designed to meet specific needs at a cost-effective rate.
+              </p>
+              <a
+                href="/product-representation#esb"
+                className="inline-flex items-center text-white px-4 py-2 rounded-md text-sm font-medium hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 ease-out mt-auto group"
+                style={{backgroundColor: '#dc2626'}}
+              >
+                See Products
+                <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300 ease-out" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
+
+            {/* YOK Energy */}
+            <div className="bg-white rounded-lg shadow-sm p-8 text-center flex flex-col h-full">
+              <div className="mb-6 flex items-center justify-center" style={{height: '120px'}}>
+                <a href="https://www.yokenergy.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity inline-block">
+                  <Image
+                    src="/images/YOK/yok-energy-logo.png"
+                    alt="YOK Energy Logo"
+                    width={180}
+                    height={120}
+                    className="object-contain mx-auto"
+                  />
+                </a>
+              </div>
+              <h3 className="text-xl font-bold mb-4 text-gray-800">YOK ENERGY</h3>
+              <p className="text-sm text-gray-600 leading-relaxed mb-6 flex-grow">
+                YOK Energy are more than just a supplier; they are a partner in innovation. With a core team boasting over 30 years of battery industry experience, they design and deliver custom battery cells and packs that help customers succeed.
+              </p>
+              <a
+                href="/product-representation#yok"
+                className="inline-flex items-center text-white px-4 py-2 rounded-md text-sm font-medium hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 ease-out mt-auto group"
+                style={{backgroundColor: '#dc2626'}}
+              >
+                See Products
+                <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300 ease-out" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
           </div>
-          
+
           <div className="text-center mt-12">
             <p className="text-gray-600">
-              <span className="font-medium" style={{color: '#1a1a1a'}}>Interested in partnership?</span> 
+              <span className="font-medium" style={{color: '#1a1a1a'}}>Interested in partnership?</span>
               <span className="ml-2">We&apos;re always looking to work with innovative component manufacturers.</span>
             </p>
           </div>
