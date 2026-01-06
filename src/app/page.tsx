@@ -7,6 +7,8 @@ export default function Home() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalStep, setModalStep] = useState(1);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState('');
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -112,10 +114,29 @@ export default function Home() {
     });
   };
 
-  const handleSubmit = () => {
-    // Here you would typically send the data to your backend
-    console.log('Form submitted:', formData);
-    setModalStep(3); // Go to success step
+  const handleSubmit = async () => {
+    setIsSubmitting(true);
+    setSubmitError('');
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to send message');
+      }
+
+      setModalStep(3); // Go to success step
+    } catch {
+      setSubmitError('Failed to send your message. Please try again or email us directly.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -322,6 +343,174 @@ export default function Home() {
               </div>
             </div>
           </section>
+
+      {/* Our Principals Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#1a1a1a'}}>
+              Our Principals
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+              Proudly representing innovative manufacturers across the electronics industry
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {/* KDK */}
+            <div className="bg-white rounded-lg shadow-sm p-8 text-center flex flex-col h-full">
+              <div className="mb-6 flex items-center justify-center" style={{height: '120px'}}>
+                <a href="http://www.kdk-group.co.jp/en/index.html" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity inline-block">
+                  <Image
+                    src="/images/KDK/KDK Logo-1.jpg"
+                    alt="KDK Logo"
+                    width={180}
+                    height={120}
+                    className="object-contain mx-auto"
+                  />
+                </a>
+              </div>
+              <h3 className="text-xl font-bold mb-4 text-gray-800">KDK</h3>
+              <p className="text-sm text-gray-600 leading-relaxed mb-6 flex-grow">
+                KDK is located in Nagasaki, Japan and has more than 40 years&rsquo; experience in the Quartz Industry, providing various types of devices all over the world. All products are originally developed in Japan, with factory operations in China supporting competitive production that satisfies Japanese Quality standards.
+              </p>
+              <a
+                href="/product-representation#kdk"
+                className="inline-flex items-center text-white px-4 py-2 rounded-md text-sm font-medium hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 ease-out mt-auto group"
+                style={{backgroundColor: '#dc2626'}}
+              >
+                See Products
+                <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300 ease-out" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
+
+            {/* PranaGraf */}
+            <div className="bg-white rounded-lg shadow-sm p-8 text-center flex flex-col h-full">
+              <div className="mb-6 flex items-center justify-center" style={{height: '120px'}}>
+                <a href="https://www.pranagraf.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity inline-block">
+                  <Image
+                    src="/images/PranaGraf/PranaGraf Logo.png"
+                    alt="PranaGraf Logo"
+                    width={180}
+                    height={120}
+                    className="object-contain mx-auto"
+                  />
+                </a>
+              </div>
+              <h3 className="text-xl font-bold mb-4 text-gray-800">PRANAGRAF</h3>
+              <p className="text-sm text-gray-600 leading-relaxed mb-6 flex-grow">
+                PranaGraf Materials & Technologies is based in India and has multiple technologies for manufacturing specialty downstream natural graphite products like High Purity Graphite, Expandable Graphite, Micronized Graphite, Spherical Graphite, Graphene and Composites. PranaGraf is one of the very few Ex-China producers of these niche products.
+              </p>
+              <a
+                href="/product-representation#pranagraf"
+                className="inline-flex items-center text-white px-4 py-2 rounded-md text-sm font-medium hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 ease-out mt-auto group"
+                style={{backgroundColor: '#dc2626'}}
+              >
+                See Products
+                <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300 ease-out" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
+
+            {/* SSO */}
+            <div className="bg-white rounded-lg shadow-sm p-8 text-center flex flex-col h-full">
+              <div className="mb-6 flex items-center justify-center" style={{height: '120px'}}>
+                <a href="https://www.ssousa.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity inline-block">
+                  <Image
+                    src="/images/SSO Content/SSO Logo2.png"
+                    alt="SSO Logo"
+                    width={180}
+                    height={120}
+                    className="object-contain mx-auto"
+                  />
+                </a>
+              </div>
+              <h3 className="text-xl font-bold mb-4 text-gray-800">SOLID STATE OPTRONICS</h3>
+              <p className="text-sm text-gray-600 leading-relaxed mb-6 flex-grow">
+                Solid State Optronics (SSO) was founded in 1982 in San Jose, California. SSO develops proprietary Solid State Relay (SSR) technologies with innovative 5-component architecture for high-performance switching applications across multiple industries.
+              </p>
+              <a
+                href="/product-representation#sso"
+                className="inline-flex items-center text-white px-4 py-2 rounded-md text-sm font-medium hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 ease-out mt-auto group"
+                style={{backgroundColor: '#dc2626'}}
+              >
+                See Products
+                <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300 ease-out" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
+
+            {/* Elite Battery Systems */}
+            <div className="bg-white rounded-lg shadow-sm p-8 text-center flex flex-col h-full">
+              <div className="mb-6 flex items-center justify-center" style={{height: '120px'}}>
+                <a href="https://elitebatterysystems.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity inline-block">
+                  <Image
+                    src="/images/ESB/elite-battery-systems-logo.webp"
+                    alt="Elite Battery Systems Logo"
+                    width={180}
+                    height={120}
+                    className="object-contain mx-auto"
+                  />
+                </a>
+              </div>
+              <h3 className="text-xl font-bold mb-4 text-gray-800">ELITE BATTERY SYSTEMS</h3>
+              <p className="text-sm text-gray-600 leading-relaxed mb-6 flex-grow">
+                Elite Battery Systems delivers high-performance modular battery solutions built for flexibility and reliability in demanding applications. EBS customised battery systems are designed to meet specific needs at a cost-effective rate.
+              </p>
+              <a
+                href="/product-representation#esb"
+                className="inline-flex items-center text-white px-4 py-2 rounded-md text-sm font-medium hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 ease-out mt-auto group"
+                style={{backgroundColor: '#dc2626'}}
+              >
+                See Products
+                <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300 ease-out" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
+
+            {/* YOK Energy */}
+            <div className="bg-white rounded-lg shadow-sm p-8 text-center flex flex-col h-full">
+              <div className="mb-6 flex items-center justify-center" style={{height: '120px'}}>
+                <a href="https://www.yokenergy.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity inline-block">
+                  <Image
+                    src="/images/YOK/yok-energy-logo.png"
+                    alt="YOK Energy Logo"
+                    width={180}
+                    height={120}
+                    className="object-contain mx-auto"
+                  />
+                </a>
+              </div>
+              <h3 className="text-xl font-bold mb-4 text-gray-800">YOK ENERGY</h3>
+              <p className="text-sm text-gray-600 leading-relaxed mb-6 flex-grow">
+                YOK Energy are more than just a supplier; they are a partner in innovation. With a core team boasting over 30 years of battery industry experience, they design and deliver custom battery cells and packs that help customers succeed.
+              </p>
+              <a
+                href="/product-representation#yok"
+                className="inline-flex items-center text-white px-4 py-2 rounded-md text-sm font-medium hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 ease-out mt-auto group"
+                style={{backgroundColor: '#dc2626'}}
+              >
+                See Products
+                <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300 ease-out" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div className="text-center mt-12">
+            <p className="text-gray-600">
+              <span className="font-medium" style={{color: '#1a1a1a'}}>Interested in partnership?</span>
+              <span className="ml-2">We&apos;re always looking to work with innovative component manufacturers.</span>
+            </p>
+          </div>
+        </div>
+      </section>
 
 
           {/* Our Services Section */}
@@ -1031,174 +1220,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Our Principals Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-4" style={{color: '#1a1a1a'}}>
-              Our Principals
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Proudly representing innovative manufacturers across the electronics industry
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {/* KDK */}
-            <div className="bg-white rounded-lg shadow-sm p-8 text-center flex flex-col h-full">
-              <div className="mb-6 flex items-center justify-center" style={{height: '120px'}}>
-                <a href="http://www.kdk-group.co.jp/en/index.html" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity inline-block">
-                  <Image
-                    src="/images/KDK/KDK Logo-1.jpg"
-                    alt="KDK Logo"
-                    width={180}
-                    height={120}
-                    className="object-contain mx-auto"
-                  />
-                </a>
-              </div>
-              <h3 className="text-xl font-bold mb-4 text-gray-800">KDK</h3>
-              <p className="text-sm text-gray-600 leading-relaxed mb-6 flex-grow">
-                KDK is located in Nagasaki, Japan and has more than 40 years&rsquo; experience in the Quartz Industry, providing various types of devices all over the world. All products are originally developed in Japan, with factory operations in China supporting competitive production that satisfies Japanese Quality standards.
-              </p>
-              <a 
-                href="/product-representation#kdk" 
-                className="inline-flex items-center text-white px-4 py-2 rounded-md text-sm font-medium hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 ease-out mt-auto group"
-                style={{backgroundColor: '#dc2626'}}
-              >
-                See Products
-                <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300 ease-out" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </a>
-            </div>
-
-            {/* PranaGraf */}
-            <div className="bg-white rounded-lg shadow-sm p-8 text-center flex flex-col h-full">
-              <div className="mb-6 flex items-center justify-center" style={{height: '120px'}}>
-                <a href="https://www.pranagraf.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity inline-block">
-                  <Image
-                    src="/images/PranaGraf/PranaGraf Logo.png"
-                    alt="PranaGraf Logo"
-                    width={180}
-                    height={120}
-                    className="object-contain mx-auto"
-                  />
-                </a>
-              </div>
-              <h3 className="text-xl font-bold mb-4 text-gray-800">PRANAGRAF</h3>
-              <p className="text-sm text-gray-600 leading-relaxed mb-6 flex-grow">
-                PranaGraf Materials & Technologies is based in India and has multiple technologies for manufacturing specialty downstream natural graphite products like High Purity Graphite, Expandable Graphite, Micronized Graphite, Spherical Graphite, Graphene and Composites. PranaGraf is one of the very few Ex-China producers of these niche products.
-              </p>
-              <a 
-                href="/product-representation#pranagraf" 
-                className="inline-flex items-center text-white px-4 py-2 rounded-md text-sm font-medium hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 ease-out mt-auto group"
-                style={{backgroundColor: '#dc2626'}}
-              >
-                See Products
-                <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300 ease-out" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </a>
-            </div>
-
-            {/* SSO */}
-            <div className="bg-white rounded-lg shadow-sm p-8 text-center flex flex-col h-full">
-              <div className="mb-6 flex items-center justify-center" style={{height: '120px'}}>
-                <a href="https://www.ssousa.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity inline-block">
-                  <Image
-                    src="/images/SSO Content/SSO Logo2.png"
-                    alt="SSO Logo"
-                    width={180}
-                    height={120}
-                    className="object-contain mx-auto"
-                  />
-                </a>
-              </div>
-              <h3 className="text-xl font-bold mb-4 text-gray-800">SOLID STATE OPTRONICS</h3>
-              <p className="text-sm text-gray-600 leading-relaxed mb-6 flex-grow">
-                Solid State Optronics (SSO) was founded in 1982 in San Jose, California. SSO develops proprietary Solid State Relay (SSR) technologies with innovative 5-component architecture for high-performance switching applications across multiple industries.
-              </p>
-              <a 
-                href="/product-representation#sso" 
-                className="inline-flex items-center text-white px-4 py-2 rounded-md text-sm font-medium hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 ease-out mt-auto group"
-                style={{backgroundColor: '#dc2626'}}
-              >
-                See Products
-                <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300 ease-out" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </a>
-            </div>
-
-            {/* Elite Battery Systems */}
-            <div className="bg-white rounded-lg shadow-sm p-8 text-center flex flex-col h-full">
-              <div className="mb-6 flex items-center justify-center" style={{height: '120px'}}>
-                <a href="https://elitebatterysystems.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity inline-block">
-                  <Image
-                    src="/images/ESB/elite-battery-systems-logo.webp"
-                    alt="Elite Battery Systems Logo"
-                    width={180}
-                    height={120}
-                    className="object-contain mx-auto"
-                  />
-                </a>
-              </div>
-              <h3 className="text-xl font-bold mb-4 text-gray-800">ELITE BATTERY SYSTEMS</h3>
-              <p className="text-sm text-gray-600 leading-relaxed mb-6 flex-grow">
-                Elite Battery Systems delivers high-performance modular battery solutions built for flexibility and reliability in demanding applications. EBS customised battery systems are designed to meet specific needs at a cost-effective rate.
-              </p>
-              <a
-                href="/product-representation#esb"
-                className="inline-flex items-center text-white px-4 py-2 rounded-md text-sm font-medium hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 ease-out mt-auto group"
-                style={{backgroundColor: '#dc2626'}}
-              >
-                See Products
-                <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300 ease-out" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </a>
-            </div>
-
-            {/* YOK Energy */}
-            <div className="bg-white rounded-lg shadow-sm p-8 text-center flex flex-col h-full">
-              <div className="mb-6 flex items-center justify-center" style={{height: '120px'}}>
-                <a href="https://www.yokenergy.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity inline-block">
-                  <Image
-                    src="/images/YOK/yok-energy-logo.png"
-                    alt="YOK Energy Logo"
-                    width={180}
-                    height={120}
-                    className="object-contain mx-auto"
-                  />
-                </a>
-              </div>
-              <h3 className="text-xl font-bold mb-4 text-gray-800">YOK ENERGY</h3>
-              <p className="text-sm text-gray-600 leading-relaxed mb-6 flex-grow">
-                YOK Energy are more than just a supplier; they are a partner in innovation. With a core team boasting over 30 years of battery industry experience, they design and deliver custom battery cells and packs that help customers succeed.
-              </p>
-              <a
-                href="/product-representation#yok"
-                className="inline-flex items-center text-white px-4 py-2 rounded-md text-sm font-medium hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 ease-out mt-auto group"
-                style={{backgroundColor: '#dc2626'}}
-              >
-                See Products
-                <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300 ease-out" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </a>
-            </div>
-          </div>
-
-          <div className="text-center mt-12">
-            <p className="text-gray-600">
-              <span className="font-medium" style={{color: '#1a1a1a'}}>Interested in partnership?</span>
-              <span className="ml-2">We&apos;re always looking to work with innovative component manufacturers.</span>
-            </p>
-          </div>
-        </div>
-      </section>
-
 
       {/* Insights from the Industry Teaser */}
       <section className="py-20 bg-white">
@@ -1540,6 +1561,11 @@ export default function Home() {
                   <p className="text-sm text-gray-500">
                     Please provide as much detail as possible to help us understand your requirements.
                   </p>
+                  {submitError && (
+                    <div className="mt-4 p-3 bg-red-50 border border-red-200 rounded-md">
+                      <p className="text-sm text-red-600">{submitError}</p>
+                    </div>
+                  )}
                 </div>
               )}
 
@@ -1581,14 +1607,14 @@ export default function Home() {
                 </button>
                 <button
                   onClick={modalStep === 1 ? nextStep : handleSubmit}
-                  disabled={modalStep === 1 ? !formData.name || !formData.email || !formData.country : !formData.message}
+                  disabled={modalStep === 1 ? !formData.name || !formData.email || !formData.country : !formData.message || isSubmitting}
                   className="px-6 py-2 rounded-lg font-semibold transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
                   style={{
                     backgroundColor: '#FFD700',
                     color: '#1a1a1a'
                   }}
                 >
-                  {modalStep === 1 ? 'Next' : 'Submit'}
+                  {modalStep === 1 ? 'Next' : isSubmitting ? 'Sending...' : 'Submit'}
                 </button>
               </div>
             )}

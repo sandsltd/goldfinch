@@ -246,7 +246,7 @@ export default function ProductRepresentation() {
               <h3 className="text-lg font-semibold mb-2" style={{color: '#1a1a1a'}}>Hi Temp / Hi Rel Devices</h3>
               <p className="text-gray-600 text-sm mb-4">High-temperature and high-reliability components for demanding environments</p>
               <a 
-                href="https://www.ssousa.com/catalog/hightemp_hirel" 
+                href="https://www.ssousa.com/product/hightemp-hirel" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-sm font-medium px-4 py-2 rounded-md hover:opacity-90 transition-opacity"
@@ -991,7 +991,7 @@ export default function ProductRepresentation() {
                 />
               </div>
               <h3 className="text-lg font-semibold mb-2" style={{color: '#1a1a1a'}}>Chargers</h3>
-              <p className="text-gray-600 text-sm mb-4">Professional charging solutions optimised for EBS battery systems</p>
+              <p className="text-gray-600 text-sm mb-4">Designed to complement EBS advanced lithium battery systems, ensuring optimal performance and extended battery life</p>
               <a
                 href="https://elitebatterysystems.com/chargers"
                 target="_blank"
