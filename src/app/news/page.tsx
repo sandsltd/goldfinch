@@ -240,6 +240,134 @@ export default function News() {
               </div>
             </article>
 
+            {/* EBS Featured News */}
+            <article className="bg-gray-50 rounded-xl p-8 border-l-4 shadow-lg" style={{borderLeftColor: '#FFD700'}}>
+              <div className="flex items-start space-x-6">
+                <div className="w-24 h-24 rounded-lg flex items-center justify-center flex-shrink-0 bg-white">
+                  <Image
+                    src="/images/ESB/elite-battery-systems-logo.webp"
+                    alt="Elite Battery Systems Logo"
+                    width={80}
+                    height={40}
+                    className="object-contain"
+                  />
+                </div>
+                <div className="flex-1">
+                  <div className="flex items-center space-x-3 mb-4">
+                    <span className="px-3 py-1 rounded-full text-xs font-medium text-white" style={{backgroundColor: '#dc2626'}}>
+                      EBS NEWS
+                    </span>
+                    <span className="text-gray-500 text-sm">Elite Battery Systems</span>
+                  </div>
+                  <h2 className="text-2xl font-bold mb-4" style={{color: '#1a1a1a'}}>
+                    Modular Battery Solutions for Solar and Energy Storage Applications
+                  </h2>
+                  <p className="text-gray-700 mb-6 leading-relaxed">
+                    Elite Battery Systems continues to expand its range of high-performance modular battery solutions, designed for flexibility and reliability in demanding solar and energy storage applications. EBS customised battery systems meet specific needs at cost-effective rates while maintaining the highest quality standards.
+                  </p>
+
+                  <div className="mb-6">
+                    <h3 className="text-lg font-semibold mb-3" style={{color: '#1a1a1a'}}>Key Features</h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                      <div className="flex items-center space-x-3">
+                        <div className="w-2 h-2 rounded-full" style={{backgroundColor: '#FFD700'}}></div>
+                        <span className="text-gray-700 text-sm">High Energy Density Solutions</span>
+                      </div>
+                      <div className="flex items-center space-x-3">
+                        <div className="w-2 h-2 rounded-full" style={{backgroundColor: '#FFD700'}}></div>
+                        <span className="text-gray-700 text-sm">Advanced Battery Management Systems</span>
+                      </div>
+                      <div className="flex items-center space-x-3">
+                        <div className="w-2 h-2 rounded-full" style={{backgroundColor: '#FFD700'}}></div>
+                        <span className="text-gray-700 text-sm">Compliance with Industry Standards</span>
+                      </div>
+                      <div className="flex items-center space-x-3">
+                        <div className="w-2 h-2 rounded-full" style={{backgroundColor: '#FFD700'}}></div>
+                        <span className="text-gray-700 text-sm">Flexible Customisation Options</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <a
+                    href="https://elitebatterysystems.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-white px-6 py-3 rounded-md font-medium hover:opacity-90 transition-opacity"
+                    style={{backgroundColor: '#dc2626'}}
+                  >
+                    Learn More
+                    <svg className="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            {/* YOK Energy Featured News */}
+            <article className="bg-white rounded-xl p-8 border-l-4 shadow-lg" style={{borderLeftColor: '#FFD700'}}>
+              <div className="flex items-start space-x-6">
+                <div className="w-24 h-24 rounded-lg flex items-center justify-center flex-shrink-0 bg-white">
+                  <Image
+                    src="/images/YOK/yok-energy-logo.png"
+                    alt="YOK Energy Logo"
+                    width={80}
+                    height={40}
+                    className="object-contain"
+                  />
+                </div>
+                <div className="flex-1">
+                  <div className="flex items-center space-x-3 mb-4">
+                    <span className="px-3 py-1 rounded-full text-xs font-medium text-white" style={{backgroundColor: '#dc2626'}}>
+                      YOK NEWS
+                    </span>
+                    <span className="text-gray-500 text-sm">YOK Energy</span>
+                  </div>
+                  <h2 className="text-2xl font-bold mb-4" style={{color: '#1a1a1a'}}>
+                    Choosing the Right Battery Supplier: What to Look For
+                  </h2>
+                  <p className="text-gray-700 mb-6 leading-relaxed">
+                    With over 30 years of battery industry experience, YOK Energy understands what makes a reliable battery partner. From custom cell development to complete pack solutions, YOK delivers innovation and quality that helps customers succeed in demanding applications.
+                  </p>
+
+                  <div className="mb-6">
+                    <h3 className="text-lg font-semibold mb-3" style={{color: '#1a1a1a'}}>Why Choose YOK Energy</h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                      <div className="flex items-center space-x-3">
+                        <div className="w-2 h-2 rounded-full" style={{backgroundColor: '#FFD700'}}></div>
+                        <span className="text-gray-700 text-sm">Cost-Effective Solutions</span>
+                      </div>
+                      <div className="flex items-center space-x-3">
+                        <div className="w-2 h-2 rounded-full" style={{backgroundColor: '#FFD700'}}></div>
+                        <span className="text-gray-700 text-sm">Full Customisation Capability</span>
+                      </div>
+                      <div className="flex items-center space-x-3">
+                        <div className="w-2 h-2 rounded-full" style={{backgroundColor: '#FFD700'}}></div>
+                        <span className="text-gray-700 text-sm">Global Reach & Support</span>
+                      </div>
+                      <div className="flex items-center space-x-3">
+                        <div className="w-2 h-2 rounded-full" style={{backgroundColor: '#FFD700'}}></div>
+                        <span className="text-gray-700 text-sm">30+ Years Industry Experience</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <a
+                    href="https://www.yokenergy.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-white px-6 py-3 rounded-md font-medium hover:opacity-90 transition-opacity"
+                    style={{backgroundColor: '#dc2626'}}
+                  >
+                    Learn More
+                    <svg className="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
           </div>
         </div>
       </section>

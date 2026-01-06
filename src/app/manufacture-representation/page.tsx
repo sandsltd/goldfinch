@@ -176,6 +176,114 @@ export default function ManufactureRepresentation() {
               </div>
             </div>
 
+            {/* Elite Battery Systems */}
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+              <div className="p-6 text-center flex flex-col h-full">
+                {/* Logo - Fixed Height */}
+                <div className="h-24 flex items-center justify-center mb-4">
+                  <a href="https://elitebatterysystems.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+                    <Image
+                      src="/images/ESB/elite-battery-systems-logo.webp"
+                      alt="Elite Battery Systems Logo"
+                      width={160}
+                      height={90}
+                      className="object-contain"
+                    />
+                  </a>
+                </div>
+
+                {/* Company Name - Fixed Height */}
+                <div className="h-16 flex items-center justify-center mb-4">
+                  <h2 className="text-2xl font-bold text-gray-800">ELITE BATTERY SYSTEMS</h2>
+                </div>
+
+                {/* Description - Flexible Height */}
+                <div className="mb-4 flex-grow">
+                  <p className="text-gray-600 leading-relaxed text-sm">
+                    Elite Battery Systems delivers high-performance modular battery solutions built for flexibility and reliability in demanding applications. EBS customised battery systems are designed to meet specific needs at a cost-effective rate.
+                  </p>
+                </div>
+
+                {/* Product Categories - Fixed at Bottom */}
+                <div className="grid grid-cols-2 gap-2 mt-auto">
+                  <a href="https://elitebatterysystems.com/standard-packs" target="_blank" rel="noopener noreferrer"
+                     className="text-xs py-2 px-3 rounded text-center font-medium hover:scale-105 transition-transform"
+                     style={{backgroundColor: '#FFD700', color: '#1a1a1a'}}>
+                    Standard Packs
+                  </a>
+                  <a href="https://elitebatterysystems.com/customisation" target="_blank" rel="noopener noreferrer"
+                     className="text-xs py-2 px-3 rounded text-center font-medium hover:scale-105 transition-transform"
+                     style={{backgroundColor: '#FFD700', color: '#1a1a1a'}}>
+                    Customisation
+                  </a>
+                  <a href="https://elitebatterysystems.com/energy-storage" target="_blank" rel="noopener noreferrer"
+                     className="text-xs py-2 px-3 rounded text-center font-medium hover:scale-105 transition-transform"
+                     style={{backgroundColor: '#FFD700', color: '#1a1a1a'}}>
+                    Energy Storage
+                  </a>
+                  <a href="https://elitebatterysystems.com/chargers" target="_blank" rel="noopener noreferrer"
+                     className="text-xs py-2 px-3 rounded text-center font-medium hover:scale-105 transition-transform"
+                     style={{backgroundColor: '#FFD700', color: '#1a1a1a'}}>
+                    Chargers
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* YOK Energy */}
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+              <div className="p-6 text-center flex flex-col h-full">
+                {/* Logo - Fixed Height */}
+                <div className="h-24 flex items-center justify-center mb-4">
+                  <a href="https://www.yokenergy.com/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+                    <Image
+                      src="/images/YOK/yok-energy-logo.png"
+                      alt="YOK Energy Logo"
+                      width={160}
+                      height={90}
+                      className="object-contain"
+                    />
+                  </a>
+                </div>
+
+                {/* Company Name - Fixed Height */}
+                <div className="h-16 flex items-center justify-center mb-4">
+                  <h2 className="text-2xl font-bold text-gray-800">YOK ENERGY</h2>
+                </div>
+
+                {/* Description - Flexible Height */}
+                <div className="mb-4 flex-grow">
+                  <p className="text-gray-600 leading-relaxed text-sm">
+                    YOK Energy are more than just a supplier; they are a partner in innovation. With a core team boasting over 30 years of battery industry experience, they design and deliver custom battery cells and packs that help customers succeed.
+                  </p>
+                </div>
+
+                {/* Product Categories - Fixed at Bottom */}
+                <div className="grid grid-cols-2 gap-2 mt-auto">
+                  <a href="https://www.yokenergy.com/battery-cells" target="_blank" rel="noopener noreferrer"
+                     className="text-xs py-2 px-3 rounded text-center font-medium hover:scale-105 transition-transform"
+                     style={{backgroundColor: '#FFD700', color: '#1a1a1a'}}>
+                    Battery Cells
+                  </a>
+                  <a href="https://www.yokenergy.com/battery-packs" target="_blank" rel="noopener noreferrer"
+                     className="text-xs py-2 px-3 rounded text-center font-medium hover:scale-105 transition-transform"
+                     style={{backgroundColor: '#FFD700', color: '#1a1a1a'}}>
+                    Battery Packs
+                  </a>
+                  <a href="https://www.yokenergy.com/custom-solutions" target="_blank" rel="noopener noreferrer"
+                     className="text-xs py-2 px-3 rounded text-center font-medium hover:scale-105 transition-transform"
+                     style={{backgroundColor: '#FFD700', color: '#1a1a1a'}}>
+                    Custom Solutions
+                  </a>
+                  <a href="https://www.yokenergy.com/industries" target="_blank" rel="noopener noreferrer"
+                     className="text-xs py-2 px-3 rounded text-center font-medium hover:scale-105 transition-transform"
+                     style={{backgroundColor: '#FFD700', color: '#1a1a1a'}}>
+                    Industries
+                  </a>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
