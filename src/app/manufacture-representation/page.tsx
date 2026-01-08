@@ -206,7 +206,7 @@ export default function ManufactureRepresentation() {
 
                 {/* Product Categories - Fixed at Bottom */}
                 <div className="grid grid-cols-2 gap-2 mt-auto">
-                  <a href="https://elitebatterysystems.com/standard-packs" target="_blank" rel="noopener noreferrer"
+                  <a href="https://elitebatterysystems.com/standard-battery-packs/" target="_blank" rel="noopener noreferrer"
                      className="text-xs py-2 px-3 rounded text-center font-medium hover:scale-105 transition-transform"
                      style={{backgroundColor: '#FFD700', color: '#1a1a1a'}}>
                     Standard Packs
@@ -270,15 +270,15 @@ export default function ManufactureRepresentation() {
                      style={{backgroundColor: '#FFD700', color: '#1a1a1a'}}>
                     Battery Packs
                   </a>
-                  <a href="https://www.yokenergy.com/custom-solutions" target="_blank" rel="noopener noreferrer"
+                  <a href="https://www.yokenergy.com/battery-cells/customisations/" target="_blank" rel="noopener noreferrer"
                      className="text-xs py-2 px-3 rounded text-center font-medium hover:scale-105 transition-transform"
                      style={{backgroundColor: '#FFD700', color: '#1a1a1a'}}>
                     Custom Solutions
                   </a>
-                  <a href="https://www.yokenergy.com/industries" target="_blank" rel="noopener noreferrer"
+                  <a href="https://www.yokenergy.com/battery-packs/primary-battery-packs/" target="_blank" rel="noopener noreferrer"
                      className="text-xs py-2 px-3 rounded text-center font-medium hover:scale-105 transition-transform"
                      style={{backgroundColor: '#FFD700', color: '#1a1a1a'}}>
-                    Industries
+                    Primary Battery Packs
                   </a>
                 </div>
               </div>
