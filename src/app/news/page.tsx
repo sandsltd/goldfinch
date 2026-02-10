@@ -89,7 +89,7 @@ export default function News() {
               </div>
             </article>
 
-            {/* KDK Featured News */}
+            {/* KDK VCXO Featured News */}
             <article className="bg-gray-50 rounded-xl p-8 border-l-4 shadow-lg" style={{borderLeftColor: '#FFD700'}}>
               <div className="flex items-start space-x-6">
                 <div className="w-24 h-24 rounded-lg flex items-center justify-center flex-shrink-0 bg-white">
@@ -106,7 +106,100 @@ export default function News() {
                     <span className="px-3 py-1 rounded-full text-xs font-medium text-white" style={{backgroundColor: '#dc2626'}}>
                       KDK NEWS
                     </span>
-                    <span className="text-gray-500 text-sm">KDK Corporation</span>
+                    <span className="text-gray-500 text-sm">Kyushu Dentsu Co., Ltd.</span>
+                  </div>
+                  <h2 className="text-2xl font-bold mb-4" style={{color: '#1a1a1a'}}>
+                    New Product: Ultra-Low Phase Noise VCXO (CMOS Output) — SAS4X Series
+                  </h2>
+                  <p className="text-gray-700 mb-6 leading-relaxed">
+                    Kyushu Dentsu Co., Ltd. (KDK) has developed a surface-mount VCXO featuring ultra-low phase noise and ultra-low phase jitter. By combining crystal design expertise cultivated over many years with proprietary oscillator circuit design, this VCXO achieves an industry-leading phase jitter performance of 18 fs typ. (12 kHz to 20 MHz).
+                  </p>
+                  <p className="text-gray-700 mb-6 leading-relaxed">
+                    In next-generation communications and high-speed data transmission applications, increasingly lower jitter performance is required to improve signal quality. This product is a high-performance VCXO designed to meet these advanced market demands.
+                  </p>
+
+                  <div className="mb-6">
+                    <h3 className="text-lg font-semibold mb-4" style={{color: '#1a1a1a'}}>Key Specifications</h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      <div className="flex items-start space-x-3">
+                        <div className="w-2 h-2 rounded-full mt-2" style={{backgroundColor: '#FFD700'}}></div>
+                        <div>
+                          <span className="text-gray-700 text-sm font-medium block">Package Size</span>
+                          <span className="text-gray-600 text-sm">14.0 x 9.8 x 5.5mm</span>
+                        </div>
+                      </div>
+                      <div className="flex items-start space-x-3">
+                        <div className="w-2 h-2 rounded-full mt-2" style={{backgroundColor: '#FFD700'}}></div>
+                        <div>
+                          <span className="text-gray-700 text-sm font-medium block">Frequency</span>
+                          <span className="text-gray-600 text-sm">122.880 MHz</span>
+                        </div>
+                      </div>
+                      <div className="flex items-start space-x-3">
+                        <div className="w-2 h-2 rounded-full mt-2" style={{backgroundColor: '#FFD700'}}></div>
+                        <div>
+                          <span className="text-gray-700 text-sm font-medium block">Phase Jitter</span>
+                          <span className="text-gray-600 text-sm">18 fs typ. (12 kHz – 20 MHz)</span>
+                        </div>
+                      </div>
+                      <div className="flex items-start space-x-3">
+                        <div className="w-2 h-2 rounded-full mt-2" style={{backgroundColor: '#FFD700'}}></div>
+                        <div>
+                          <span className="text-gray-700 text-sm font-medium block">Output / Voltage</span>
+                          <span className="text-gray-600 text-sm">CMOS / +3.3V</span>
+                        </div>
+                      </div>
+                      <div className="flex items-start space-x-3">
+                        <div className="w-2 h-2 rounded-full mt-2" style={{backgroundColor: '#FFD700'}}></div>
+                        <div>
+                          <span className="text-gray-700 text-sm font-medium block">Operating Temperature</span>
+                          <span className="text-gray-600 text-sm">-40 to +95°C</span>
+                        </div>
+                      </div>
+                      <div className="flex items-start space-x-3">
+                        <div className="w-2 h-2 rounded-full mt-2" style={{backgroundColor: '#FFD700'}}></div>
+                        <div>
+                          <span className="text-gray-700 text-sm font-medium block">APR</span>
+                          <span className="text-gray-600 text-sm">±10 ppm min.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <a
+                    href="http://kdk-group.co.jp/en/kdk-news/ultralowphasenoisevcxo_sas4x.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-white px-6 py-3 rounded-md font-medium hover:opacity-90 transition-opacity"
+                    style={{backgroundColor: '#dc2626'}}
+                  >
+                    Learn More
+                    <svg className="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            {/* KDK Crystal Oscillator News */}
+            <article className="bg-white rounded-xl p-8 border-l-4 shadow-lg" style={{borderLeftColor: '#FFD700'}}>
+              <div className="flex items-start space-x-6">
+                <div className="w-24 h-24 rounded-lg flex items-center justify-center flex-shrink-0 bg-white">
+                  <Image
+                    src="/images/KDK/KDK Logo-1.jpg"
+                    alt="KDK Logo"
+                    width={80}
+                    height={40}
+                    className="object-contain"
+                  />
+                </div>
+                <div className="flex-1">
+                  <div className="flex items-center space-x-3 mb-4">
+                    <span className="px-3 py-1 rounded-full text-xs font-medium text-white" style={{backgroundColor: '#dc2626'}}>
+                      KDK NEWS
+                    </span>
+                    <span className="text-gray-500 text-sm">Kyushu Dentsu Co., Ltd.</span>
                   </div>
                   <h2 className="text-2xl font-bold mb-4" style={{color: '#1a1a1a'}}>
                     High-Driving Ability, Ultra Low Phase Noise Crystal Oscillator
@@ -114,7 +207,7 @@ export default function News() {
                   <p className="text-gray-700 mb-6 leading-relaxed">
                     KDK has developed a new 5.0V type crystal oscillator that combines High-Driving Ability and Ultra-Low Phase Noise characteristics required for industrial equipment. The new product is available in five package types ranging from 2016 size to 7050 size and can be considered for a wide range of applications.
                   </p>
-                  
+
                   <div className="mb-6">
                     <h3 className="text-lg font-semibold mb-4" style={{color: '#1a1a1a'}}>Key Features</h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -148,10 +241,10 @@ export default function News() {
                       </div>
                     </div>
                   </div>
-                  
-                  <a 
-                    href="http://www.kdk-group.co.jp/en/kdk-news/highdrivingability_ultralownoisetype_xo.html" 
-                    target="_blank" 
+
+                  <a
+                    href="http://www.kdk-group.co.jp/en/kdk-news/highdrivingability_ultralownoisetype_xo.html"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-white px-6 py-3 rounded-md font-medium hover:opacity-90 transition-opacity"
                     style={{backgroundColor: '#dc2626'}}
