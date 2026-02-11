@@ -1,7 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import * as postmark from 'postmark';
-
-const client = new postmark.ServerClient(process.env.POSTMARK_API_TOKEN!);
+import { Resend } from 'resend';
 
 interface ContactFormData {
   name: string;
@@ -16,6 +14,7 @@ interface ContactFormData {
 
 export async function POST(request: NextRequest) {
   try {
+    const resend = new Resend(process.env.RESEND_API_KEY!);
     const data: ContactFormData = await request.json();
 
     // Validate required fields
@@ -93,13 +92,13 @@ This message was sent from the Goldfinch Representation website contact form.
     `;
 
     // Send email
-    await client.sendEmail({
-      From: `"Goldfinch Website" <${process.env.EMAIL_FROM}>`,
-      To: process.env.EMAIL_TO!,
-      ReplyTo: data.email,
-      Subject: `New Contact Form: ${data.name} - ${data.businessName || 'Goldfinch Inquiry'}`,
-      TextBody: emailText,
-      HtmlBody: emailHtml,
+    await resend.emails.send({
+      from: `"Goldfinch Website" <${process.env.EMAIL_FROM}>`,
+      to: process.env.EMAIL_TO!,
+      replyTo: data.email,
+      subject: `New Contact Form: ${data.name} - ${data.businessName || 'Goldfinch Inquiry'}`,
+      text: emailText,
+      html: emailHtml,
     });
 
     return NextResponse.json({ success: true });
