@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
-import nodemailer from 'nodemailer';
+import * as postmark from 'postmark';
+
+const client = new postmark.ServerClient(process.env.POSTMARK_API_TOKEN!);
 
 interface ContactFormData {
   name: string;
@@ -23,17 +25,6 @@ export async function POST(request: NextRequest) {
         { status: 400 }
       );
     }
-
-    // Create transporter with SMTP settings
-    const transporter = nodemailer.createTransport({
-      host: process.env.EMAIL_HOST,
-      port: parseInt(process.env.EMAIL_PORT || '465'),
-      secure: true, // true for port 465
-      auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
-      },
-    });
 
     // Format phone number with country code
     const fullPhone = data.phone
@@ -102,13 +93,13 @@ This message was sent from the Goldfinch Representation website contact form.
     `;
 
     // Send email
-    await transporter.sendMail({
-      from: `"Goldfinch Website" <${process.env.EMAIL_FROM}>`,
-      to: process.env.EMAIL_TO,
-      replyTo: data.email,
-      subject: `New Contact Form: ${data.name} - ${data.businessName || 'Goldfinch Inquiry'}`,
-      text: emailText,
-      html: emailHtml,
+    await client.sendEmail({
+      From: `"Goldfinch Website" <${process.env.EMAIL_FROM}>`,
+      To: process.env.EMAIL_TO!,
+      ReplyTo: data.email,
+      Subject: `New Contact Form: ${data.name} - ${data.businessName || 'Goldfinch Inquiry'}`,
+      TextBody: emailText,
+      HtmlBody: emailHtml,
     });
 
     return NextResponse.json({ success: true });
