@@ -258,9 +258,9 @@ export default function News() {
               </div>
             </article>
 
-            {/* PRANAGRAF Section */}
-            <article className="bg-white rounded-xl p-8 border-l-4 shadow-lg" style={{borderLeftColor: '#FFD700'}}>
-              <div className="flex items-start space-x-6">
+            {/* PranaGraf Graphite Conductivity Article */}
+            <article className="bg-white rounded-xl p-6 sm:p-8 border-l-4 shadow-lg" style={{borderLeftColor: '#FFD700'}}>
+              <div className="flex flex-col items-start gap-6 sm:flex-row">
                 <div className="w-24 h-24 rounded-lg flex items-center justify-center flex-shrink-0 bg-white">
                   <Image
                     src="/images/PranaGraf/PranaGraf Logo.png"
@@ -270,65 +270,37 @@ export default function News() {
                     className="object-contain"
                   />
                 </div>
-                <div className="flex-1">
-                  <div className="flex items-center space-x-3 mb-4">
+                <div className="min-w-0 flex-1">
+                  <div className="mb-4 flex flex-wrap items-center gap-3">
                     <span className="px-3 py-1 rounded-full text-xs font-medium text-white" style={{backgroundColor: '#dc2626'}}>
                       PRANAGRAF NEWS
                     </span>
                     <span className="text-gray-500 text-sm">PRANAGRAF Materials & Technologies</span>
                   </div>
                   <h2 className="text-2xl font-bold mb-4" style={{color: '#1a1a1a'}}>
-                    Innovative Graphite Solutions for Next-Generation Applications
+                    Why Is Graphite a Good Conductor of Electricity?
                   </h2>
                   <p className="text-gray-700 mb-6 leading-relaxed">
-                    PRANAGRAF Materials & Technologies continues to push the boundaries of specialty graphite products, offering cutting-edge solutions for battery, thermal management, and industrial applications across Europe.
+                    Graphite conducts electricity because one of carbon&rsquo;s four valence electrons remains delocalised, allowing electrical charge to move through its layered structure. PranaGraf explains how this differs from diamond and why graphite conducts much more effectively along its layers than across them.
                   </p>
                   
-                  <div className="mb-6">
-                    <h3 className="text-lg font-semibold mb-3" style={{color: '#1a1a1a'}}>Key Applications</h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                      <div className="flex items-center space-x-3">
-                        <div className="w-2 h-2 rounded-full" style={{backgroundColor: '#FFD700'}}></div>
-                        <span className="text-gray-700 text-sm">Battery Anode Materials</span>
-                      </div>
-                      <div className="flex items-center space-x-3">
-                        <div className="w-2 h-2 rounded-full" style={{backgroundColor: '#FFD700'}}></div>
-                        <span className="text-gray-700 text-sm">Thermal Interface Materials</span>
-                      </div>
-                      <div className="flex items-center space-x-3">
-                        <div className="w-2 h-2 rounded-full" style={{backgroundColor: '#FFD700'}}></div>
-                        <span className="text-gray-700 text-sm">Flame Retardant Solutions</span>
-                      </div>
-                      <div className="flex items-center space-x-3">
-                        <div className="w-2 h-2 rounded-full" style={{backgroundColor: '#FFD700'}}></div>
-                        <span className="text-gray-700 text-sm">Industrial Lubrication</span>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="space-y-3 sm:space-y-0 sm:space-x-3 sm:flex">
-                    <a 
-                      href="mailto:info@goldfinchrep.com?subject=PRANAGRAF Product Inquiry" 
-                      className="inline-flex items-center text-white px-6 py-3 rounded-md font-medium hover:opacity-90 transition-opacity"
-                      style={{backgroundColor: '#dc2626'}}
-                    >
-                      Get Product Information
-                      <svg className="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                      </svg>
-                    </a>
-                    <a 
-                      href="https://www.pranagraf.com/" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center text-gray-700 px-6 py-3 rounded-md font-medium border-2 border-gray-300 hover:border-gray-400 transition-colors"
-                    >
-                      Visit Website
-                      <svg className="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                      </svg>
-                    </a>
-                  </div>
+                  <p className="mb-6 text-sm text-gray-500">
+                    23 July 2026 <span aria-hidden="true">&middot;</span> Puruvi Poddar <span aria-hidden="true">&middot;</span> 12 min read
+                  </p>
+
+                  <a
+                    href="https://www.pranagraf.com/blog/why-graphite-conducts-electricity"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-white px-6 py-3 rounded-md font-medium hover:opacity-90 transition-opacity focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#dc2626] focus-visible:ring-offset-2"
+                    style={{backgroundColor: '#dc2626'}}
+                  >
+                    Read Article
+                    <span className="sr-only"> (opens in a new tab)</span>
+                    <svg aria-hidden="true" className="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
                 </div>
               </div>
             </article>

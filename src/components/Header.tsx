@@ -114,21 +114,18 @@ export default function Header() {
                       className="block px-4 py-3 text-gray-700 hover:text-goldfinch-gold hover:bg-gray-50 transition-colors duration-200"
                     >
                       <div className="font-medium">Manufacture Representation</div>
-                      <div className="text-sm text-gray-500 mt-1">USA manufacturers to Europe</div>
                     </Link>
                     <Link 
                       href="/product-representation"
                       className="block px-4 py-3 text-gray-700 hover:text-goldfinch-gold hover:bg-gray-50 transition-colors duration-200"
                     >
                       <div className="font-medium">Product Representation</div>
-                      <div className="text-sm text-gray-500 mt-1">Component distribution services</div>
                     </Link>
                     <Link 
                       href="/bom-optimization"
                       className="block px-4 py-3 text-gray-700 hover:text-goldfinch-gold hover:bg-gray-50 transition-colors duration-200"
                     >
                       <div className="font-medium">BOM Optimisation</div>
-                      <div className="text-sm text-gray-500 mt-1">Bill of Materials analysis & optimisation</div>
                     </Link>
                   </div>
                 </div>

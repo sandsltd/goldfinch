@@ -356,7 +356,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {/* KDK */}
             <div className="bg-white rounded-lg shadow-sm p-8 text-center flex flex-col h-full">
               <div className="mb-6 flex items-center justify-center" style={{height: '120px'}}>
@@ -370,7 +370,7 @@ export default function Home() {
                   />
                 </a>
               </div>
-              <h3 className="text-xl font-bold mb-4 text-gray-800">KDK</h3>
+              <h3 className="text-xl font-normal mb-4 text-gray-800">KDK</h3>
               <p className="text-sm text-gray-600 leading-relaxed mb-6 flex-grow">
                 KDK is located in Nagasaki, Japan and has more than 40 years&rsquo; experience in the Quartz Industry, providing various types of devices all over the world. All products are originally developed in Japan, with factory operations in China supporting competitive production that satisfies Japanese Quality standards.
               </p>
@@ -399,10 +399,15 @@ export default function Home() {
                   />
                 </a>
               </div>
-              <h3 className="text-xl font-bold mb-4 text-gray-800">PRANAGRAF</h3>
-              <p className="text-sm text-gray-600 leading-relaxed mb-6 flex-grow">
-                PranaGraf Materials & Technologies is based in India and has multiple technologies for manufacturing specialty downstream natural graphite products like High Purity Graphite, Expandable Graphite, Micronized Graphite, Spherical Graphite, Graphene and Composites. PranaGraf is one of the very few Ex-China producers of these niche products.
-              </p>
+              <h3 className="text-xl font-normal mb-4 text-gray-800">PRANAGRAF</h3>
+              <div className="mb-6 flex-grow">
+                <p className="text-sm text-gray-600 leading-relaxed">
+                  PranaGraf specialize in multiple technologies for manufacturing specialty downstream natural graphite products including High Purity Graphite, Expandable Graphite, Micronized Graphite, Spherical Graphite, Graphene, and advanced composites. PranaGraf also provides cutting-edge technologies for mineral processing and new materials development.
+                </p>
+                <p className="mt-4 text-sm font-semibold italic leading-relaxed text-gray-800">
+                  &ldquo;Transitioning Materials &amp; Technologies into a Sustainable Future&rdquo;
+                </p>
+              </div>
               <a
                 href="/product-representation#pranagraf"
                 className="inline-flex items-center text-white px-4 py-2 rounded-md text-sm font-medium hover:shadow-lg hover:scale-105 hover:-translate-y-1 transition-all duration-300 ease-out mt-auto group"
@@ -428,7 +433,7 @@ export default function Home() {
                   />
                 </a>
               </div>
-              <h3 className="text-xl font-bold mb-4 text-gray-800">SOLID STATE OPTRONICS</h3>
+              <h3 className="text-xl font-normal mb-4 text-gray-800">SOLID STATE OPTRONICS</h3>
               <p className="text-sm text-gray-600 leading-relaxed mb-6 flex-grow">
                 Solid State Optronics (SSO) was founded in 1982 in San Jose, California. SSO develops proprietary Solid State Relay (SSR) technologies with innovative 5-component architecture for high-performance switching applications across multiple industries.
               </p>
@@ -457,7 +462,7 @@ export default function Home() {
                   />
                 </a>
               </div>
-              <h3 className="text-xl font-bold mb-4 text-gray-800">ELITE BATTERY SYSTEMS</h3>
+              <h3 className="text-xl font-normal mb-4 text-gray-800">ELITE BATTERY SYSTEMS</h3>
               <p className="text-sm text-gray-600 leading-relaxed mb-6 flex-grow">
                 Elite Battery Systems delivers high-performance modular battery solutions built for flexibility and reliability in demanding applications. EBS customised battery systems are designed to meet specific needs at a cost-effective rate.
               </p>
@@ -486,7 +491,7 @@ export default function Home() {
                   />
                 </a>
               </div>
-              <h3 className="text-xl font-bold mb-4 text-gray-800">YOK ENERGY</h3>
+              <h3 className="text-xl font-normal mb-4 text-gray-800">YOK ENERGY</h3>
               <p className="text-sm text-gray-600 leading-relaxed mb-6 flex-grow">
                 YOK Energy are more than just a supplier; they are a partner in innovation. With a core team boasting over 30 years of battery industry experience, they design and deliver custom battery cells and packs that help customers succeed.
               </p>
