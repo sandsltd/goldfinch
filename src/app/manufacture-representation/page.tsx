@@ -40,7 +40,7 @@ export default function ManufactureRepresentation() {
                 
                 {/* Company Name - Fixed Height */}
                 <div className="h-16 flex items-center justify-center mb-4">
-                  <h2 className="text-2xl font-bold text-gray-800">KDK</h2>
+                  <h2 className="text-2xl font-normal text-gray-800">KDK</h2>
                 </div>
                 
                 {/* Description - Flexible Height */}
@@ -94,7 +94,7 @@ export default function ManufactureRepresentation() {
                 
                 {/* Company Name - Fixed Height */}
                 <div className="h-16 flex items-center justify-center mb-4">
-                  <h2 className="text-2xl font-bold text-gray-800">PRANAGRAF</h2>
+                  <h2 className="text-2xl font-normal text-gray-800">PRANAGRAF</h2>
                 </div>
                 
                 {/* Description - Flexible Height */}
@@ -140,7 +140,7 @@ export default function ManufactureRepresentation() {
                 
                 {/* Company Name - Fixed Height */}
                 <div className="h-16 flex items-center justify-center mb-4">
-                  <h2 className="text-2xl font-bold text-gray-800">SOLID STATE OPTRONICS</h2>
+                  <h2 className="text-2xl font-normal text-gray-800">SOLID STATE OPTRONICS</h2>
                 </div>
                 
                 {/* Description - Flexible Height */}
@@ -194,7 +194,7 @@ export default function ManufactureRepresentation() {
 
                 {/* Company Name - Fixed Height */}
                 <div className="h-16 flex items-center justify-center mb-4">
-                  <h2 className="text-2xl font-bold text-gray-800">ELITE BATTERY SYSTEMS</h2>
+                  <h2 className="text-2xl font-normal text-gray-800">ELITE BATTERY SYSTEMS</h2>
                 </div>
 
                 {/* Description - Flexible Height */}
@@ -248,7 +248,7 @@ export default function ManufactureRepresentation() {
 
                 {/* Company Name - Fixed Height */}
                 <div className="h-16 flex items-center justify-center mb-4">
-                  <h2 className="text-2xl font-bold text-gray-800">YOK ENERGY</h2>
+                  <h2 className="text-2xl font-normal text-gray-800">YOK ENERGY</h2>
                 </div>
 
                 {/* Description - Flexible Height */}

@@ -1,5 +1,67 @@
 import Image from 'next/image';
 
+const pranagrafProducts = [
+  {
+    name: 'Natural Flake Graphite',
+    href: 'https://www.pranagraf.com/products/natural-flake-graphite.html',
+  },
+  {
+    name: 'CarboFlameX® Expandable Graphite',
+    href: 'https://www.pranagraf.com/products/carboflamex.html',
+  },
+  {
+    name: 'CarboFlameX® for Gaskets',
+    href: 'https://www.pranagraf.com/products/carboflamex-gaskets.html',
+  },
+  {
+    name: 'PureGraf™ High Purity Graphite',
+    href: 'https://www.pranagraf.com/products/puregraf.html',
+  },
+  {
+    name: 'FinGraf™ Micronised Graphite',
+    href: 'https://www.pranagraf.com/products/micronised-graphite.html',
+  },
+  {
+    name: 'CarboCond™ Conductive Carbon Composites',
+    href: 'https://www.pranagraf.com/products/CarboCond.html',
+  },
+  {
+    name: 'UniqGraf™ Graphene',
+    href: 'https://www.pranagraf.com/products/uniqgraf.html',
+  },
+  {
+    name: 'BrakeCond™ Expanded Powders',
+    href: 'https://www.pranagraf.com/products/brakecond.html',
+  },
+  {
+    name: 'Graphite Masterbatches & Dispersions',
+    href: 'https://www.pranagraf.com/products/graphite-masterbatch.html',
+  },
+] as const;
+
+function CarbonElementIcon() {
+  return (
+    <svg
+      aria-hidden="true"
+      focusable="false"
+      viewBox="0 0 96 96"
+      className="h-16 w-16"
+      fill="none"
+    >
+      <circle cx="48" cy="48" r="16" fill="currentColor" />
+      <text x="48" y="55" textAnchor="middle" fill="#1a1a1a" fontSize="22" fontWeight="700">
+        C
+      </text>
+      <ellipse cx="48" cy="48" rx="40" ry="16" stroke="currentColor" strokeWidth="2" />
+      <ellipse cx="48" cy="48" rx="40" ry="16" stroke="currentColor" strokeWidth="2" transform="rotate(60 48 48)" />
+      <ellipse cx="48" cy="48" rx="40" ry="16" stroke="currentColor" strokeWidth="2" transform="rotate(120 48 48)" />
+      <circle cx="88" cy="48" r="4" fill="currentColor" />
+      <circle cx="28" cy="13.4" r="4" fill="currentColor" />
+      <circle cx="28" cy="82.6" r="4" fill="currentColor" />
+    </svg>
+  );
+}
+
 export default function ProductRepresentation() {
   return (
     <div className="min-h-screen bg-white">
@@ -33,7 +95,7 @@ export default function ProductRepresentation() {
                 />
               </a>
             </div>
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{color: '#1a1a1a'}}>
+            <h2 className="text-3xl lg:text-4xl font-normal mb-6" style={{color: '#1a1a1a'}}>
               Solid State Optronics (SSO)
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
@@ -357,7 +419,7 @@ export default function ProductRepresentation() {
                 />
               </a>
             </div>
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{color: '#1a1a1a'}}>
+            <h2 className="text-3xl lg:text-4xl font-normal mb-6" style={{color: '#1a1a1a'}}>
               KDK Corporation
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
@@ -755,86 +817,83 @@ export default function ProductRepresentation() {
                 />
               </a>
             </div>
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{color: '#1a1a1a'}}>
+            <h2 className="text-3xl lg:text-4xl font-normal mb-6" style={{color: '#1a1a1a'}}>
               PRANAGRAF
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-              Innovative solutions and cutting-edge technology for specialised applications
+              PranaGraf Group is the largest one-stop Ex-China producer of advanced graphite materials with operations in India and supplies globally.
             </p>
           </div>
 
-          {/* Get in Touch Section */}
-          <div className="max-w-4xl mx-auto">
+          {/* Products Represented */}
+          <div className="max-w-6xl mx-auto">
             <div className="bg-gray-50 rounded-xl p-6 sm:p-8 lg:p-12 text-center border-l-4" style={{borderLeftColor: '#FFD700'}}>
-              <div className="w-16 h-16 rounded-full mx-auto mb-6 flex items-center justify-center" style={{backgroundColor: '#dc2626'}}>
-                <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
+              <div className="w-24 h-24 rounded-full mx-auto mb-6 flex items-center justify-center text-[#FFD700] shadow-md" style={{backgroundColor: '#1a1a1a'}}>
+                <CarbonElementIcon />
               </div>
               
               <h3 className="text-2xl font-bold mb-4" style={{color: '#1a1a1a'}}>
-                Discover PRANAGRAF Solutions
+                Products Represented
               </h3>
               
               <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                We&rsquo;re excited to share information about PRANAGRAF&rsquo;s innovative product portfolio. Contact us to learn more about their specialised solutions and how they can benefit your applications.
+                Explore PranaGraf&rsquo;s natural graphite products and advanced specialty materials.
               </p>
               
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-                <div className="flex flex-col items-center p-4">
-                  <div className="w-12 h-12 rounded-full mb-3 flex items-center justify-center" style={{backgroundColor: '#FFD700'}}>
-                    <svg className="w-6 h-6" style={{color: '#1a1a1a'}} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                    </svg>
-                      </div>
-                  <h4 className="font-semibold mb-2" style={{color: '#1a1a1a'}}>Product Catalogs</h4>
-                  <p className="text-sm text-gray-600 text-center">Detailed specifications and technical documentation</p>
-                </div>
-                
-                <div className="flex flex-col items-center p-4">
-                  <div className="w-12 h-12 rounded-full mb-3 flex items-center justify-center" style={{backgroundColor: '#FFD700'}}>
-                    <svg className="w-6 h-6" style={{color: '#1a1a1a'}} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                    </svg>
-                      </div>
-                  <h4 className="font-semibold mb-2" style={{color: '#1a1a1a'}}>Technical Support</h4>
-                  <p className="text-sm text-gray-600 text-center">Expert guidance for application-specific requirements</p>
-                </div>
-                
-                <div className="flex flex-col items-center p-4">
-                  <div className="w-12 h-12 rounded-full mb-3 flex items-center justify-center" style={{backgroundColor: '#FFD700'}}>
-                    <svg className="w-6 h-6" style={{color: '#1a1a1a'}} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                    </svg>
-                      </div>
-                  <h4 className="font-semibold mb-2" style={{color: '#1a1a1a'}}>Custom Solutions</h4>
-                  <p className="text-sm text-gray-600 text-center">Tailored products for unique application needs</p>
-                </div>
-              </div>
+              <ul className="mb-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+                {pranagrafProducts.map((product) => (
+                  <li key={product.href} className="h-full">
+                    <a
+                      href={product.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group flex h-full min-h-36 flex-col justify-between rounded-xl border border-gray-200 bg-white p-6 text-left shadow-sm transition-all duration-200 hover:-translate-y-1 hover:border-[#FFD700] hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#dc2626] focus-visible:ring-offset-2"
+                    >
+                      <span className="text-lg font-semibold leading-snug" style={{color: '#1a1a1a'}}>
+                        {product.name}
+                      </span>
+                      <span className="mt-5 inline-flex items-center text-sm font-medium" style={{color: '#dc2626'}}>
+                        View product
+                        <span className="sr-only">: {product.name} (opens in a new tab)</span>
+                        <svg
+                          aria-hidden="true"
+                          className="ml-2 h-4 w-4 transition-transform duration-200 group-hover:translate-x-1"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                        </svg>
+                      </span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
               
-              <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center sm:items-center">
-                <a 
-                  href="mailto:info@goldfinchrep.com?subject=PRANAGRAF Product Inquiry" 
-                  className="inline-flex items-center text-white px-6 py-3 rounded-md font-medium hover:opacity-90 transition-opacity"
+              <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
+                <a
+                  href="mailto:info@goldfinchrep.com?subject=PranaGraf Product Inquiry"
+                  className="inline-flex items-center text-white px-6 py-3 rounded-md font-medium hover:opacity-90 transition-opacity focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#dc2626] focus-visible:ring-offset-2"
                   style={{backgroundColor: '#dc2626'}}
                 >
-                  <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg aria-hidden="true" className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
-                    Get Product Information
+                  Get Product Information
                 </a>
                 
-                <a 
-                  href="https://www.pranagraf.com/" 
-                  target="_blank" 
+                <a
+                  href="https://www.pranagraf.com/our-products.html"
+                  target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center text-gray-700 px-6 py-3 rounded-md font-medium border-2 border-gray-300 hover:border-gray-400 transition-colors"
+                  className="inline-flex items-center text-gray-700 px-6 py-3 rounded-md font-medium border-2 border-gray-300 hover:border-gray-500 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#dc2626] focus-visible:ring-offset-2"
                 >
-                  Visit PRANAGRAF Website
-                  <svg className="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  View All PranaGraf Products
+                  <span className="sr-only"> (opens in a new tab)</span>
+                  <svg aria-hidden="true" className="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                   </svg>
-                  </a>
+                </a>
               </div>
             </div>
           </div>
@@ -857,7 +916,7 @@ export default function ProductRepresentation() {
                 />
               </a>
             </div>
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{color: '#1a1a1a'}}>
+            <h2 className="text-3xl lg:text-4xl font-normal mb-6" style={{color: '#1a1a1a'}}>
               Elite Battery Systems
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
@@ -1100,7 +1159,7 @@ export default function ProductRepresentation() {
                 />
               </a>
             </div>
-            <h2 className="text-3xl lg:text-4xl font-bold mb-6" style={{color: '#1a1a1a'}}>
+            <h2 className="text-3xl lg:text-4xl font-normal mb-6" style={{color: '#1a1a1a'}}>
               YOK Energy
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
