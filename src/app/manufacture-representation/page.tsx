@@ -94,20 +94,28 @@ export default function ManufactureRepresentation() {
                   </p>
                 </div>
                 
-                {/* Applications - Fixed at Bottom */}
+                {/* Product Categories - Fixed at Bottom */}
                 <div className="grid grid-cols-2 gap-2 mt-auto">
-                  <div className="text-xs py-2 px-3 rounded text-center font-medium" style={{backgroundColor: '#FFD700', color: '#1a1a1a'}}>
-                    Anode Materials
-                  </div>
-                  <div className="text-xs py-2 px-3 rounded text-center font-medium" style={{backgroundColor: '#FFD700', color: '#1a1a1a'}}>
-                    Flame Retardants
-                  </div>
-                  <div className="text-xs py-2 px-3 rounded text-center font-medium" style={{backgroundColor: '#FFD700', color: '#1a1a1a'}}>
-                    Lubrication
-                  </div>
-                  <div className="text-xs py-2 px-3 rounded text-center font-medium" style={{backgroundColor: '#FFD700', color: '#1a1a1a'}}>
-                    Refractories
-                  </div>
+                  <a href="https://www.pranagraf.com/products/natural-flake-graphite" target="_blank" rel="noopener noreferrer"
+                     className="text-xs py-2 px-3 rounded text-center font-medium hover:scale-105 transition-transform"
+                     style={{backgroundColor: '#FFD700', color: '#1a1a1a'}}>
+                    Natural Graphite Flake
+                  </a>
+                  <a href="https://www.pranagraf.com/products/carboflamex" target="_blank" rel="noopener noreferrer"
+                     className="text-xs py-2 px-3 rounded text-center font-medium hover:scale-105 transition-transform"
+                     style={{backgroundColor: '#FFD700', color: '#1a1a1a'}}>
+                    Expandable Graphite Flake
+                  </a>
+                  <a href="https://www.pranagraf.com/products/micronised-graphite" target="_blank" rel="noopener noreferrer"
+                     className="text-xs py-2 px-3 rounded text-center font-medium hover:scale-105 transition-transform"
+                     style={{backgroundColor: '#FFD700', color: '#1a1a1a'}}>
+                    Graphite Powder
+                  </a>
+                  <a href="https://www.pranagraf.com/products/graphite-masterbatch" target="_blank" rel="noopener noreferrer"
+                     className="text-xs py-2 px-3 rounded text-center font-medium hover:scale-105 transition-transform"
+                     style={{backgroundColor: '#FFD700', color: '#1a1a1a'}}>
+                    Graphite Masterbatch
+                  </a>
                 </div>
               </div>
             </div>

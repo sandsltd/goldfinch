@@ -816,21 +816,9 @@ export default function ProductRepresentation() {
             </p>
           </div>
 
-          {/* Products Represented */}
+          {/* Product Cards */}
           <div className="max-w-6xl mx-auto">
             <div className="bg-gray-50 rounded-xl p-6 sm:p-8 lg:p-12 text-center border-l-4" style={{borderLeftColor: '#FFD700'}}>
-              <div className="w-24 h-24 rounded-full mx-auto mb-6 flex items-center justify-center text-[#FFD700] shadow-md" style={{backgroundColor: '#1a1a1a'}}>
-                <CarbonElementIcon />
-              </div>
-              
-              <h3 className="text-2xl font-bold mb-4" style={{color: '#1a1a1a'}}>
-                Products Represented
-              </h3>
-              
-              <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                Explore PranaGraf&rsquo;s natural graphite products and advanced specialty materials.
-              </p>
-              
               <ul className="mb-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
                 {pranagrafProducts.map((product) => (
                   <li key={product.href} className="h-full">
