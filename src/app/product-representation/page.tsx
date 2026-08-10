@@ -39,13 +39,13 @@ const pranagrafProducts = [
   },
 ] as const;
 
-function CarbonElementIcon() {
+function CarbonElementIcon({ className = 'h-16 w-16' }: { className?: string }) {
   return (
     <svg
       aria-hidden="true"
       focusable="false"
       viewBox="0 0 96 96"
-      className="h-16 w-16"
+      className={className}
       fill="none"
     >
       <circle cx="48" cy="48" r="16" fill="currentColor" />
@@ -95,9 +95,6 @@ export default function ProductRepresentation() {
                 />
               </a>
             </div>
-            <h2 className="text-3xl lg:text-4xl font-normal mb-6" style={{color: '#1a1a1a'}}>
-              Solid State Optronics (SSO)
-            </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
               Leading manufacturer of high-performance solid state relays, optocouplers, and specialised electronic components for demanding applications
             </p>
@@ -419,9 +416,6 @@ export default function ProductRepresentation() {
                 />
               </a>
             </div>
-            <h2 className="text-3xl lg:text-4xl font-normal mb-6" style={{color: '#1a1a1a'}}>
-              KDK Corporation
-            </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
               Leading manufacturer of crystal components, oscillators, and frequency control products for precision timing applications
             </p>
@@ -817,9 +811,6 @@ export default function ProductRepresentation() {
                 />
               </a>
             </div>
-            <h2 className="text-3xl lg:text-4xl font-normal mb-6" style={{color: '#1a1a1a'}}>
-              PRANAGRAF
-            </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
               PranaGraf Group is the largest one-stop Ex-China producer of advanced graphite materials with operations in India and supplies globally.
             </p>
@@ -847,12 +838,15 @@ export default function ProductRepresentation() {
                       href={product.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="group flex h-full min-h-36 flex-col justify-between rounded-xl border border-gray-200 bg-white p-6 text-left shadow-sm transition-all duration-200 hover:-translate-y-1 hover:border-[#FFD700] hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#dc2626] focus-visible:ring-offset-2"
+                      className="group flex h-full min-h-52 flex-col items-start rounded-xl border border-gray-200 bg-white p-6 text-left shadow-sm transition-all duration-200 hover:-translate-y-1 hover:border-[#FFD700] hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#dc2626] focus-visible:ring-offset-2"
                     >
+                      <span className="mb-5 flex h-12 w-12 items-center justify-center rounded-full bg-[#1a1a1a] text-[#FFD700] shadow-sm">
+                        <CarbonElementIcon className="h-9 w-9" />
+                      </span>
                       <span className="text-lg font-semibold leading-snug" style={{color: '#1a1a1a'}}>
                         {product.name}
                       </span>
-                      <span className="mt-5 inline-flex items-center text-sm font-medium" style={{color: '#dc2626'}}>
+                      <span className="mt-auto inline-flex items-center rounded-md px-4 py-2 text-sm font-medium" style={{backgroundColor: '#1a1a1a', color: '#FFD700'}}>
                         View product
                         <span className="sr-only">: {product.name} (opens in a new tab)</span>
                         <svg
@@ -896,6 +890,41 @@ export default function ProductRepresentation() {
                 </a>
               </div>
             </div>
+
+            {/* Featured News Section */}
+            <div className="mt-12 rounded-xl border-l-4 bg-gray-50 p-6 text-left sm:p-8" style={{borderLeftColor: '#FFD700'}}>
+              <div className="flex flex-col items-start gap-5 sm:flex-row">
+                <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-[#1a1a1a] text-[#FFD700]">
+                  <CarbonElementIcon className="h-9 w-9" />
+                </div>
+                <div className="min-w-0 flex-1">
+                  <div className="mb-3 flex items-center gap-2">
+                    <span className="rounded-full px-3 py-1 text-xs font-medium text-white" style={{backgroundColor: '#dc2626'}}>
+                      FEATURED NEWS
+                    </span>
+                  </div>
+                  <h3 className="mb-4 text-xl font-bold" style={{color: '#1a1a1a'}}>
+                    Why Is Graphite a Good Conductor of Electricity?
+                  </h3>
+                  <p className="mb-6 leading-relaxed text-gray-700">
+                    Graphite conducts electricity because one of carbon&rsquo;s four valence electrons remains delocalised, allowing electrical charge to move through its layered structure. Discover how this differs from diamond and why graphite conducts much more effectively along its layers than across them.
+                  </p>
+                  <a
+                    href="https://www.pranagraf.com/blog/why-graphite-conducts-electricity"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center rounded-md px-6 py-3 font-medium text-white transition-opacity hover:opacity-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#dc2626] focus-visible:ring-offset-2"
+                    style={{backgroundColor: '#dc2626'}}
+                  >
+                    Read Article
+                    <span className="sr-only"> (opens in a new tab)</span>
+                    <svg aria-hidden="true" className="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -916,9 +945,6 @@ export default function ProductRepresentation() {
                 />
               </a>
             </div>
-            <h2 className="text-3xl lg:text-4xl font-normal mb-6" style={{color: '#1a1a1a'}}>
-              Elite Battery Systems
-            </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
               Modular Battery Systems Engineered for Excellence. High-performance solutions built for flexibility and reliability in demanding applications.
             </p>
@@ -1159,9 +1185,6 @@ export default function ProductRepresentation() {
                 />
               </a>
             </div>
-            <h2 className="text-3xl lg:text-4xl font-normal mb-6" style={{color: '#1a1a1a'}}>
-              YOK Energy
-            </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
               More than just a supplier; a partner in innovation. With a core team boasting over 30 years of battery industry experience, designing and delivering custom battery cells and packs.
             </p>
